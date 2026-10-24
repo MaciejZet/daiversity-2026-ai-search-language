@@ -1,0 +1,6019 @@
+{
+ "protocol": "DAIV-LANG v001",
+ "created": "2026-10-23T23:42:36.532+00:00",
+ "seed": "DAIVLANG-20261023",
+ "queries_file": "queries-draft.csv",
+ "queries_sha256": "2b2497f2c11bb45cfb9cafae29d598d73c5e751a1e1c2e354d1127be878e846d",
+ "engines": [
+  "openai",
+  "openai-noloc",
+  "or-openai",
+  "or-pplx",
+  "or-pplx-noloc"
+ ],
+ "repeats": 2,
+ "country": "PL",
+ "slots": [
+  {
+   "slot_id": "L09-en-openai-noloc-r0",
+   "qid": "L09",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "What are the rules for returning goods bought online in Poland?",
+   "order": 0
+  },
+  {
+   "slot_id": "C05-en-openai-noloc-r0",
+   "qid": "C05",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "How do I choose running shoes as a beginner?",
+   "order": 1
+  },
+  {
+   "slot_id": "L07-pl-or-openai-r0",
+   "qid": "L07",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Jakie dokumenty są potrzebne do zameldowania na pobyt stały w Polsce?",
+   "order": 2
+  },
+  {
+   "slot_id": "C02-pl-or-openai-r1",
+   "qid": "C02",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Jak wybrać dobre słuchawki z redukcją szumów?",
+   "order": 3
+  },
+  {
+   "slot_id": "G10-pl-or-pplx-r0",
+   "qid": "G10",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Jak działają duże modele językowe?",
+   "order": 4
+  },
+  {
+   "slot_id": "L06-en-openai-noloc-r0",
+   "qid": "L06",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "How do I register a car imported from abroad in Poland?",
+   "order": 5
+  },
+  {
+   "slot_id": "C06-en-openai-noloc-r0",
+   "qid": "C06",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Which coffee machine should I buy for home use?",
+   "order": 6
+  },
+  {
+   "slot_id": "L10-en-or-pplx-noloc-r0",
+   "qid": "L10",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "How can I get a subsidy for a heat pump in Poland?",
+   "order": 7
+  },
+  {
+   "slot_id": "L04-pl-or-openai-r0",
+   "qid": "L04",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Ile wynosi okres wypowiedzenia umowy o pracę w Polsce?",
+   "order": 8
+  },
+  {
+   "slot_id": "G01-en-openai-r1",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "How does an mRNA vaccine work?",
+   "order": 9
+  },
+  {
+   "slot_id": "L05-en-or-openai-r0",
+   "qid": "L05",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "How does the bottle deposit return system work in Poland?",
+   "order": 10
+  },
+  {
+   "slot_id": "G07-en-openai-r0",
+   "qid": "G07",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "What is end-to-end encryption?",
+   "order": 11
+  },
+  {
+   "slot_id": "G08-pl-or-openai-r0",
+   "qid": "G08",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Jak działa pamięć długotrwała w mózgu?",
+   "order": 12
+  },
+  {
+   "slot_id": "G10-en-or-pplx-r0",
+   "qid": "G10",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "How do large language models work?",
+   "order": 13
+  },
+  {
+   "slot_id": "G08-pl-or-pplx-noloc-r1",
+   "qid": "G08",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Jak działa pamięć długotrwała w mózgu?",
+   "order": 14
+  },
+  {
+   "slot_id": "L04-en-or-pplx-r0",
+   "qid": "L04",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "What is the notice period for an employment contract in Poland?",
+   "order": 15
+  },
+  {
+   "slot_id": "G01-en-openai-noloc-r0",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "How does an mRNA vaccine work?",
+   "order": 16
+  },
+  {
+   "slot_id": "G02-pl-openai-noloc-r1",
+   "qid": "G02",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Czym różni się uczenie nadzorowane od nienadzorowanego?",
+   "order": 17
+  },
+  {
+   "slot_id": "G09-pl-or-pplx-r1",
+   "qid": "G09",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Co to jest inflacja i jakie są jej przyczyny?",
+   "order": 18
+  },
+  {
+   "slot_id": "C03-pl-or-openai-r0",
+   "qid": "C03",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Czy warto kupić samochód elektryczny?",
+   "order": 19
+  },
+  {
+   "slot_id": "L07-pl-openai-noloc-r0",
+   "qid": "L07",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Jakie dokumenty są potrzebne do zameldowania na pobyt stały w Polsce?",
+   "order": 20
+  },
+  {
+   "slot_id": "G09-pl-or-openai-r1",
+   "qid": "G09",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Co to jest inflacja i jakie są jej przyczyny?",
+   "order": 21
+  },
+  {
+   "slot_id": "G07-pl-or-pplx-noloc-r0",
+   "qid": "G07",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Czym jest szyfrowanie end-to-end?",
+   "order": 22
+  },
+  {
+   "slot_id": "C05-en-openai-r1",
+   "qid": "C05",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "How do I choose running shoes as a beginner?",
+   "order": 23
+  },
+  {
+   "slot_id": "G04-en-openai-noloc-r1",
+   "qid": "G04",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "How does blockchain work?",
+   "order": 24
+  },
+  {
+   "slot_id": "C02-pl-or-pplx-noloc-r0",
+   "qid": "C02",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Jak wybrać dobre słuchawki z redukcją szumów?",
+   "order": 25
+  },
+  {
+   "slot_id": "L09-pl-openai-r0",
+   "qid": "L09",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Jakie są zasady zwrotu towaru kupionego przez internet w Polsce?",
+   "order": 26
+  },
+  {
+   "slot_id": "C10-en-or-pplx-r1",
+   "qid": "C10",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Which password manager should I choose?",
+   "order": 27
+  },
+  {
+   "slot_id": "G01-pl-or-pplx-r1",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Jak działa szczepionka mRNA?",
+   "order": 28
+  },
+  {
+   "slot_id": "L01-en-openai-r0",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "How do I register a sole proprietorship in Poland?",
+   "order": 29
+  },
+  {
+   "slot_id": "G10-pl-openai-noloc-r1",
+   "qid": "G10",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Jak działają duże modele językowe?",
+   "order": 30
+  },
+  {
+   "slot_id": "G06-en-openai-r0",
+   "qid": "G06",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "How do black holes work?",
+   "order": 31
+  },
+  {
+   "slot_id": "C04-pl-or-openai-r1",
+   "qid": "C04",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Jaki odkurzacz automatyczny jest najlepszy do mieszkania ze zwierzętami?",
+   "order": 32
+  },
+  {
+   "slot_id": "L08-pl-or-openai-r1",
+   "qid": "L08",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Jak wygląda rekrutacja na studia na polskich uczelniach publicznych?",
+   "order": 33
+  },
+  {
+   "slot_id": "G07-pl-or-pplx-noloc-r1",
+   "qid": "G07",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Czym jest szyfrowanie end-to-end?",
+   "order": 34
+  },
+  {
+   "slot_id": "G04-en-or-pplx-noloc-r1",
+   "qid": "G04",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "How does blockchain work?",
+   "order": 35
+  },
+  {
+   "slot_id": "C03-en-or-pplx-r0",
+   "qid": "C03",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Is it worth buying an electric car?",
+   "order": 36
+  },
+  {
+   "slot_id": "L07-en-or-pplx-r1",
+   "qid": "L07",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "What documents are needed to register permanent residence in Poland?",
+   "order": 37
+  },
+  {
+   "slot_id": "L02-en-or-openai-r1",
+   "qid": "L02",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "How does the child tax relief in the Polish personal income tax return work?",
+   "order": 38
+  },
+  {
+   "slot_id": "L03-pl-or-openai-r0",
+   "qid": "L03",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Jak wyrobić dowód osobisty w Polsce i ile to trwa?",
+   "order": 39
+  },
+  {
+   "slot_id": "C04-en-or-pplx-r0",
+   "qid": "C04",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "What is the best robot vacuum for a home with pets?",
+   "order": 40
+  },
+  {
+   "slot_id": "C07-en-openai-r1",
+   "qid": "C07",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "How do I choose a mattress?",
+   "order": 41
+  },
+  {
+   "slot_id": "G01-pl-openai-r1",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Jak działa szczepionka mRNA?",
+   "order": 42
+  },
+  {
+   "slot_id": "G08-en-openai-r1",
+   "qid": "G08",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "How does long-term memory work in the brain?",
+   "order": 43
+  },
+  {
+   "slot_id": "G06-pl-openai-r0",
+   "qid": "G06",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Jak działają czarne dziury?",
+   "order": 44
+  },
+  {
+   "slot_id": "G02-pl-or-openai-r0",
+   "qid": "G02",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Czym różni się uczenie nadzorowane od nienadzorowanego?",
+   "order": 45
+  },
+  {
+   "slot_id": "L08-en-or-pplx-r0",
+   "qid": "L08",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "How does admission to public universities in Poland work?",
+   "order": 46
+  },
+  {
+   "slot_id": "L04-pl-or-pplx-noloc-r1",
+   "qid": "L04",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Ile wynosi okres wypowiedzenia umowy o pracę w Polsce?",
+   "order": 47
+  },
+  {
+   "slot_id": "G06-pl-or-pplx-r1",
+   "qid": "G06",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Jak działają czarne dziury?",
+   "order": 48
+  },
+  {
+   "slot_id": "G09-en-or-pplx-noloc-r1",
+   "qid": "G09",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "What is inflation and what causes it?",
+   "order": 49
+  },
+  {
+   "slot_id": "L04-en-or-openai-r0",
+   "qid": "L04",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "What is the notice period for an employment contract in Poland?",
+   "order": 50
+  },
+  {
+   "slot_id": "C03-en-or-openai-r1",
+   "qid": "C03",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Is it worth buying an electric car?",
+   "order": 51
+  },
+  {
+   "slot_id": "C02-pl-or-pplx-r0",
+   "qid": "C02",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Jak wybrać dobre słuchawki z redukcją szumów?",
+   "order": 52
+  },
+  {
+   "slot_id": "C10-en-openai-noloc-r0",
+   "qid": "C10",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Which password manager should I choose?",
+   "order": 53
+  },
+  {
+   "slot_id": "C05-pl-openai-noloc-r0",
+   "qid": "C05",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Jak wybrać buty do biegania dla początkujących?",
+   "order": 54
+  },
+  {
+   "slot_id": "G02-en-openai-noloc-r0",
+   "qid": "G02",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "What is the difference between supervised and unsupervised learning?",
+   "order": 55
+  },
+  {
+   "slot_id": "L07-en-openai-r0",
+   "qid": "L07",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "What documents are needed to register permanent residence in Poland?",
+   "order": 56
+  },
+  {
+   "slot_id": "C06-en-or-pplx-noloc-r0",
+   "qid": "C06",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Which coffee machine should I buy for home use?",
+   "order": 57
+  },
+  {
+   "slot_id": "L09-pl-openai-noloc-r0",
+   "qid": "L09",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Jakie są zasady zwrotu towaru kupionego przez internet w Polsce?",
+   "order": 58
+  },
+  {
+   "slot_id": "L01-en-openai-r1",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "How do I register a sole proprietorship in Poland?",
+   "order": 59
+  },
+  {
+   "slot_id": "C09-en-openai-r1",
+   "qid": "C09",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "How do I choose a bike for commuting?",
+   "order": 60
+  },
+  {
+   "slot_id": "C01-pl-or-openai-r1",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Jaki laptop do pracy biurowej wybrać?",
+   "order": 61
+  },
+  {
+   "slot_id": "C01-pl-or-pplx-noloc-r1",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Jaki laptop do pracy biurowej wybrać?",
+   "order": 62
+  },
+  {
+   "slot_id": "C03-pl-or-pplx-r0",
+   "qid": "C03",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Czy warto kupić samochód elektryczny?",
+   "order": 63
+  },
+  {
+   "slot_id": "G03-en-openai-r0",
+   "qid": "G03",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Why is the sky blue?",
+   "order": 64
+  },
+  {
+   "slot_id": "L09-en-openai-r0",
+   "qid": "L09",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "What are the rules for returning goods bought online in Poland?",
+   "order": 65
+  },
+  {
+   "slot_id": "C04-en-or-pplx-noloc-r1",
+   "qid": "C04",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "What is the best robot vacuum for a home with pets?",
+   "order": 66
+  },
+  {
+   "slot_id": "C09-pl-openai-r0",
+   "qid": "C09",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Jak wybrać rower do dojazdów do pracy?",
+   "order": 67
+  },
+  {
+   "slot_id": "L03-pl-openai-r1",
+   "qid": "L03",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Jak wyrobić dowód osobisty w Polsce i ile to trwa?",
+   "order": 68
+  },
+  {
+   "slot_id": "C01-pl-openai-r0",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Jaki laptop do pracy biurowej wybrać?",
+   "order": 69
+  },
+  {
+   "slot_id": "L07-pl-or-openai-r1",
+   "qid": "L07",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Jakie dokumenty są potrzebne do zameldowania na pobyt stały w Polsce?",
+   "order": 70
+  },
+  {
+   "slot_id": "C08-en-or-pplx-noloc-r1",
+   "qid": "C08",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Which mid-range smartphone has the best camera?",
+   "order": 71
+  },
+  {
+   "slot_id": "C10-en-or-pplx-noloc-r0",
+   "qid": "C10",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Which password manager should I choose?",
+   "order": 72
+  },
+  {
+   "slot_id": "L04-en-openai-r0",
+   "qid": "L04",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "What is the notice period for an employment contract in Poland?",
+   "order": 73
+  },
+  {
+   "slot_id": "C07-pl-openai-r0",
+   "qid": "C07",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Jak wybrać materac do spania?",
+   "order": 74
+  },
+  {
+   "slot_id": "C07-pl-openai-noloc-r1",
+   "qid": "C07",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Jak wybrać materac do spania?",
+   "order": 75
+  },
+  {
+   "slot_id": "C06-pl-openai-noloc-r0",
+   "qid": "C06",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Jaki ekspres do kawy kupić do domu?",
+   "order": 76
+  },
+  {
+   "slot_id": "C10-pl-or-openai-r0",
+   "qid": "C10",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Jaki menedżer haseł warto wybrać?",
+   "order": 77
+  },
+  {
+   "slot_id": "C10-en-openai-r0",
+   "qid": "C10",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Which password manager should I choose?",
+   "order": 78
+  },
+  {
+   "slot_id": "C05-en-or-pplx-r1",
+   "qid": "C05",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "How do I choose running shoes as a beginner?",
+   "order": 79
+  },
+  {
+   "slot_id": "L06-en-or-pplx-noloc-r0",
+   "qid": "L06",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "How do I register a car imported from abroad in Poland?",
+   "order": 80
+  },
+  {
+   "slot_id": "C02-en-openai-noloc-r0",
+   "qid": "C02",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "How do I choose good noise-cancelling headphones?",
+   "order": 81
+  },
+  {
+   "slot_id": "G04-en-openai-r1",
+   "qid": "G04",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "How does blockchain work?",
+   "order": 82
+  },
+  {
+   "slot_id": "C09-en-openai-noloc-r0",
+   "qid": "C09",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "How do I choose a bike for commuting?",
+   "order": 83
+  },
+  {
+   "slot_id": "G07-en-or-pplx-r1",
+   "qid": "G07",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "What is end-to-end encryption?",
+   "order": 84
+  },
+  {
+   "slot_id": "L10-pl-openai-noloc-r0",
+   "qid": "L10",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Jak uzyskać dofinansowanie do pompy ciepła w Polsce?",
+   "order": 85
+  },
+  {
+   "slot_id": "L02-en-openai-r0",
+   "qid": "L02",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "How does the child tax relief in the Polish personal income tax return work?",
+   "order": 86
+  },
+  {
+   "slot_id": "L05-pl-or-openai-r0",
+   "qid": "L05",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Jak działa system kaucyjny na butelki w Polsce?",
+   "order": 87
+  },
+  {
+   "slot_id": "C10-pl-or-openai-r1",
+   "qid": "C10",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Jaki menedżer haseł warto wybrać?",
+   "order": 88
+  },
+  {
+   "slot_id": "G06-en-or-openai-r1",
+   "qid": "G06",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "How do black holes work?",
+   "order": 89
+  },
+  {
+   "slot_id": "L01-en-or-pplx-noloc-r1",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "How do I register a sole proprietorship in Poland?",
+   "order": 90
+  },
+  {
+   "slot_id": "L06-pl-or-pplx-noloc-r0",
+   "qid": "L06",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Jak zarejestrować samochód sprowadzony z zagranicy w Polsce?",
+   "order": 91
+  },
+  {
+   "slot_id": "L06-pl-openai-noloc-r1",
+   "qid": "L06",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Jak zarejestrować samochód sprowadzony z zagranicy w Polsce?",
+   "order": 92
+  },
+  {
+   "slot_id": "G09-pl-or-pplx-noloc-r1",
+   "qid": "G09",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Co to jest inflacja i jakie są jej przyczyny?",
+   "order": 93
+  },
+  {
+   "slot_id": "G06-en-openai-noloc-r0",
+   "qid": "G06",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "How do black holes work?",
+   "order": 94
+  },
+  {
+   "slot_id": "G01-en-or-openai-r1",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "How does an mRNA vaccine work?",
+   "order": 95
+  },
+  {
+   "slot_id": "C03-pl-or-pplx-noloc-r1",
+   "qid": "C03",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Czy warto kupić samochód elektryczny?",
+   "order": 96
+  },
+  {
+   "slot_id": "L02-en-openai-noloc-r0",
+   "qid": "L02",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "How does the child tax relief in the Polish personal income tax return work?",
+   "order": 97
+  },
+  {
+   "slot_id": "G01-pl-or-pplx-r0",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Jak działa szczepionka mRNA?",
+   "order": 98
+  },
+  {
+   "slot_id": "G10-en-openai-r1",
+   "qid": "G10",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "How do large language models work?",
+   "order": 99
+  },
+  {
+   "slot_id": "G03-en-or-pplx-r1",
+   "qid": "G03",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Why is the sky blue?",
+   "order": 100
+  },
+  {
+   "slot_id": "C08-pl-openai-noloc-r0",
+   "qid": "C08",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Jaki smartfon ma najlepszy aparat w średniej cenie?",
+   "order": 101
+  },
+  {
+   "slot_id": "C05-pl-or-pplx-r1",
+   "qid": "C05",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Jak wybrać buty do biegania dla początkujących?",
+   "order": 102
+  },
+  {
+   "slot_id": "G08-en-or-openai-r1",
+   "qid": "G08",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "How does long-term memory work in the brain?",
+   "order": 103
+  },
+  {
+   "slot_id": "G02-en-or-openai-r1",
+   "qid": "G02",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "What is the difference between supervised and unsupervised learning?",
+   "order": 104
+  },
+  {
+   "slot_id": "C08-en-or-pplx-r0",
+   "qid": "C08",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Which mid-range smartphone has the best camera?",
+   "order": 105
+  },
+  {
+   "slot_id": "G04-pl-or-openai-r1",
+   "qid": "G04",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Jak działa blockchain?",
+   "order": 106
+  },
+  {
+   "slot_id": "C01-pl-openai-noloc-r0",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Jaki laptop do pracy biurowej wybrać?",
+   "order": 107
+  },
+  {
+   "slot_id": "L07-pl-or-pplx-noloc-r1",
+   "qid": "L07",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Jakie dokumenty są potrzebne do zameldowania na pobyt stały w Polsce?",
+   "order": 108
+  },
+  {
+   "slot_id": "G07-pl-or-pplx-r1",
+   "qid": "G07",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Czym jest szyfrowanie end-to-end?",
+   "order": 109
+  },
+  {
+   "slot_id": "L01-pl-openai-noloc-r0",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Jak założyć jednoosobową działalność gospodarczą w Polsce?",
+   "order": 110
+  },
+  {
+   "slot_id": "L03-en-or-pplx-r0",
+   "qid": "L03",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "How do I get a Polish national ID card and how long does it take?",
+   "order": 111
+  },
+  {
+   "slot_id": "C10-pl-openai-noloc-r1",
+   "qid": "C10",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Jaki menedżer haseł warto wybrać?",
+   "order": 112
+  },
+  {
+   "slot_id": "L08-pl-or-pplx-noloc-r0",
+   "qid": "L08",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Jak wygląda rekrutacja na studia na polskich uczelniach publicznych?",
+   "order": 113
+  },
+  {
+   "slot_id": "G03-pl-or-pplx-noloc-r0",
+   "qid": "G03",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Dlaczego niebo jest niebieskie?",
+   "order": 114
+  },
+  {
+   "slot_id": "C04-en-openai-noloc-r1",
+   "qid": "C04",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "What is the best robot vacuum for a home with pets?",
+   "order": 115
+  },
+  {
+   "slot_id": "G10-en-or-pplx-noloc-r0",
+   "qid": "G10",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "How do large language models work?",
+   "order": 116
+  },
+  {
+   "slot_id": "G04-pl-openai-r1",
+   "qid": "G04",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Jak działa blockchain?",
+   "order": 117
+  },
+  {
+   "slot_id": "C06-en-openai-r1",
+   "qid": "C06",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Which coffee machine should I buy for home use?",
+   "order": 118
+  },
+  {
+   "slot_id": "G01-pl-or-openai-r1",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Jak działa szczepionka mRNA?",
+   "order": 119
+  },
+  {
+   "slot_id": "C03-pl-or-pplx-noloc-r0",
+   "qid": "C03",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Czy warto kupić samochód elektryczny?",
+   "order": 120
+  },
+  {
+   "slot_id": "L01-en-or-pplx-noloc-r0",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "How do I register a sole proprietorship in Poland?",
+   "order": 121
+  },
+  {
+   "slot_id": "C10-en-or-pplx-r0",
+   "qid": "C10",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Which password manager should I choose?",
+   "order": 122
+  },
+  {
+   "slot_id": "L09-pl-or-openai-r0",
+   "qid": "L09",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Jakie są zasady zwrotu towaru kupionego przez internet w Polsce?",
+   "order": 123
+  },
+  {
+   "slot_id": "C07-en-openai-noloc-r0",
+   "qid": "C07",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "How do I choose a mattress?",
+   "order": 124
+  },
+  {
+   "slot_id": "C08-en-openai-noloc-r1",
+   "qid": "C08",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Which mid-range smartphone has the best camera?",
+   "order": 125
+  },
+  {
+   "slot_id": "G10-en-openai-r0",
+   "qid": "G10",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "How do large language models work?",
+   "order": 126
+  },
+  {
+   "slot_id": "C10-pl-openai-r1",
+   "qid": "C10",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Jaki menedżer haseł warto wybrać?",
+   "order": 127
+  },
+  {
+   "slot_id": "L07-en-openai-noloc-r1",
+   "qid": "L07",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "What documents are needed to register permanent residence in Poland?",
+   "order": 128
+  },
+  {
+   "slot_id": "G02-en-or-pplx-noloc-r1",
+   "qid": "G02",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "What is the difference between supervised and unsupervised learning?",
+   "order": 129
+  },
+  {
+   "slot_id": "G02-en-or-pplx-r0",
+   "qid": "G02",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "What is the difference between supervised and unsupervised learning?",
+   "order": 130
+  },
+  {
+   "slot_id": "C02-en-or-openai-r0",
+   "qid": "C02",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "How do I choose good noise-cancelling headphones?",
+   "order": 131
+  },
+  {
+   "slot_id": "C07-pl-openai-noloc-r0",
+   "qid": "C07",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Jak wybrać materac do spania?",
+   "order": 132
+  },
+  {
+   "slot_id": "C07-en-or-pplx-r1",
+   "qid": "C07",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "How do I choose a mattress?",
+   "order": 133
+  },
+  {
+   "slot_id": "C02-en-or-pplx-r1",
+   "qid": "C02",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "How do I choose good noise-cancelling headphones?",
+   "order": 134
+  },
+  {
+   "slot_id": "G04-pl-or-openai-r0",
+   "qid": "G04",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Jak działa blockchain?",
+   "order": 135
+  },
+  {
+   "slot_id": "C01-en-or-pplx-r1",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Which laptop should I choose for office work?",
+   "order": 136
+  },
+  {
+   "slot_id": "G03-en-openai-r1",
+   "qid": "G03",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Why is the sky blue?",
+   "order": 137
+  },
+  {
+   "slot_id": "L10-en-openai-noloc-r0",
+   "qid": "L10",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "How can I get a subsidy for a heat pump in Poland?",
+   "order": 138
+  },
+  {
+   "slot_id": "G03-pl-or-pplx-r0",
+   "qid": "G03",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Dlaczego niebo jest niebieskie?",
+   "order": 139
+  },
+  {
+   "slot_id": "L06-en-openai-r0",
+   "qid": "L06",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "How do I register a car imported from abroad in Poland?",
+   "order": 140
+  },
+  {
+   "slot_id": "L08-en-openai-noloc-r0",
+   "qid": "L08",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "How does admission to public universities in Poland work?",
+   "order": 141
+  },
+  {
+   "slot_id": "C03-en-or-openai-r0",
+   "qid": "C03",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Is it worth buying an electric car?",
+   "order": 142
+  },
+  {
+   "slot_id": "C06-pl-openai-r1",
+   "qid": "C06",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Jaki ekspres do kawy kupić do domu?",
+   "order": 143
+  },
+  {
+   "slot_id": "G08-en-or-pplx-noloc-r1",
+   "qid": "G08",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "How does long-term memory work in the brain?",
+   "order": 144
+  },
+  {
+   "slot_id": "G04-en-or-pplx-r1",
+   "qid": "G04",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "How does blockchain work?",
+   "order": 145
+  },
+  {
+   "slot_id": "G09-pl-openai-r1",
+   "qid": "G09",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Co to jest inflacja i jakie są jej przyczyny?",
+   "order": 146
+  },
+  {
+   "slot_id": "G10-en-openai-noloc-r0",
+   "qid": "G10",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "How do large language models work?",
+   "order": 147
+  },
+  {
+   "slot_id": "C07-en-or-pplx-r0",
+   "qid": "C07",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "How do I choose a mattress?",
+   "order": 148
+  },
+  {
+   "slot_id": "C04-en-or-openai-r1",
+   "qid": "C04",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "What is the best robot vacuum for a home with pets?",
+   "order": 149
+  },
+  {
+   "slot_id": "L06-en-openai-noloc-r1",
+   "qid": "L06",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "How do I register a car imported from abroad in Poland?",
+   "order": 150
+  },
+  {
+   "slot_id": "G03-en-or-pplx-r0",
+   "qid": "G03",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Why is the sky blue?",
+   "order": 151
+  },
+  {
+   "slot_id": "L07-pl-openai-noloc-r1",
+   "qid": "L07",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Jakie dokumenty są potrzebne do zameldowania na pobyt stały w Polsce?",
+   "order": 152
+  },
+  {
+   "slot_id": "L10-pl-or-pplx-noloc-r0",
+   "qid": "L10",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Jak uzyskać dofinansowanie do pompy ciepła w Polsce?",
+   "order": 153
+  },
+  {
+   "slot_id": "L06-en-or-openai-r1",
+   "qid": "L06",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "How do I register a car imported from abroad in Poland?",
+   "order": 154
+  },
+  {
+   "slot_id": "L05-pl-openai-r0",
+   "qid": "L05",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Jak działa system kaucyjny na butelki w Polsce?",
+   "order": 155
+  },
+  {
+   "slot_id": "C06-en-or-pplx-noloc-r1",
+   "qid": "C06",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Which coffee machine should I buy for home use?",
+   "order": 156
+  },
+  {
+   "slot_id": "L09-pl-or-pplx-r1",
+   "qid": "L09",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Jakie są zasady zwrotu towaru kupionego przez internet w Polsce?",
+   "order": 157
+  },
+  {
+   "slot_id": "G02-en-or-pplx-noloc-r0",
+   "qid": "G02",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "What is the difference between supervised and unsupervised learning?",
+   "order": 158
+  },
+  {
+   "slot_id": "C08-en-openai-r0",
+   "qid": "C08",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Which mid-range smartphone has the best camera?",
+   "order": 159
+  },
+  {
+   "slot_id": "C07-pl-or-pplx-r1",
+   "qid": "C07",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Jak wybrać materac do spania?",
+   "order": 160
+  },
+  {
+   "slot_id": "C06-en-or-pplx-r0",
+   "qid": "C06",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Which coffee machine should I buy for home use?",
+   "order": 161
+  },
+  {
+   "slot_id": "C01-en-or-pplx-noloc-r1",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Which laptop should I choose for office work?",
+   "order": 162
+  },
+  {
+   "slot_id": "L10-pl-or-openai-r1",
+   "qid": "L10",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Jak uzyskać dofinansowanie do pompy ciepła w Polsce?",
+   "order": 163
+  },
+  {
+   "slot_id": "L05-en-openai-noloc-r1",
+   "qid": "L05",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "How does the bottle deposit return system work in Poland?",
+   "order": 164
+  },
+  {
+   "slot_id": "C05-en-or-pplx-noloc-r1",
+   "qid": "C05",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "How do I choose running shoes as a beginner?",
+   "order": 165
+  },
+  {
+   "slot_id": "C02-pl-or-openai-r0",
+   "qid": "C02",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Jak wybrać dobre słuchawki z redukcją szumów?",
+   "order": 166
+  },
+  {
+   "slot_id": "C08-pl-or-pplx-noloc-r0",
+   "qid": "C08",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Jaki smartfon ma najlepszy aparat w średniej cenie?",
+   "order": 167
+  },
+  {
+   "slot_id": "L09-en-openai-r1",
+   "qid": "L09",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "What are the rules for returning goods bought online in Poland?",
+   "order": 168
+  },
+  {
+   "slot_id": "L03-en-or-pplx-noloc-r0",
+   "qid": "L03",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "How do I get a Polish national ID card and how long does it take?",
+   "order": 169
+  },
+  {
+   "slot_id": "G03-pl-openai-r0",
+   "qid": "G03",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Dlaczego niebo jest niebieskie?",
+   "order": 170
+  },
+  {
+   "slot_id": "L02-pl-or-pplx-r1",
+   "qid": "L02",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Jakie są zasady rozliczania ulgi na dziecko w PIT w Polsce?",
+   "order": 171
+  },
+  {
+   "slot_id": "C02-en-openai-noloc-r1",
+   "qid": "C02",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "How do I choose good noise-cancelling headphones?",
+   "order": 172
+  },
+  {
+   "slot_id": "C08-en-or-pplx-noloc-r0",
+   "qid": "C08",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Which mid-range smartphone has the best camera?",
+   "order": 173
+  },
+  {
+   "slot_id": "L02-pl-openai-noloc-r1",
+   "qid": "L02",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Jakie są zasady rozliczania ulgi na dziecko w PIT w Polsce?",
+   "order": 174
+  },
+  {
+   "slot_id": "G06-pl-openai-noloc-r0",
+   "qid": "G06",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Jak działają czarne dziury?",
+   "order": 175
+  },
+  {
+   "slot_id": "C03-en-openai-noloc-r0",
+   "qid": "C03",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Is it worth buying an electric car?",
+   "order": 176
+  },
+  {
+   "slot_id": "G09-pl-or-pplx-noloc-r0",
+   "qid": "G09",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Co to jest inflacja i jakie są jej przyczyny?",
+   "order": 177
+  },
+  {
+   "slot_id": "G06-pl-or-openai-r1",
+   "qid": "G06",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Jak działają czarne dziury?",
+   "order": 178
+  },
+  {
+   "slot_id": "L08-en-openai-r0",
+   "qid": "L08",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "How does admission to public universities in Poland work?",
+   "order": 179
+  },
+  {
+   "slot_id": "C05-pl-or-openai-r0",
+   "qid": "C05",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Jak wybrać buty do biegania dla początkujących?",
+   "order": 180
+  },
+  {
+   "slot_id": "L02-en-or-pplx-noloc-r1",
+   "qid": "L02",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "How does the child tax relief in the Polish personal income tax return work?",
+   "order": 181
+  },
+  {
+   "slot_id": "L03-en-or-openai-r1",
+   "qid": "L03",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "How do I get a Polish national ID card and how long does it take?",
+   "order": 182
+  },
+  {
+   "slot_id": "G09-en-or-openai-r1",
+   "qid": "G09",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "What is inflation and what causes it?",
+   "order": 183
+  },
+  {
+   "slot_id": "C08-pl-or-openai-r0",
+   "qid": "C08",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Jaki smartfon ma najlepszy aparat w średniej cenie?",
+   "order": 184
+  },
+  {
+   "slot_id": "C07-pl-or-pplx-r0",
+   "qid": "C07",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Jak wybrać materac do spania?",
+   "order": 185
+  },
+  {
+   "slot_id": "C01-en-or-openai-r0",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Which laptop should I choose for office work?",
+   "order": 186
+  },
+  {
+   "slot_id": "G02-en-or-openai-r0",
+   "qid": "G02",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "What is the difference between supervised and unsupervised learning?",
+   "order": 187
+  },
+  {
+   "slot_id": "L10-en-openai-r1",
+   "qid": "L10",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "How can I get a subsidy for a heat pump in Poland?",
+   "order": 188
+  },
+  {
+   "slot_id": "G05-pl-or-pplx-r0",
+   "qid": "G05",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Co to jest efekt cieplarniany i jak wpływa na klimat?",
+   "order": 189
+  },
+  {
+   "slot_id": "G09-en-openai-noloc-r0",
+   "qid": "G09",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "What is inflation and what causes it?",
+   "order": 190
+  },
+  {
+   "slot_id": "L06-en-or-pplx-noloc-r1",
+   "qid": "L06",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "How do I register a car imported from abroad in Poland?",
+   "order": 191
+  },
+  {
+   "slot_id": "L03-pl-or-pplx-noloc-r1",
+   "qid": "L03",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Jak wyrobić dowód osobisty w Polsce i ile to trwa?",
+   "order": 192
+  },
+  {
+   "slot_id": "G10-pl-or-pplx-noloc-r1",
+   "qid": "G10",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Jak działają duże modele językowe?",
+   "order": 193
+  },
+  {
+   "slot_id": "C10-pl-openai-r0",
+   "qid": "C10",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Jaki menedżer haseł warto wybrać?",
+   "order": 194
+  },
+  {
+   "slot_id": "L03-pl-or-pplx-r1",
+   "qid": "L03",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Jak wyrobić dowód osobisty w Polsce i ile to trwa?",
+   "order": 195
+  },
+  {
+   "slot_id": "L07-en-or-pplx-r0",
+   "qid": "L07",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "What documents are needed to register permanent residence in Poland?",
+   "order": 196
+  },
+  {
+   "slot_id": "C04-pl-or-pplx-noloc-r1",
+   "qid": "C04",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Jaki odkurzacz automatyczny jest najlepszy do mieszkania ze zwierzętami?",
+   "order": 197
+  },
+  {
+   "slot_id": "G08-pl-openai-r1",
+   "qid": "G08",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Jak działa pamięć długotrwała w mózgu?",
+   "order": 198
+  },
+  {
+   "slot_id": "L01-pl-or-pplx-noloc-r1",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Jak założyć jednoosobową działalność gospodarczą w Polsce?",
+   "order": 199
+  },
+  {
+   "slot_id": "L08-en-or-openai-r0",
+   "qid": "L08",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "How does admission to public universities in Poland work?",
+   "order": 200
+  },
+  {
+   "slot_id": "G03-en-openai-noloc-r1",
+   "qid": "G03",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Why is the sky blue?",
+   "order": 201
+  },
+  {
+   "slot_id": "C03-pl-or-pplx-r1",
+   "qid": "C03",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Czy warto kupić samochód elektryczny?",
+   "order": 202
+  },
+  {
+   "slot_id": "G05-en-or-openai-r1",
+   "qid": "G05",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "What is the greenhouse effect and how does it affect the climate?",
+   "order": 203
+  },
+  {
+   "slot_id": "L05-pl-or-pplx-r1",
+   "qid": "L05",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Jak działa system kaucyjny na butelki w Polsce?",
+   "order": 204
+  },
+  {
+   "slot_id": "L10-pl-openai-noloc-r1",
+   "qid": "L10",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Jak uzyskać dofinansowanie do pompy ciepła w Polsce?",
+   "order": 205
+  },
+  {
+   "slot_id": "G03-en-or-pplx-noloc-r1",
+   "qid": "G03",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Why is the sky blue?",
+   "order": 206
+  },
+  {
+   "slot_id": "G04-en-openai-r0",
+   "qid": "G04",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "How does blockchain work?",
+   "order": 207
+  },
+  {
+   "slot_id": "C10-pl-or-pplx-r0",
+   "qid": "C10",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Jaki menedżer haseł warto wybrać?",
+   "order": 208
+  },
+  {
+   "slot_id": "G07-en-or-openai-r0",
+   "qid": "G07",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "What is end-to-end encryption?",
+   "order": 209
+  },
+  {
+   "slot_id": "G08-en-openai-noloc-r0",
+   "qid": "G08",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "How does long-term memory work in the brain?",
+   "order": 210
+  },
+  {
+   "slot_id": "G01-pl-or-openai-r0",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Jak działa szczepionka mRNA?",
+   "order": 211
+  },
+  {
+   "slot_id": "L07-pl-openai-r1",
+   "qid": "L07",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Jakie dokumenty są potrzebne do zameldowania na pobyt stały w Polsce?",
+   "order": 212
+  },
+  {
+   "slot_id": "C05-en-openai-noloc-r1",
+   "qid": "C05",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "How do I choose running shoes as a beginner?",
+   "order": 213
+  },
+  {
+   "slot_id": "L10-en-or-pplx-r1",
+   "qid": "L10",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "How can I get a subsidy for a heat pump in Poland?",
+   "order": 214
+  },
+  {
+   "slot_id": "L10-en-or-openai-r0",
+   "qid": "L10",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "How can I get a subsidy for a heat pump in Poland?",
+   "order": 215
+  },
+  {
+   "slot_id": "C05-pl-openai-noloc-r1",
+   "qid": "C05",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Jak wybrać buty do biegania dla początkujących?",
+   "order": 216
+  },
+  {
+   "slot_id": "L08-pl-or-openai-r0",
+   "qid": "L08",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Jak wygląda rekrutacja na studia na polskich uczelniach publicznych?",
+   "order": 217
+  },
+  {
+   "slot_id": "C04-en-openai-noloc-r0",
+   "qid": "C04",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "What is the best robot vacuum for a home with pets?",
+   "order": 218
+  },
+  {
+   "slot_id": "C08-pl-or-pplx-noloc-r1",
+   "qid": "C08",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Jaki smartfon ma najlepszy aparat w średniej cenie?",
+   "order": 219
+  },
+  {
+   "slot_id": "C06-pl-or-openai-r0",
+   "qid": "C06",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Jaki ekspres do kawy kupić do domu?",
+   "order": 220
+  },
+  {
+   "slot_id": "G02-pl-or-pplx-r0",
+   "qid": "G02",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Czym różni się uczenie nadzorowane od nienadzorowanego?",
+   "order": 221
+  },
+  {
+   "slot_id": "C08-pl-openai-noloc-r1",
+   "qid": "C08",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Jaki smartfon ma najlepszy aparat w średniej cenie?",
+   "order": 222
+  },
+  {
+   "slot_id": "G07-en-openai-noloc-r0",
+   "qid": "G07",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "What is end-to-end encryption?",
+   "order": 223
+  },
+  {
+   "slot_id": "C07-pl-or-pplx-noloc-r0",
+   "qid": "C07",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Jak wybrać materac do spania?",
+   "order": 224
+  },
+  {
+   "slot_id": "C02-pl-or-pplx-noloc-r1",
+   "qid": "C02",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Jak wybrać dobre słuchawki z redukcją szumów?",
+   "order": 225
+  },
+  {
+   "slot_id": "L09-pl-or-pplx-r0",
+   "qid": "L09",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Jakie są zasady zwrotu towaru kupionego przez internet w Polsce?",
+   "order": 226
+  },
+  {
+   "slot_id": "C05-en-or-pplx-r0",
+   "qid": "C05",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "How do I choose running shoes as a beginner?",
+   "order": 227
+  },
+  {
+   "slot_id": "L10-pl-or-openai-r0",
+   "qid": "L10",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Jak uzyskać dofinansowanie do pompy ciepła w Polsce?",
+   "order": 228
+  },
+  {
+   "slot_id": "G06-pl-or-pplx-noloc-r0",
+   "qid": "G06",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Jak działają czarne dziury?",
+   "order": 229
+  },
+  {
+   "slot_id": "C05-pl-or-openai-r1",
+   "qid": "C05",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Jak wybrać buty do biegania dla początkujących?",
+   "order": 230
+  },
+  {
+   "slot_id": "G07-en-openai-r1",
+   "qid": "G07",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "What is end-to-end encryption?",
+   "order": 231
+  },
+  {
+   "slot_id": "G01-en-or-pplx-r0",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "How does an mRNA vaccine work?",
+   "order": 232
+  },
+  {
+   "slot_id": "C04-pl-or-openai-r0",
+   "qid": "C04",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Jaki odkurzacz automatyczny jest najlepszy do mieszkania ze zwierzętami?",
+   "order": 233
+  },
+  {
+   "slot_id": "C09-pl-or-pplx-r0",
+   "qid": "C09",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Jak wybrać rower do dojazdów do pracy?",
+   "order": 234
+  },
+  {
+   "slot_id": "L08-pl-or-pplx-r1",
+   "qid": "L08",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Jak wygląda rekrutacja na studia na polskich uczelniach publicznych?",
+   "order": 235
+  },
+  {
+   "slot_id": "L08-pl-openai-noloc-r0",
+   "qid": "L08",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Jak wygląda rekrutacja na studia na polskich uczelniach publicznych?",
+   "order": 236
+  },
+  {
+   "slot_id": "C07-en-openai-r0",
+   "qid": "C07",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "How do I choose a mattress?",
+   "order": 237
+  },
+  {
+   "slot_id": "C10-pl-openai-noloc-r0",
+   "qid": "C10",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Jaki menedżer haseł warto wybrać?",
+   "order": 238
+  },
+  {
+   "slot_id": "C09-en-or-pplx-noloc-r0",
+   "qid": "C09",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "How do I choose a bike for commuting?",
+   "order": 239
+  },
+  {
+   "slot_id": "C03-pl-openai-r1",
+   "qid": "C03",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Czy warto kupić samochód elektryczny?",
+   "order": 240
+  },
+  {
+   "slot_id": "L10-en-or-openai-r1",
+   "qid": "L10",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "How can I get a subsidy for a heat pump in Poland?",
+   "order": 241
+  },
+  {
+   "slot_id": "L06-en-or-openai-r0",
+   "qid": "L06",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "How do I register a car imported from abroad in Poland?",
+   "order": 242
+  },
+  {
+   "slot_id": "G05-pl-or-pplx-r1",
+   "qid": "G05",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Co to jest efekt cieplarniany i jak wpływa na klimat?",
+   "order": 243
+  },
+  {
+   "slot_id": "L10-pl-openai-r1",
+   "qid": "L10",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Jak uzyskać dofinansowanie do pompy ciepła w Polsce?",
+   "order": 244
+  },
+  {
+   "slot_id": "L05-en-or-pplx-r1",
+   "qid": "L05",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "How does the bottle deposit return system work in Poland?",
+   "order": 245
+  },
+  {
+   "slot_id": "C04-pl-or-pplx-noloc-r0",
+   "qid": "C04",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Jaki odkurzacz automatyczny jest najlepszy do mieszkania ze zwierzętami?",
+   "order": 246
+  },
+  {
+   "slot_id": "G10-en-openai-noloc-r1",
+   "qid": "G10",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "How do large language models work?",
+   "order": 247
+  },
+  {
+   "slot_id": "G08-en-or-pplx-r1",
+   "qid": "G08",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "How does long-term memory work in the brain?",
+   "order": 248
+  },
+  {
+   "slot_id": "C09-en-or-openai-r0",
+   "qid": "C09",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "How do I choose a bike for commuting?",
+   "order": 249
+  },
+  {
+   "slot_id": "L10-en-or-pplx-r0",
+   "qid": "L10",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "How can I get a subsidy for a heat pump in Poland?",
+   "order": 250
+  },
+  {
+   "slot_id": "L03-en-or-pplx-noloc-r1",
+   "qid": "L03",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "How do I get a Polish national ID card and how long does it take?",
+   "order": 251
+  },
+  {
+   "slot_id": "C09-pl-openai-r1",
+   "qid": "C09",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Jak wybrać rower do dojazdów do pracy?",
+   "order": 252
+  },
+  {
+   "slot_id": "G10-pl-or-openai-r1",
+   "qid": "G10",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Jak działają duże modele językowe?",
+   "order": 253
+  },
+  {
+   "slot_id": "C01-en-or-pplx-noloc-r0",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Which laptop should I choose for office work?",
+   "order": 254
+  },
+  {
+   "slot_id": "C09-en-or-openai-r1",
+   "qid": "C09",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "How do I choose a bike for commuting?",
+   "order": 255
+  },
+  {
+   "slot_id": "G03-pl-openai-noloc-r0",
+   "qid": "G03",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Dlaczego niebo jest niebieskie?",
+   "order": 256
+  },
+  {
+   "slot_id": "G01-en-openai-r0",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "How does an mRNA vaccine work?",
+   "order": 257
+  },
+  {
+   "slot_id": "G03-pl-or-openai-r0",
+   "qid": "G03",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Dlaczego niebo jest niebieskie?",
+   "order": 258
+  },
+  {
+   "slot_id": "G10-pl-openai-r1",
+   "qid": "G10",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Jak działają duże modele językowe?",
+   "order": 259
+  },
+  {
+   "slot_id": "G02-pl-or-pplx-noloc-r0",
+   "qid": "G02",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Czym różni się uczenie nadzorowane od nienadzorowanego?",
+   "order": 260
+  },
+  {
+   "slot_id": "G07-en-or-pplx-r0",
+   "qid": "G07",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "What is end-to-end encryption?",
+   "order": 261
+  },
+  {
+   "slot_id": "G08-pl-or-pplx-r1",
+   "qid": "G08",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Jak działa pamięć długotrwała w mózgu?",
+   "order": 262
+  },
+  {
+   "slot_id": "G03-en-openai-noloc-r0",
+   "qid": "G03",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Why is the sky blue?",
+   "order": 263
+  },
+  {
+   "slot_id": "C08-pl-or-openai-r1",
+   "qid": "C08",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Jaki smartfon ma najlepszy aparat w średniej cenie?",
+   "order": 264
+  },
+  {
+   "slot_id": "G08-pl-or-openai-r1",
+   "qid": "G08",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Jak działa pamięć długotrwała w mózgu?",
+   "order": 265
+  },
+  {
+   "slot_id": "L04-en-or-pplx-noloc-r1",
+   "qid": "L04",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "What is the notice period for an employment contract in Poland?",
+   "order": 266
+  },
+  {
+   "slot_id": "G06-pl-or-pplx-r0",
+   "qid": "G06",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Jak działają czarne dziury?",
+   "order": 267
+  },
+  {
+   "slot_id": "C06-pl-openai-noloc-r1",
+   "qid": "C06",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Jaki ekspres do kawy kupić do domu?",
+   "order": 268
+  },
+  {
+   "slot_id": "C06-pl-or-pplx-noloc-r1",
+   "qid": "C06",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Jaki ekspres do kawy kupić do domu?",
+   "order": 269
+  },
+  {
+   "slot_id": "L05-en-openai-r1",
+   "qid": "L05",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "How does the bottle deposit return system work in Poland?",
+   "order": 270
+  },
+  {
+   "slot_id": "G04-pl-openai-noloc-r1",
+   "qid": "G04",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Jak działa blockchain?",
+   "order": 271
+  },
+  {
+   "slot_id": "L10-pl-or-pplx-noloc-r1",
+   "qid": "L10",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Jak uzyskać dofinansowanie do pompy ciepła w Polsce?",
+   "order": 272
+  },
+  {
+   "slot_id": "C09-en-or-pplx-r1",
+   "qid": "C09",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "How do I choose a bike for commuting?",
+   "order": 273
+  },
+  {
+   "slot_id": "G08-pl-openai-r0",
+   "qid": "G08",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Jak działa pamięć długotrwała w mózgu?",
+   "order": 274
+  },
+  {
+   "slot_id": "L10-en-or-pplx-noloc-r1",
+   "qid": "L10",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "How can I get a subsidy for a heat pump in Poland?",
+   "order": 275
+  },
+  {
+   "slot_id": "G01-pl-or-pplx-noloc-r0",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Jak działa szczepionka mRNA?",
+   "order": 276
+  },
+  {
+   "slot_id": "C09-en-or-pplx-noloc-r1",
+   "qid": "C09",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "How do I choose a bike for commuting?",
+   "order": 277
+  },
+  {
+   "slot_id": "G09-pl-or-pplx-r0",
+   "qid": "G09",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Co to jest inflacja i jakie są jej przyczyny?",
+   "order": 278
+  },
+  {
+   "slot_id": "G04-en-or-openai-r0",
+   "qid": "G04",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "How does blockchain work?",
+   "order": 279
+  },
+  {
+   "slot_id": "L04-en-openai-noloc-r0",
+   "qid": "L04",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "What is the notice period for an employment contract in Poland?",
+   "order": 280
+  },
+  {
+   "slot_id": "C07-pl-or-pplx-noloc-r1",
+   "qid": "C07",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Jak wybrać materac do spania?",
+   "order": 281
+  },
+  {
+   "slot_id": "C06-pl-openai-r0",
+   "qid": "C06",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Jaki ekspres do kawy kupić do domu?",
+   "order": 282
+  },
+  {
+   "slot_id": "C02-en-or-pplx-r0",
+   "qid": "C02",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "How do I choose good noise-cancelling headphones?",
+   "order": 283
+  },
+  {
+   "slot_id": "L06-pl-or-openai-r0",
+   "qid": "L06",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Jak zarejestrować samochód sprowadzony z zagranicy w Polsce?",
+   "order": 284
+  },
+  {
+   "slot_id": "C02-en-openai-r0",
+   "qid": "C02",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "How do I choose good noise-cancelling headphones?",
+   "order": 285
+  },
+  {
+   "slot_id": "C07-en-or-pplx-noloc-r1",
+   "qid": "C07",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "How do I choose a mattress?",
+   "order": 286
+  },
+  {
+   "slot_id": "L07-pl-or-pplx-r1",
+   "qid": "L07",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Jakie dokumenty są potrzebne do zameldowania na pobyt stały w Polsce?",
+   "order": 287
+  },
+  {
+   "slot_id": "G10-en-or-openai-r1",
+   "qid": "G10",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "How do large language models work?",
+   "order": 288
+  },
+  {
+   "slot_id": "L04-en-openai-r1",
+   "qid": "L04",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "What is the notice period for an employment contract in Poland?",
+   "order": 289
+  },
+  {
+   "slot_id": "L02-en-openai-noloc-r1",
+   "qid": "L02",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "How does the child tax relief in the Polish personal income tax return work?",
+   "order": 290
+  },
+  {
+   "slot_id": "L10-en-openai-r0",
+   "qid": "L10",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "How can I get a subsidy for a heat pump in Poland?",
+   "order": 291
+  },
+  {
+   "slot_id": "L07-pl-or-pplx-noloc-r0",
+   "qid": "L07",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Jakie dokumenty są potrzebne do zameldowania na pobyt stały w Polsce?",
+   "order": 292
+  },
+  {
+   "slot_id": "C05-en-openai-r0",
+   "qid": "C05",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "How do I choose running shoes as a beginner?",
+   "order": 293
+  },
+  {
+   "slot_id": "G08-en-or-openai-r0",
+   "qid": "G08",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "How does long-term memory work in the brain?",
+   "order": 294
+  },
+  {
+   "slot_id": "L06-en-or-pplx-r0",
+   "qid": "L06",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "How do I register a car imported from abroad in Poland?",
+   "order": 295
+  },
+  {
+   "slot_id": "G08-pl-openai-noloc-r1",
+   "qid": "G08",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Jak działa pamięć długotrwała w mózgu?",
+   "order": 296
+  },
+  {
+   "slot_id": "G01-pl-or-pplx-noloc-r1",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Jak działa szczepionka mRNA?",
+   "order": 297
+  },
+  {
+   "slot_id": "G02-pl-openai-r1",
+   "qid": "G02",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Czym różni się uczenie nadzorowane od nienadzorowanego?",
+   "order": 298
+  },
+  {
+   "slot_id": "C01-pl-or-pplx-noloc-r0",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Jaki laptop do pracy biurowej wybrać?",
+   "order": 299
+  },
+  {
+   "slot_id": "L09-en-or-pplx-r1",
+   "qid": "L09",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "What are the rules for returning goods bought online in Poland?",
+   "order": 300
+  },
+  {
+   "slot_id": "C02-pl-openai-r0",
+   "qid": "C02",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Jak wybrać dobre słuchawki z redukcją szumów?",
+   "order": 301
+  },
+  {
+   "slot_id": "G03-en-or-pplx-noloc-r0",
+   "qid": "G03",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Why is the sky blue?",
+   "order": 302
+  },
+  {
+   "slot_id": "C10-en-or-pplx-noloc-r1",
+   "qid": "C10",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Which password manager should I choose?",
+   "order": 303
+  },
+  {
+   "slot_id": "L09-en-or-openai-r1",
+   "qid": "L09",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "What are the rules for returning goods bought online in Poland?",
+   "order": 304
+  },
+  {
+   "slot_id": "G09-pl-openai-noloc-r1",
+   "qid": "G09",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Co to jest inflacja i jakie są jej przyczyny?",
+   "order": 305
+  },
+  {
+   "slot_id": "C08-en-or-pplx-r1",
+   "qid": "C08",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Which mid-range smartphone has the best camera?",
+   "order": 306
+  },
+  {
+   "slot_id": "G05-pl-or-openai-r1",
+   "qid": "G05",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Co to jest efekt cieplarniany i jak wpływa na klimat?",
+   "order": 307
+  },
+  {
+   "slot_id": "C09-en-or-pplx-r0",
+   "qid": "C09",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "How do I choose a bike for commuting?",
+   "order": 308
+  },
+  {
+   "slot_id": "G06-pl-openai-r1",
+   "qid": "G06",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Jak działają czarne dziury?",
+   "order": 309
+  },
+  {
+   "slot_id": "C10-en-or-openai-r0",
+   "qid": "C10",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Which password manager should I choose?",
+   "order": 310
+  },
+  {
+   "slot_id": "C07-en-or-openai-r1",
+   "qid": "C07",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "How do I choose a mattress?",
+   "order": 311
+  },
+  {
+   "slot_id": "L03-en-openai-r1",
+   "qid": "L03",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "How do I get a Polish national ID card and how long does it take?",
+   "order": 312
+  },
+  {
+   "slot_id": "C10-en-openai-r1",
+   "qid": "C10",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Which password manager should I choose?",
+   "order": 313
+  },
+  {
+   "slot_id": "G03-en-or-openai-r1",
+   "qid": "G03",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Why is the sky blue?",
+   "order": 314
+  },
+  {
+   "slot_id": "G06-pl-or-openai-r0",
+   "qid": "G06",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Jak działają czarne dziury?",
+   "order": 315
+  },
+  {
+   "slot_id": "G02-en-or-pplx-r1",
+   "qid": "G02",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "What is the difference between supervised and unsupervised learning?",
+   "order": 316
+  },
+  {
+   "slot_id": "L06-pl-or-pplx-noloc-r1",
+   "qid": "L06",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Jak zarejestrować samochód sprowadzony z zagranicy w Polsce?",
+   "order": 317
+  },
+  {
+   "slot_id": "L03-en-openai-noloc-r1",
+   "qid": "L03",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "How do I get a Polish national ID card and how long does it take?",
+   "order": 318
+  },
+  {
+   "slot_id": "L04-pl-openai-noloc-r1",
+   "qid": "L04",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Ile wynosi okres wypowiedzenia umowy o pracę w Polsce?",
+   "order": 319
+  },
+  {
+   "slot_id": "G07-pl-openai-r1",
+   "qid": "G07",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Czym jest szyfrowanie end-to-end?",
+   "order": 320
+  },
+  {
+   "slot_id": "C08-en-openai-r1",
+   "qid": "C08",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Which mid-range smartphone has the best camera?",
+   "order": 321
+  },
+  {
+   "slot_id": "G08-pl-openai-noloc-r0",
+   "qid": "G08",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Jak działa pamięć długotrwała w mózgu?",
+   "order": 322
+  },
+  {
+   "slot_id": "C07-pl-or-openai-r1",
+   "qid": "C07",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Jak wybrać materac do spania?",
+   "order": 323
+  },
+  {
+   "slot_id": "L04-pl-openai-r0",
+   "qid": "L04",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Ile wynosi okres wypowiedzenia umowy o pracę w Polsce?",
+   "order": 324
+  },
+  {
+   "slot_id": "L04-pl-or-pplx-r1",
+   "qid": "L04",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Ile wynosi okres wypowiedzenia umowy o pracę w Polsce?",
+   "order": 325
+  },
+  {
+   "slot_id": "C05-pl-or-pplx-r0",
+   "qid": "C05",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Jak wybrać buty do biegania dla początkujących?",
+   "order": 326
+  },
+  {
+   "slot_id": "C02-pl-openai-noloc-r0",
+   "qid": "C02",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Jak wybrać dobre słuchawki z redukcją szumów?",
+   "order": 327
+  },
+  {
+   "slot_id": "C10-en-openai-noloc-r1",
+   "qid": "C10",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Which password manager should I choose?",
+   "order": 328
+  },
+  {
+   "slot_id": "L05-en-openai-r0",
+   "qid": "L05",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "How does the bottle deposit return system work in Poland?",
+   "order": 329
+  },
+  {
+   "slot_id": "G10-en-or-pplx-r1",
+   "qid": "G10",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "How do large language models work?",
+   "order": 330
+  },
+  {
+   "slot_id": "C04-en-openai-r0",
+   "qid": "C04",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "What is the best robot vacuum for a home with pets?",
+   "order": 331
+  },
+  {
+   "slot_id": "G05-pl-openai-noloc-r1",
+   "qid": "G05",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Co to jest efekt cieplarniany i jak wpływa na klimat?",
+   "order": 332
+  },
+  {
+   "slot_id": "G08-en-openai-r0",
+   "qid": "G08",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "How does long-term memory work in the brain?",
+   "order": 333
+  },
+  {
+   "slot_id": "C06-pl-or-pplx-noloc-r0",
+   "qid": "C06",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Jaki ekspres do kawy kupić do domu?",
+   "order": 334
+  },
+  {
+   "slot_id": "C06-en-or-pplx-r1",
+   "qid": "C06",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Which coffee machine should I buy for home use?",
+   "order": 335
+  },
+  {
+   "slot_id": "L07-pl-openai-r0",
+   "qid": "L07",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Jakie dokumenty są potrzebne do zameldowania na pobyt stały w Polsce?",
+   "order": 336
+  },
+  {
+   "slot_id": "L02-pl-or-pplx-noloc-r0",
+   "qid": "L02",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Jakie są zasady rozliczania ulgi na dziecko w PIT w Polsce?",
+   "order": 337
+  },
+  {
+   "slot_id": "C06-en-or-openai-r0",
+   "qid": "C06",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Which coffee machine should I buy for home use?",
+   "order": 338
+  },
+  {
+   "slot_id": "L03-en-or-openai-r0",
+   "qid": "L03",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "How do I get a Polish national ID card and how long does it take?",
+   "order": 339
+  },
+  {
+   "slot_id": "G05-en-or-pplx-noloc-r0",
+   "qid": "G05",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "What is the greenhouse effect and how does it affect the climate?",
+   "order": 340
+  },
+  {
+   "slot_id": "G05-en-openai-r0",
+   "qid": "G05",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "What is the greenhouse effect and how does it affect the climate?",
+   "order": 341
+  },
+  {
+   "slot_id": "L01-pl-openai-r1",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Jak założyć jednoosobową działalność gospodarczą w Polsce?",
+   "order": 342
+  },
+  {
+   "slot_id": "G07-en-or-pplx-noloc-r0",
+   "qid": "G07",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "What is end-to-end encryption?",
+   "order": 343
+  },
+  {
+   "slot_id": "C09-pl-or-openai-r1",
+   "qid": "C09",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Jak wybrać rower do dojazdów do pracy?",
+   "order": 344
+  },
+  {
+   "slot_id": "G09-en-or-openai-r0",
+   "qid": "G09",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "What is inflation and what causes it?",
+   "order": 345
+  },
+  {
+   "slot_id": "L02-pl-openai-noloc-r0",
+   "qid": "L02",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Jakie są zasady rozliczania ulgi na dziecko w PIT w Polsce?",
+   "order": 346
+  },
+  {
+   "slot_id": "C08-pl-or-pplx-r1",
+   "qid": "C08",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Jaki smartfon ma najlepszy aparat w średniej cenie?",
+   "order": 347
+  },
+  {
+   "slot_id": "G03-en-or-openai-r0",
+   "qid": "G03",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Why is the sky blue?",
+   "order": 348
+  },
+  {
+   "slot_id": "G08-en-or-pplx-r0",
+   "qid": "G08",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "How does long-term memory work in the brain?",
+   "order": 349
+  },
+  {
+   "slot_id": "L04-en-or-pplx-r1",
+   "qid": "L04",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "What is the notice period for an employment contract in Poland?",
+   "order": 350
+  },
+  {
+   "slot_id": "L04-en-or-openai-r1",
+   "qid": "L04",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "What is the notice period for an employment contract in Poland?",
+   "order": 351
+  },
+  {
+   "slot_id": "L05-en-openai-noloc-r0",
+   "qid": "L05",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "How does the bottle deposit return system work in Poland?",
+   "order": 352
+  },
+  {
+   "slot_id": "C01-en-openai-r0",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Which laptop should I choose for office work?",
+   "order": 353
+  },
+  {
+   "slot_id": "C09-pl-or-pplx-noloc-r1",
+   "qid": "C09",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Jak wybrać rower do dojazdów do pracy?",
+   "order": 354
+  },
+  {
+   "slot_id": "L02-en-or-pplx-r0",
+   "qid": "L02",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "How does the child tax relief in the Polish personal income tax return work?",
+   "order": 355
+  },
+  {
+   "slot_id": "L06-en-openai-r1",
+   "qid": "L06",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "How do I register a car imported from abroad in Poland?",
+   "order": 356
+  },
+  {
+   "slot_id": "G08-pl-or-pplx-noloc-r0",
+   "qid": "G08",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Jak działa pamięć długotrwała w mózgu?",
+   "order": 357
+  },
+  {
+   "slot_id": "L08-pl-or-pplx-noloc-r1",
+   "qid": "L08",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Jak wygląda rekrutacja na studia na polskich uczelniach publicznych?",
+   "order": 358
+  },
+  {
+   "slot_id": "G09-pl-openai-noloc-r0",
+   "qid": "G09",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Co to jest inflacja i jakie są jej przyczyny?",
+   "order": 359
+  },
+  {
+   "slot_id": "C07-pl-or-openai-r0",
+   "qid": "C07",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Jak wybrać materac do spania?",
+   "order": 360
+  },
+  {
+   "slot_id": "G10-en-or-pplx-noloc-r1",
+   "qid": "G10",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "How do large language models work?",
+   "order": 361
+  },
+  {
+   "slot_id": "G02-pl-openai-r0",
+   "qid": "G02",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Czym różni się uczenie nadzorowane od nienadzorowanego?",
+   "order": 362
+  },
+  {
+   "slot_id": "L02-pl-or-openai-r0",
+   "qid": "L02",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Jakie są zasady rozliczania ulgi na dziecko w PIT w Polsce?",
+   "order": 363
+  },
+  {
+   "slot_id": "G02-pl-or-pplx-noloc-r1",
+   "qid": "G02",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Czym różni się uczenie nadzorowane od nienadzorowanego?",
+   "order": 364
+  },
+  {
+   "slot_id": "C01-pl-or-pplx-r0",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Jaki laptop do pracy biurowej wybrać?",
+   "order": 365
+  },
+  {
+   "slot_id": "L09-pl-or-openai-r1",
+   "qid": "L09",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Jakie są zasady zwrotu towaru kupionego przez internet w Polsce?",
+   "order": 366
+  },
+  {
+   "slot_id": "C08-pl-openai-r0",
+   "qid": "C08",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Jaki smartfon ma najlepszy aparat w średniej cenie?",
+   "order": 367
+  },
+  {
+   "slot_id": "G09-en-openai-r0",
+   "qid": "G09",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "What is inflation and what causes it?",
+   "order": 368
+  },
+  {
+   "slot_id": "C04-en-or-pplx-r1",
+   "qid": "C04",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "What is the best robot vacuum for a home with pets?",
+   "order": 369
+  },
+  {
+   "slot_id": "G10-en-or-openai-r0",
+   "qid": "G10",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "How do large language models work?",
+   "order": 370
+  },
+  {
+   "slot_id": "G04-pl-or-pplx-r1",
+   "qid": "G04",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Jak działa blockchain?",
+   "order": 371
+  },
+  {
+   "slot_id": "C10-pl-or-pplx-noloc-r1",
+   "qid": "C10",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Jaki menedżer haseł warto wybrać?",
+   "order": 372
+  },
+  {
+   "slot_id": "C06-pl-or-openai-r1",
+   "qid": "C06",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Jaki ekspres do kawy kupić do domu?",
+   "order": 373
+  },
+  {
+   "slot_id": "L03-pl-or-pplx-noloc-r0",
+   "qid": "L03",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Jak wyrobić dowód osobisty w Polsce i ile to trwa?",
+   "order": 374
+  },
+  {
+   "slot_id": "G06-pl-or-pplx-noloc-r1",
+   "qid": "G06",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Jak działają czarne dziury?",
+   "order": 375
+  },
+  {
+   "slot_id": "G04-pl-or-pplx-noloc-r1",
+   "qid": "G04",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Jak działa blockchain?",
+   "order": 376
+  },
+  {
+   "slot_id": "G06-en-or-pplx-noloc-r0",
+   "qid": "G06",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "How do black holes work?",
+   "order": 377
+  },
+  {
+   "slot_id": "G07-pl-openai-noloc-r0",
+   "qid": "G07",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Czym jest szyfrowanie end-to-end?",
+   "order": 378
+  },
+  {
+   "slot_id": "G05-en-openai-noloc-r0",
+   "qid": "G05",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "What is the greenhouse effect and how does it affect the climate?",
+   "order": 379
+  },
+  {
+   "slot_id": "G05-pl-or-openai-r0",
+   "qid": "G05",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Co to jest efekt cieplarniany i jak wpływa na klimat?",
+   "order": 380
+  },
+  {
+   "slot_id": "G09-en-openai-noloc-r1",
+   "qid": "G09",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "What is inflation and what causes it?",
+   "order": 381
+  },
+  {
+   "slot_id": "G09-en-or-pplx-r1",
+   "qid": "G09",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "What is inflation and what causes it?",
+   "order": 382
+  },
+  {
+   "slot_id": "G06-en-or-openai-r0",
+   "qid": "G06",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "How do black holes work?",
+   "order": 383
+  },
+  {
+   "slot_id": "G08-en-openai-noloc-r1",
+   "qid": "G08",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "How does long-term memory work in the brain?",
+   "order": 384
+  },
+  {
+   "slot_id": "L01-en-or-pplx-r0",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "How do I register a sole proprietorship in Poland?",
+   "order": 385
+  },
+  {
+   "slot_id": "C01-pl-openai-noloc-r1",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Jaki laptop do pracy biurowej wybrać?",
+   "order": 386
+  },
+  {
+   "slot_id": "G10-pl-or-openai-r0",
+   "qid": "G10",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Jak działają duże modele językowe?",
+   "order": 387
+  },
+  {
+   "slot_id": "C10-pl-or-pplx-noloc-r0",
+   "qid": "C10",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Jaki menedżer haseł warto wybrać?",
+   "order": 388
+  },
+  {
+   "slot_id": "C04-pl-openai-noloc-r0",
+   "qid": "C04",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Jaki odkurzacz automatyczny jest najlepszy do mieszkania ze zwierzętami?",
+   "order": 389
+  },
+  {
+   "slot_id": "L01-en-openai-noloc-r1",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "How do I register a sole proprietorship in Poland?",
+   "order": 390
+  },
+  {
+   "slot_id": "C03-pl-or-openai-r1",
+   "qid": "C03",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Czy warto kupić samochód elektryczny?",
+   "order": 391
+  },
+  {
+   "slot_id": "L02-pl-or-pplx-noloc-r1",
+   "qid": "L02",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Jakie są zasady rozliczania ulgi na dziecko w PIT w Polsce?",
+   "order": 392
+  },
+  {
+   "slot_id": "G09-pl-or-openai-r0",
+   "qid": "G09",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Co to jest inflacja i jakie są jej przyczyny?",
+   "order": 393
+  },
+  {
+   "slot_id": "L05-en-or-openai-r1",
+   "qid": "L05",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "How does the bottle deposit return system work in Poland?",
+   "order": 394
+  },
+  {
+   "slot_id": "C09-pl-or-pplx-noloc-r0",
+   "qid": "C09",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Jak wybrać rower do dojazdów do pracy?",
+   "order": 395
+  },
+  {
+   "slot_id": "G05-pl-openai-r0",
+   "qid": "G05",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Co to jest efekt cieplarniany i jak wpływa na klimat?",
+   "order": 396
+  },
+  {
+   "slot_id": "L08-en-or-pplx-r1",
+   "qid": "L08",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "How does admission to public universities in Poland work?",
+   "order": 397
+  },
+  {
+   "slot_id": "C10-pl-or-pplx-r1",
+   "qid": "C10",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Jaki menedżer haseł warto wybrać?",
+   "order": 398
+  },
+  {
+   "slot_id": "L04-pl-openai-noloc-r0",
+   "qid": "L04",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Ile wynosi okres wypowiedzenia umowy o pracę w Polsce?",
+   "order": 399
+  },
+  {
+   "slot_id": "C05-pl-or-pplx-noloc-r1",
+   "qid": "C05",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Jak wybrać buty do biegania dla początkujących?",
+   "order": 400
+  },
+  {
+   "slot_id": "L05-en-or-pplx-noloc-r1",
+   "qid": "L05",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "How does the bottle deposit return system work in Poland?",
+   "order": 401
+  },
+  {
+   "slot_id": "L06-pl-openai-noloc-r0",
+   "qid": "L06",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Jak zarejestrować samochód sprowadzony z zagranicy w Polsce?",
+   "order": 402
+  },
+  {
+   "slot_id": "L09-en-or-pplx-r0",
+   "qid": "L09",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "What are the rules for returning goods bought online in Poland?",
+   "order": 403
+  },
+  {
+   "slot_id": "L01-pl-or-pplx-r1",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Jak założyć jednoosobową działalność gospodarczą w Polsce?",
+   "order": 404
+  },
+  {
+   "slot_id": "G01-en-openai-noloc-r1",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "How does an mRNA vaccine work?",
+   "order": 405
+  },
+  {
+   "slot_id": "C01-en-openai-noloc-r0",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Which laptop should I choose for office work?",
+   "order": 406
+  },
+  {
+   "slot_id": "L08-pl-openai-r1",
+   "qid": "L08",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Jak wygląda rekrutacja na studia na polskich uczelniach publicznych?",
+   "order": 407
+  },
+  {
+   "slot_id": "L07-en-or-pplx-noloc-r0",
+   "qid": "L07",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "What documents are needed to register permanent residence in Poland?",
+   "order": 408
+  },
+  {
+   "slot_id": "L09-en-or-pplx-noloc-r0",
+   "qid": "L09",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "What are the rules for returning goods bought online in Poland?",
+   "order": 409
+  },
+  {
+   "slot_id": "L07-en-or-pplx-noloc-r1",
+   "qid": "L07",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "What documents are needed to register permanent residence in Poland?",
+   "order": 410
+  },
+  {
+   "slot_id": "L08-en-openai-r1",
+   "qid": "L08",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "How does admission to public universities in Poland work?",
+   "order": 411
+  },
+  {
+   "slot_id": "C03-en-or-pplx-r1",
+   "qid": "C03",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Is it worth buying an electric car?",
+   "order": 412
+  },
+  {
+   "slot_id": "C04-en-openai-r1",
+   "qid": "C04",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "What is the best robot vacuum for a home with pets?",
+   "order": 413
+  },
+  {
+   "slot_id": "C04-en-or-openai-r0",
+   "qid": "C04",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "What is the best robot vacuum for a home with pets?",
+   "order": 414
+  },
+  {
+   "slot_id": "G05-en-or-openai-r0",
+   "qid": "G05",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "What is the greenhouse effect and how does it affect the climate?",
+   "order": 415
+  },
+  {
+   "slot_id": "G01-pl-openai-r0",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Jak działa szczepionka mRNA?",
+   "order": 416
+  },
+  {
+   "slot_id": "C06-en-or-openai-r1",
+   "qid": "C06",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Which coffee machine should I buy for home use?",
+   "order": 417
+  },
+  {
+   "slot_id": "L06-pl-openai-r0",
+   "qid": "L06",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Jak zarejestrować samochód sprowadzony z zagranicy w Polsce?",
+   "order": 418
+  },
+  {
+   "slot_id": "C01-en-or-pplx-r0",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Which laptop should I choose for office work?",
+   "order": 419
+  },
+  {
+   "slot_id": "L01-pl-or-pplx-noloc-r0",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Jak założyć jednoosobową działalność gospodarczą w Polsce?",
+   "order": 420
+  },
+  {
+   "slot_id": "G02-en-openai-r0",
+   "qid": "G02",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "What is the difference between supervised and unsupervised learning?",
+   "order": 421
+  },
+  {
+   "slot_id": "C02-en-or-pplx-noloc-r1",
+   "qid": "C02",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "How do I choose good noise-cancelling headphones?",
+   "order": 422
+  },
+  {
+   "slot_id": "C04-pl-openai-r0",
+   "qid": "C04",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Jaki odkurzacz automatyczny jest najlepszy do mieszkania ze zwierzętami?",
+   "order": 423
+  },
+  {
+   "slot_id": "G03-pl-or-pplx-r1",
+   "qid": "G03",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Dlaczego niebo jest niebieskie?",
+   "order": 424
+  },
+  {
+   "slot_id": "C08-pl-openai-r1",
+   "qid": "C08",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Jaki smartfon ma najlepszy aparat w średniej cenie?",
+   "order": 425
+  },
+  {
+   "slot_id": "G10-pl-openai-noloc-r0",
+   "qid": "G10",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Jak działają duże modele językowe?",
+   "order": 426
+  },
+  {
+   "slot_id": "L09-en-openai-noloc-r1",
+   "qid": "L09",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "What are the rules for returning goods bought online in Poland?",
+   "order": 427
+  },
+  {
+   "slot_id": "L10-en-openai-noloc-r1",
+   "qid": "L10",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "How can I get a subsidy for a heat pump in Poland?",
+   "order": 428
+  },
+  {
+   "slot_id": "G09-en-openai-r1",
+   "qid": "G09",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "What is inflation and what causes it?",
+   "order": 429
+  },
+  {
+   "slot_id": "L02-pl-openai-r1",
+   "qid": "L02",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Jakie są zasady rozliczania ulgi na dziecko w PIT w Polsce?",
+   "order": 430
+  },
+  {
+   "slot_id": "L05-pl-openai-r1",
+   "qid": "L05",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Jak działa system kaucyjny na butelki w Polsce?",
+   "order": 431
+  },
+  {
+   "slot_id": "L02-pl-openai-r0",
+   "qid": "L02",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Jakie są zasady rozliczania ulgi na dziecko w PIT w Polsce?",
+   "order": 432
+  },
+  {
+   "slot_id": "C02-pl-or-pplx-r1",
+   "qid": "C02",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Jak wybrać dobre słuchawki z redukcją szumów?",
+   "order": 433
+  },
+  {
+   "slot_id": "L05-pl-or-pplx-noloc-r0",
+   "qid": "L05",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Jak działa system kaucyjny na butelki w Polsce?",
+   "order": 434
+  },
+  {
+   "slot_id": "L06-pl-or-pplx-r1",
+   "qid": "L06",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Jak zarejestrować samochód sprowadzony z zagranicy w Polsce?",
+   "order": 435
+  },
+  {
+   "slot_id": "G07-en-or-openai-r1",
+   "qid": "G07",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "What is end-to-end encryption?",
+   "order": 436
+  },
+  {
+   "slot_id": "C01-en-openai-r1",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Which laptop should I choose for office work?",
+   "order": 437
+  },
+  {
+   "slot_id": "G01-pl-openai-noloc-r1",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Jak działa szczepionka mRNA?",
+   "order": 438
+  },
+  {
+   "slot_id": "G06-en-or-pplx-r0",
+   "qid": "G06",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "How do black holes work?",
+   "order": 439
+  },
+  {
+   "slot_id": "C05-pl-openai-r1",
+   "qid": "C05",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Jak wybrać buty do biegania dla początkujących?",
+   "order": 440
+  },
+  {
+   "slot_id": "G02-pl-openai-noloc-r0",
+   "qid": "G02",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Czym różni się uczenie nadzorowane od nienadzorowanego?",
+   "order": 441
+  },
+  {
+   "slot_id": "C02-pl-openai-noloc-r1",
+   "qid": "C02",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Jak wybrać dobre słuchawki z redukcją szumów?",
+   "order": 442
+  },
+  {
+   "slot_id": "L01-pl-openai-r0",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Jak założyć jednoosobową działalność gospodarczą w Polsce?",
+   "order": 443
+  },
+  {
+   "slot_id": "C08-en-or-openai-r1",
+   "qid": "C08",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Which mid-range smartphone has the best camera?",
+   "order": 444
+  },
+  {
+   "slot_id": "C08-en-openai-noloc-r0",
+   "qid": "C08",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Which mid-range smartphone has the best camera?",
+   "order": 445
+  },
+  {
+   "slot_id": "L09-pl-or-pplx-noloc-r0",
+   "qid": "L09",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Jakie są zasady zwrotu towaru kupionego przez internet w Polsce?",
+   "order": 446
+  },
+  {
+   "slot_id": "C05-pl-or-pplx-noloc-r0",
+   "qid": "C05",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Jak wybrać buty do biegania dla początkujących?",
+   "order": 447
+  },
+  {
+   "slot_id": "L06-pl-or-pplx-r0",
+   "qid": "L06",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Jak zarejestrować samochód sprowadzony z zagranicy w Polsce?",
+   "order": 448
+  },
+  {
+   "slot_id": "C06-en-openai-r0",
+   "qid": "C06",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Which coffee machine should I buy for home use?",
+   "order": 449
+  },
+  {
+   "slot_id": "L05-pl-openai-noloc-r1",
+   "qid": "L05",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Jak działa system kaucyjny na butelki w Polsce?",
+   "order": 450
+  },
+  {
+   "slot_id": "C01-pl-openai-r1",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Jaki laptop do pracy biurowej wybrać?",
+   "order": 451
+  },
+  {
+   "slot_id": "L06-pl-or-openai-r1",
+   "qid": "L06",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Jak zarejestrować samochód sprowadzony z zagranicy w Polsce?",
+   "order": 452
+  },
+  {
+   "slot_id": "L05-pl-or-pplx-noloc-r1",
+   "qid": "L05",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Jak działa system kaucyjny na butelki w Polsce?",
+   "order": 453
+  },
+  {
+   "slot_id": "G02-en-openai-noloc-r1",
+   "qid": "G02",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "What is the difference between supervised and unsupervised learning?",
+   "order": 454
+  },
+  {
+   "slot_id": "L03-pl-or-pplx-r0",
+   "qid": "L03",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Jak wyrobić dowód osobisty w Polsce i ile to trwa?",
+   "order": 455
+  },
+  {
+   "slot_id": "C02-en-openai-r1",
+   "qid": "C02",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "How do I choose good noise-cancelling headphones?",
+   "order": 456
+  },
+  {
+   "slot_id": "C03-pl-openai-noloc-r1",
+   "qid": "C03",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Czy warto kupić samochód elektryczny?",
+   "order": 457
+  },
+  {
+   "slot_id": "C01-pl-or-pplx-r1",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Jaki laptop do pracy biurowej wybrać?",
+   "order": 458
+  },
+  {
+   "slot_id": "G07-pl-or-pplx-r0",
+   "qid": "G07",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Czym jest szyfrowanie end-to-end?",
+   "order": 459
+  },
+  {
+   "slot_id": "C08-en-or-openai-r0",
+   "qid": "C08",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Which mid-range smartphone has the best camera?",
+   "order": 460
+  },
+  {
+   "slot_id": "G05-en-openai-noloc-r1",
+   "qid": "G05",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "What is the greenhouse effect and how does it affect the climate?",
+   "order": 461
+  },
+  {
+   "slot_id": "G01-en-or-pplx-r1",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "How does an mRNA vaccine work?",
+   "order": 462
+  },
+  {
+   "slot_id": "C05-en-or-pplx-noloc-r0",
+   "qid": "C05",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "How do I choose running shoes as a beginner?",
+   "order": 463
+  },
+  {
+   "slot_id": "C01-en-or-openai-r1",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Which laptop should I choose for office work?",
+   "order": 464
+  },
+  {
+   "slot_id": "G09-en-or-pplx-noloc-r0",
+   "qid": "G09",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "What is inflation and what causes it?",
+   "order": 465
+  },
+  {
+   "slot_id": "G06-en-openai-r1",
+   "qid": "G06",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "How do black holes work?",
+   "order": 466
+  },
+  {
+   "slot_id": "L04-pl-openai-r1",
+   "qid": "L04",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Ile wynosi okres wypowiedzenia umowy o pracę w Polsce?",
+   "order": 467
+  },
+  {
+   "slot_id": "C04-pl-openai-noloc-r1",
+   "qid": "C04",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Jaki odkurzacz automatyczny jest najlepszy do mieszkania ze zwierzętami?",
+   "order": 468
+  },
+  {
+   "slot_id": "L02-en-openai-r1",
+   "qid": "L02",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "How does the child tax relief in the Polish personal income tax return work?",
+   "order": 469
+  },
+  {
+   "slot_id": "G03-pl-openai-r1",
+   "qid": "G03",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Dlaczego niebo jest niebieskie?",
+   "order": 470
+  },
+  {
+   "slot_id": "L03-pl-openai-noloc-r1",
+   "qid": "L03",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Jak wyrobić dowód osobisty w Polsce i ile to trwa?",
+   "order": 471
+  },
+  {
+   "slot_id": "G06-en-openai-noloc-r1",
+   "qid": "G06",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "How do black holes work?",
+   "order": 472
+  },
+  {
+   "slot_id": "C09-pl-or-openai-r0",
+   "qid": "C09",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Jak wybrać rower do dojazdów do pracy?",
+   "order": 473
+  },
+  {
+   "slot_id": "L10-pl-or-pplx-r1",
+   "qid": "L10",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Jak uzyskać dofinansowanie do pompy ciepła w Polsce?",
+   "order": 474
+  },
+  {
+   "slot_id": "G07-pl-openai-r0",
+   "qid": "G07",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Czym jest szyfrowanie end-to-end?",
+   "order": 475
+  },
+  {
+   "slot_id": "C08-pl-or-pplx-r0",
+   "qid": "C08",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Jaki smartfon ma najlepszy aparat w średniej cenie?",
+   "order": 476
+  },
+  {
+   "slot_id": "L01-en-or-openai-r0",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "How do I register a sole proprietorship in Poland?",
+   "order": 477
+  },
+  {
+   "slot_id": "G09-pl-openai-r0",
+   "qid": "G09",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Co to jest inflacja i jakie są jej przyczyny?",
+   "order": 478
+  },
+  {
+   "slot_id": "G06-en-or-pplx-noloc-r1",
+   "qid": "G06",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "How do black holes work?",
+   "order": 479
+  },
+  {
+   "slot_id": "C03-en-openai-noloc-r1",
+   "qid": "C03",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Is it worth buying an electric car?",
+   "order": 480
+  },
+  {
+   "slot_id": "L05-en-or-pplx-noloc-r0",
+   "qid": "L05",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "How does the bottle deposit return system work in Poland?",
+   "order": 481
+  },
+  {
+   "slot_id": "G04-pl-or-pplx-noloc-r0",
+   "qid": "G04",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Jak działa blockchain?",
+   "order": 482
+  },
+  {
+   "slot_id": "C04-en-or-pplx-noloc-r0",
+   "qid": "C04",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "What is the best robot vacuum for a home with pets?",
+   "order": 483
+  },
+  {
+   "slot_id": "G03-pl-or-openai-r1",
+   "qid": "G03",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Dlaczego niebo jest niebieskie?",
+   "order": 484
+  },
+  {
+   "slot_id": "L05-pl-or-pplx-r0",
+   "qid": "L05",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Jak działa system kaucyjny na butelki w Polsce?",
+   "order": 485
+  },
+  {
+   "slot_id": "G05-en-or-pplx-r0",
+   "qid": "G05",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "What is the greenhouse effect and how does it affect the climate?",
+   "order": 486
+  },
+  {
+   "slot_id": "G05-en-or-pplx-r1",
+   "qid": "G05",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "What is the greenhouse effect and how does it affect the climate?",
+   "order": 487
+  },
+  {
+   "slot_id": "C03-en-openai-r0",
+   "qid": "C03",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Is it worth buying an electric car?",
+   "order": 488
+  },
+  {
+   "slot_id": "G10-pl-or-pplx-r1",
+   "qid": "G10",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Jak działają duże modele językowe?",
+   "order": 489
+  },
+  {
+   "slot_id": "G07-en-or-pplx-noloc-r1",
+   "qid": "G07",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "What is end-to-end encryption?",
+   "order": 490
+  },
+  {
+   "slot_id": "L02-pl-or-pplx-r0",
+   "qid": "L02",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Jakie są zasady rozliczania ulgi na dziecko w PIT w Polsce?",
+   "order": 491
+  },
+  {
+   "slot_id": "G09-en-or-pplx-r0",
+   "qid": "G09",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "What is inflation and what causes it?",
+   "order": 492
+  },
+  {
+   "slot_id": "C05-pl-openai-r0",
+   "qid": "C05",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Jak wybrać buty do biegania dla początkujących?",
+   "order": 493
+  },
+  {
+   "slot_id": "G04-en-or-pplx-noloc-r0",
+   "qid": "G04",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "How does blockchain work?",
+   "order": 494
+  },
+  {
+   "slot_id": "C03-en-or-pplx-noloc-r1",
+   "qid": "C03",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Is it worth buying an electric car?",
+   "order": 495
+  },
+  {
+   "slot_id": "C03-en-or-pplx-noloc-r0",
+   "qid": "C03",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Is it worth buying an electric car?",
+   "order": 496
+  },
+  {
+   "slot_id": "C04-pl-or-pplx-r0",
+   "qid": "C04",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Jaki odkurzacz automatyczny jest najlepszy do mieszkania ze zwierzętami?",
+   "order": 497
+  },
+  {
+   "slot_id": "L09-pl-openai-r1",
+   "qid": "L09",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Jakie są zasady zwrotu towaru kupionego przez internet w Polsce?",
+   "order": 498
+  },
+  {
+   "slot_id": "L01-pl-or-openai-r0",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Jak założyć jednoosobową działalność gospodarczą w Polsce?",
+   "order": 499
+  },
+  {
+   "slot_id": "L08-pl-openai-noloc-r1",
+   "qid": "L08",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Jak wygląda rekrutacja na studia na polskich uczelniach publicznych?",
+   "order": 500
+  },
+  {
+   "slot_id": "C06-pl-or-pplx-r0",
+   "qid": "C06",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Jaki ekspres do kawy kupić do domu?",
+   "order": 501
+  },
+  {
+   "slot_id": "L07-en-or-openai-r0",
+   "qid": "L07",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "What documents are needed to register permanent residence in Poland?",
+   "order": 502
+  },
+  {
+   "slot_id": "L08-en-or-pplx-noloc-r0",
+   "qid": "L08",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "How does admission to public universities in Poland work?",
+   "order": 503
+  },
+  {
+   "slot_id": "C03-pl-openai-noloc-r0",
+   "qid": "C03",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Czy warto kupić samochód elektryczny?",
+   "order": 504
+  },
+  {
+   "slot_id": "G05-pl-or-pplx-noloc-r1",
+   "qid": "G05",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Co to jest efekt cieplarniany i jak wpływa na klimat?",
+   "order": 505
+  },
+  {
+   "slot_id": "L08-en-or-openai-r1",
+   "qid": "L08",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "How does admission to public universities in Poland work?",
+   "order": 506
+  },
+  {
+   "slot_id": "G04-en-openai-noloc-r0",
+   "qid": "G04",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "How does blockchain work?",
+   "order": 507
+  },
+  {
+   "slot_id": "L02-en-or-pplx-r1",
+   "qid": "L02",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "How does the child tax relief in the Polish personal income tax return work?",
+   "order": 508
+  },
+  {
+   "slot_id": "L01-pl-or-openai-r1",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Jak założyć jednoosobową działalność gospodarczą w Polsce?",
+   "order": 509
+  },
+  {
+   "slot_id": "G01-en-or-openai-r0",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "How does an mRNA vaccine work?",
+   "order": 510
+  },
+  {
+   "slot_id": "C07-en-openai-noloc-r1",
+   "qid": "C07",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "How do I choose a mattress?",
+   "order": 511
+  },
+  {
+   "slot_id": "G04-en-or-pplx-r0",
+   "qid": "G04",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "How does blockchain work?",
+   "order": 512
+  },
+  {
+   "slot_id": "G07-en-openai-noloc-r1",
+   "qid": "G07",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "What is end-to-end encryption?",
+   "order": 513
+  },
+  {
+   "slot_id": "L09-en-or-openai-r0",
+   "qid": "L09",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "What are the rules for returning goods bought online in Poland?",
+   "order": 514
+  },
+  {
+   "slot_id": "C09-pl-openai-noloc-r1",
+   "qid": "C09",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Jak wybrać rower do dojazdów do pracy?",
+   "order": 515
+  },
+  {
+   "slot_id": "G05-pl-or-pplx-noloc-r0",
+   "qid": "G05",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Co to jest efekt cieplarniany i jak wpływa na klimat?",
+   "order": 516
+  },
+  {
+   "slot_id": "G04-pl-openai-r0",
+   "qid": "G04",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Jak działa blockchain?",
+   "order": 517
+  },
+  {
+   "slot_id": "C05-en-or-openai-r1",
+   "qid": "C05",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "How do I choose running shoes as a beginner?",
+   "order": 518
+  },
+  {
+   "slot_id": "C05-en-or-openai-r0",
+   "qid": "C05",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "How do I choose running shoes as a beginner?",
+   "order": 519
+  },
+  {
+   "slot_id": "L09-en-or-pplx-noloc-r1",
+   "qid": "L09",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "What are the rules for returning goods bought online in Poland?",
+   "order": 520
+  },
+  {
+   "slot_id": "L01-pl-openai-noloc-r1",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Jak założyć jednoosobową działalność gospodarczą w Polsce?",
+   "order": 521
+  },
+  {
+   "slot_id": "L03-en-openai-r0",
+   "qid": "L03",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "How do I get a Polish national ID card and how long does it take?",
+   "order": 522
+  },
+  {
+   "slot_id": "L02-pl-or-openai-r1",
+   "qid": "L02",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Jakie są zasady rozliczania ulgi na dziecko w PIT w Polsce?",
+   "order": 523
+  },
+  {
+   "slot_id": "L04-pl-or-openai-r1",
+   "qid": "L04",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Ile wynosi okres wypowiedzenia umowy o pracę w Polsce?",
+   "order": 524
+  },
+  {
+   "slot_id": "L01-pl-or-pplx-r0",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Jak założyć jednoosobową działalność gospodarczą w Polsce?",
+   "order": 525
+  },
+  {
+   "slot_id": "L10-pl-openai-r0",
+   "qid": "L10",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Jak uzyskać dofinansowanie do pompy ciepła w Polsce?",
+   "order": 526
+  },
+  {
+   "slot_id": "G04-en-or-openai-r1",
+   "qid": "G04",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "How does blockchain work?",
+   "order": 527
+  },
+  {
+   "slot_id": "G05-pl-openai-noloc-r0",
+   "qid": "G05",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Co to jest efekt cieplarniany i jak wpływa na klimat?",
+   "order": 528
+  },
+  {
+   "slot_id": "C07-en-or-pplx-noloc-r0",
+   "qid": "C07",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "How do I choose a mattress?",
+   "order": 529
+  },
+  {
+   "slot_id": "G08-en-or-pplx-noloc-r0",
+   "qid": "G08",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "How does long-term memory work in the brain?",
+   "order": 530
+  },
+  {
+   "slot_id": "C02-pl-openai-r1",
+   "qid": "C02",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Jak wybrać dobre słuchawki z redukcją szumów?",
+   "order": 531
+  },
+  {
+   "slot_id": "L01-en-openai-noloc-r0",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "How do I register a sole proprietorship in Poland?",
+   "order": 532
+  },
+  {
+   "slot_id": "G01-en-or-pplx-noloc-r0",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "How does an mRNA vaccine work?",
+   "order": 533
+  },
+  {
+   "slot_id": "C07-en-or-openai-r0",
+   "qid": "C07",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "How do I choose a mattress?",
+   "order": 534
+  },
+  {
+   "slot_id": "G06-pl-openai-noloc-r1",
+   "qid": "G06",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Jak działają czarne dziury?",
+   "order": 535
+  },
+  {
+   "slot_id": "L03-en-openai-noloc-r0",
+   "qid": "L03",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "How do I get a Polish national ID card and how long does it take?",
+   "order": 536
+  },
+  {
+   "slot_id": "C04-pl-or-pplx-r1",
+   "qid": "C04",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Jaki odkurzacz automatyczny jest najlepszy do mieszkania ze zwierzętami?",
+   "order": 537
+  },
+  {
+   "slot_id": "L04-pl-or-pplx-noloc-r0",
+   "qid": "L04",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Ile wynosi okres wypowiedzenia umowy o pracę w Polsce?",
+   "order": 538
+  },
+  {
+   "slot_id": "L08-pl-or-pplx-r0",
+   "qid": "L08",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Jak wygląda rekrutacja na studia na polskich uczelniach publicznych?",
+   "order": 539
+  },
+  {
+   "slot_id": "C09-en-openai-r0",
+   "qid": "C09",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "How do I choose a bike for commuting?",
+   "order": 540
+  },
+  {
+   "slot_id": "G05-en-openai-r1",
+   "qid": "G05",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "What is the greenhouse effect and how does it affect the climate?",
+   "order": 541
+  },
+  {
+   "slot_id": "L08-en-or-pplx-noloc-r1",
+   "qid": "L08",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "How does admission to public universities in Poland work?",
+   "order": 542
+  },
+  {
+   "slot_id": "C03-pl-openai-r0",
+   "qid": "C03",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Czy warto kupić samochód elektryczny?",
+   "order": 543
+  },
+  {
+   "slot_id": "G05-pl-openai-r1",
+   "qid": "G05",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Co to jest efekt cieplarniany i jak wpływa na klimat?",
+   "order": 544
+  },
+  {
+   "slot_id": "C06-en-openai-noloc-r1",
+   "qid": "C06",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Which coffee machine should I buy for home use?",
+   "order": 545
+  },
+  {
+   "slot_id": "L03-pl-openai-r0",
+   "qid": "L03",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Jak wyrobić dowód osobisty w Polsce i ile to trwa?",
+   "order": 546
+  },
+  {
+   "slot_id": "L04-en-openai-noloc-r1",
+   "qid": "L04",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "What is the notice period for an employment contract in Poland?",
+   "order": 547
+  },
+  {
+   "slot_id": "G07-pl-or-openai-r0",
+   "qid": "G07",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Czym jest szyfrowanie end-to-end?",
+   "order": 548
+  },
+  {
+   "slot_id": "G06-en-or-pplx-r1",
+   "qid": "G06",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "How do black holes work?",
+   "order": 549
+  },
+  {
+   "slot_id": "G08-pl-or-pplx-r0",
+   "qid": "G08",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Jak działa pamięć długotrwała w mózgu?",
+   "order": 550
+  },
+  {
+   "slot_id": "L07-pl-or-pplx-r0",
+   "qid": "L07",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Jakie dokumenty są potrzebne do zameldowania na pobyt stały w Polsce?",
+   "order": 551
+  },
+  {
+   "slot_id": "G02-pl-or-openai-r1",
+   "qid": "G02",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Czym różni się uczenie nadzorowane od nienadzorowanego?",
+   "order": 552
+  },
+  {
+   "slot_id": "G04-pl-or-pplx-r0",
+   "qid": "G04",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Jak działa blockchain?",
+   "order": 553
+  },
+  {
+   "slot_id": "C10-en-or-openai-r1",
+   "qid": "C10",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Which password manager should I choose?",
+   "order": 554
+  },
+  {
+   "slot_id": "G01-pl-openai-noloc-r0",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Jak działa szczepionka mRNA?",
+   "order": 555
+  },
+  {
+   "slot_id": "G02-en-openai-r1",
+   "qid": "G02",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "What is the difference between supervised and unsupervised learning?",
+   "order": 556
+  },
+  {
+   "slot_id": "L07-en-or-openai-r1",
+   "qid": "L07",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "What documents are needed to register permanent residence in Poland?",
+   "order": 557
+  },
+  {
+   "slot_id": "G03-pl-or-pplx-noloc-r1",
+   "qid": "G03",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Dlaczego niebo jest niebieskie?",
+   "order": 558
+  },
+  {
+   "slot_id": "L05-pl-openai-noloc-r0",
+   "qid": "L05",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Jak działa system kaucyjny na butelki w Polsce?",
+   "order": 559
+  },
+  {
+   "slot_id": "G01-en-or-pplx-noloc-r1",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "How does an mRNA vaccine work?",
+   "order": 560
+  },
+  {
+   "slot_id": "C03-en-openai-r1",
+   "qid": "C03",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Is it worth buying an electric car?",
+   "order": 561
+  },
+  {
+   "slot_id": "L02-en-or-pplx-noloc-r0",
+   "qid": "L02",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "How does the child tax relief in the Polish personal income tax return work?",
+   "order": 562
+  },
+  {
+   "slot_id": "L06-pl-openai-r1",
+   "qid": "L06",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Jak zarejestrować samochód sprowadzony z zagranicy w Polsce?",
+   "order": 563
+  },
+  {
+   "slot_id": "C01-en-openai-noloc-r1",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Which laptop should I choose for office work?",
+   "order": 564
+  },
+  {
+   "slot_id": "G04-pl-openai-noloc-r0",
+   "qid": "G04",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Jak działa blockchain?",
+   "order": 565
+  },
+  {
+   "slot_id": "G07-pl-or-openai-r1",
+   "qid": "G07",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Czym jest szyfrowanie end-to-end?",
+   "order": 566
+  },
+  {
+   "slot_id": "L01-en-or-pplx-r1",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "How do I register a sole proprietorship in Poland?",
+   "order": 567
+  },
+  {
+   "slot_id": "L04-pl-or-pplx-r0",
+   "qid": "L04",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Ile wynosi okres wypowiedzenia umowy o pracę w Polsce?",
+   "order": 568
+  },
+  {
+   "slot_id": "C06-pl-or-pplx-r1",
+   "qid": "C06",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Jaki ekspres do kawy kupić do domu?",
+   "order": 569
+  },
+  {
+   "slot_id": "C02-en-or-pplx-noloc-r0",
+   "qid": "C02",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "How do I choose good noise-cancelling headphones?",
+   "order": 570
+  },
+  {
+   "slot_id": "L05-pl-or-openai-r1",
+   "qid": "L05",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Jak działa system kaucyjny na butelki w Polsce?",
+   "order": 571
+  },
+  {
+   "slot_id": "L05-en-or-pplx-r0",
+   "qid": "L05",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "How does the bottle deposit return system work in Poland?",
+   "order": 572
+  },
+  {
+   "slot_id": "C07-pl-openai-r1",
+   "qid": "C07",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Jak wybrać materac do spania?",
+   "order": 573
+  },
+  {
+   "slot_id": "L03-pl-or-openai-r1",
+   "qid": "L03",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Jak wyrobić dowód osobisty w Polsce i ile to trwa?",
+   "order": 574
+  },
+  {
+   "slot_id": "G02-pl-or-pplx-r1",
+   "qid": "G02",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Czym różni się uczenie nadzorowane od nienadzorowanego?",
+   "order": 575
+  },
+  {
+   "slot_id": "L07-en-openai-noloc-r0",
+   "qid": "L07",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "What documents are needed to register permanent residence in Poland?",
+   "order": 576
+  },
+  {
+   "slot_id": "L01-en-or-openai-r1",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "How do I register a sole proprietorship in Poland?",
+   "order": 577
+  },
+  {
+   "slot_id": "G05-en-or-pplx-noloc-r1",
+   "qid": "G05",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "What is the greenhouse effect and how does it affect the climate?",
+   "order": 578
+  },
+  {
+   "slot_id": "L10-pl-or-pplx-r0",
+   "qid": "L10",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Jak uzyskać dofinansowanie do pompy ciepła w Polsce?",
+   "order": 579
+  },
+  {
+   "slot_id": "G10-pl-openai-r0",
+   "qid": "G10",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Jak działają duże modele językowe?",
+   "order": 580
+  },
+  {
+   "slot_id": "C04-pl-openai-r1",
+   "qid": "C04",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "Jaki odkurzacz automatyczny jest najlepszy do mieszkania ze zwierzętami?",
+   "order": 581
+  },
+  {
+   "slot_id": "C01-pl-or-openai-r0",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Jaki laptop do pracy biurowej wybrać?",
+   "order": 582
+  },
+  {
+   "slot_id": "C09-pl-openai-noloc-r0",
+   "qid": "C09",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Jak wybrać rower do dojazdów do pracy?",
+   "order": 583
+  },
+  {
+   "slot_id": "L06-en-or-pplx-r1",
+   "qid": "L06",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "How do I register a car imported from abroad in Poland?",
+   "order": 584
+  },
+  {
+   "slot_id": "L09-pl-openai-noloc-r1",
+   "qid": "L09",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Jakie są zasady zwrotu towaru kupionego przez internet w Polsce?",
+   "order": 585
+  },
+  {
+   "slot_id": "L08-pl-openai-r0",
+   "qid": "L08",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Jak wygląda rekrutacja na studia na polskich uczelniach publicznych?",
+   "order": 586
+  },
+  {
+   "slot_id": "G10-pl-or-pplx-noloc-r0",
+   "qid": "G10",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Jak działają duże modele językowe?",
+   "order": 587
+  },
+  {
+   "slot_id": "L03-pl-openai-noloc-r0",
+   "qid": "L03",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Jak wyrobić dowód osobisty w Polsce i ile to trwa?",
+   "order": 588
+  },
+  {
+   "slot_id": "L03-en-or-pplx-r1",
+   "qid": "L03",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "How do I get a Polish national ID card and how long does it take?",
+   "order": 589
+  },
+  {
+   "slot_id": "C09-en-openai-noloc-r1",
+   "qid": "C09",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "How do I choose a bike for commuting?",
+   "order": 590
+  },
+  {
+   "slot_id": "L04-en-or-pplx-noloc-r0",
+   "qid": "L04",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "What is the notice period for an employment contract in Poland?",
+   "order": 591
+  },
+  {
+   "slot_id": "G07-pl-openai-noloc-r1",
+   "qid": "G07",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Czym jest szyfrowanie end-to-end?",
+   "order": 592
+  },
+  {
+   "slot_id": "C09-pl-or-pplx-r1",
+   "qid": "C09",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Jak wybrać rower do dojazdów do pracy?",
+   "order": 593
+  },
+  {
+   "slot_id": "L09-pl-or-pplx-noloc-r1",
+   "qid": "L09",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 1,
+   "query": "Jakie są zasady zwrotu towaru kupionego przez internet w Polsce?",
+   "order": 594
+  },
+  {
+   "slot_id": "L02-en-or-openai-r0",
+   "qid": "L02",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "How does the child tax relief in the Polish personal income tax return work?",
+   "order": 595
+  },
+  {
+   "slot_id": "G03-pl-openai-noloc-r1",
+   "qid": "G03",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "Dlaczego niebo jest niebieskie?",
+   "order": 596
+  },
+  {
+   "slot_id": "C02-en-or-openai-r1",
+   "qid": "C02",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "How do I choose good noise-cancelling headphones?",
+   "order": 597
+  },
+  {
+   "slot_id": "L08-en-openai-noloc-r1",
+   "qid": "L08",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 1,
+   "query": "How does admission to public universities in Poland work?",
+   "order": 598
+  },
+  {
+   "slot_id": "L07-en-openai-r1",
+   "qid": "L07",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 1,
+   "query": "What documents are needed to register permanent residence in Poland?",
+   "order": 599
+  }
+ ],
+ "plan_sha256": "0779cb024304e41be4030bd32c790077fdce0c95636b38c8627752bea1969697"
+}

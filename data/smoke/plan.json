@@ -1,0 +1,377 @@
+{
+ "protocol": "DAIV-LANG v001",
+ "created": "2026-10-23T15:55:27.737+00:00",
+ "seed": "DAIVLANG-20261023",
+ "queries_file": "queries-draft.csv",
+ "queries_sha256": "2b2497f2c11bb45cfb9cafae29d598d73c5e751a1e1c2e354d1127be878e846d",
+ "engines": [
+  "or-openai",
+  "or-pplx",
+  "or-gemini"
+ ],
+ "repeats": 2,
+ "country": "PL",
+ "slots": [
+  {
+   "slot_id": "L01-en-or-openai-r0",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "How do I register a sole proprietorship in Poland?",
+   "order": 0
+  },
+  {
+   "slot_id": "G01-en-or-openai-r0",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "How does an mRNA vaccine work?",
+   "order": 1
+  },
+  {
+   "slot_id": "L01-en-or-openai-r1",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "How do I register a sole proprietorship in Poland?",
+   "order": 2
+  },
+  {
+   "slot_id": "C01-en-or-pplx-r0",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Which laptop should I choose for office work?",
+   "order": 3
+  },
+  {
+   "slot_id": "G01-pl-or-gemini-r0",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-gemini",
+   "repeat": 0,
+   "query": "Jak działa szczepionka mRNA?",
+   "order": 4
+  },
+  {
+   "slot_id": "C01-en-or-gemini-r1",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-gemini",
+   "repeat": 1,
+   "query": "Which laptop should I choose for office work?",
+   "order": 5
+  },
+  {
+   "slot_id": "G01-en-or-gemini-r0",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-gemini",
+   "repeat": 0,
+   "query": "How does an mRNA vaccine work?",
+   "order": 6
+  },
+  {
+   "slot_id": "L01-en-or-gemini-r1",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-gemini",
+   "repeat": 1,
+   "query": "How do I register a sole proprietorship in Poland?",
+   "order": 7
+  },
+  {
+   "slot_id": "L01-pl-or-openai-r0",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Jak założyć jednoosobową działalność gospodarczą w Polsce?",
+   "order": 8
+  },
+  {
+   "slot_id": "G01-en-or-pplx-r0",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "How does an mRNA vaccine work?",
+   "order": 9
+  },
+  {
+   "slot_id": "C01-pl-or-openai-r1",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Jaki laptop do pracy biurowej wybrać?",
+   "order": 10
+  },
+  {
+   "slot_id": "C01-pl-or-pplx-r0",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Jaki laptop do pracy biurowej wybrać?",
+   "order": 11
+  },
+  {
+   "slot_id": "C01-en-or-gemini-r0",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-gemini",
+   "repeat": 0,
+   "query": "Which laptop should I choose for office work?",
+   "order": 12
+  },
+  {
+   "slot_id": "G01-pl-or-openai-r1",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Jak działa szczepionka mRNA?",
+   "order": 13
+  },
+  {
+   "slot_id": "C01-en-or-pplx-r1",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Which laptop should I choose for office work?",
+   "order": 14
+  },
+  {
+   "slot_id": "G01-pl-or-pplx-r0",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Jak działa szczepionka mRNA?",
+   "order": 15
+  },
+  {
+   "slot_id": "G01-en-or-pplx-r1",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "How does an mRNA vaccine work?",
+   "order": 16
+  },
+  {
+   "slot_id": "C01-pl-or-openai-r0",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Jaki laptop do pracy biurowej wybrać?",
+   "order": 17
+  },
+  {
+   "slot_id": "L01-pl-or-pplx-r1",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Jak założyć jednoosobową działalność gospodarczą w Polsce?",
+   "order": 18
+  },
+  {
+   "slot_id": "C01-en-or-openai-r0",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Which laptop should I choose for office work?",
+   "order": 19
+  },
+  {
+   "slot_id": "L01-pl-or-gemini-r0",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-gemini",
+   "repeat": 0,
+   "query": "Jak założyć jednoosobową działalność gospodarczą w Polsce?",
+   "order": 20
+  },
+  {
+   "slot_id": "G01-pl-or-openai-r0",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 0,
+   "query": "Jak działa szczepionka mRNA?",
+   "order": 21
+  },
+  {
+   "slot_id": "C01-pl-or-gemini-r1",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-gemini",
+   "repeat": 1,
+   "query": "Jaki laptop do pracy biurowej wybrać?",
+   "order": 22
+  },
+  {
+   "slot_id": "L01-pl-or-openai-r1",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Jak założyć jednoosobową działalność gospodarczą w Polsce?",
+   "order": 23
+  },
+  {
+   "slot_id": "C01-pl-or-gemini-r0",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-gemini",
+   "repeat": 0,
+   "query": "Jaki laptop do pracy biurowej wybrać?",
+   "order": 24
+  },
+  {
+   "slot_id": "C01-en-or-openai-r1",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "Which laptop should I choose for office work?",
+   "order": 25
+  },
+  {
+   "slot_id": "L01-en-or-gemini-r0",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-gemini",
+   "repeat": 0,
+   "query": "How do I register a sole proprietorship in Poland?",
+   "order": 26
+  },
+  {
+   "slot_id": "G01-en-or-openai-r1",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-openai",
+   "repeat": 1,
+   "query": "How does an mRNA vaccine work?",
+   "order": 27
+  },
+  {
+   "slot_id": "G01-pl-or-gemini-r1",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-gemini",
+   "repeat": 1,
+   "query": "Jak działa szczepionka mRNA?",
+   "order": 28
+  },
+  {
+   "slot_id": "G01-en-or-gemini-r1",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "en",
+   "engine": "or-gemini",
+   "repeat": 1,
+   "query": "How does an mRNA vaccine work?",
+   "order": 29
+  },
+  {
+   "slot_id": "L01-pl-or-gemini-r1",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-gemini",
+   "repeat": 1,
+   "query": "Jak założyć jednoosobową działalność gospodarczą w Polsce?",
+   "order": 30
+  },
+  {
+   "slot_id": "L01-pl-or-pplx-r0",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "Jak założyć jednoosobową działalność gospodarczą w Polsce?",
+   "order": 31
+  },
+  {
+   "slot_id": "G01-pl-or-pplx-r1",
+   "qid": "G01",
+   "stratum": "GLOBAL",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Jak działa szczepionka mRNA?",
+   "order": 32
+  },
+  {
+   "slot_id": "C01-pl-or-pplx-r1",
+   "qid": "C01",
+   "stratum": "CONSUMER",
+   "lang": "pl",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "Jaki laptop do pracy biurowej wybrać?",
+   "order": 33
+  },
+  {
+   "slot_id": "L01-en-or-pplx-r1",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 1,
+   "query": "How do I register a sole proprietorship in Poland?",
+   "order": 34
+  },
+  {
+   "slot_id": "L01-en-or-pplx-r0",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx",
+   "repeat": 0,
+   "query": "How do I register a sole proprietorship in Poland?",
+   "order": 35
+  }
+ ],
+ "plan_sha256": "aa3dfbafa8e33e7666c471d0c793d10ec8be8b5f9a304b397450bb49cef76c0d"
+}

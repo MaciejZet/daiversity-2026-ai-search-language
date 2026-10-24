@@ -1,0 +1,77 @@
+{
+ "protocol": "DAIV-LANG v001",
+ "created": "2026-10-23T23:42:36.589+00:00",
+ "seed": "DAIVLANG-20261023",
+ "queries_file": "queries-draft.csv",
+ "queries_sha256": "2b2497f2c11bb45cfb9cafae29d598d73c5e751a1e1c2e354d1127be878e846d",
+ "engines": [
+  "openai",
+  "openai-noloc",
+  "or-pplx-noloc"
+ ],
+ "repeats": 1,
+ "country": "PL",
+ "slots": [
+  {
+   "slot_id": "L01-en-openai-noloc-r0",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "How do I register a sole proprietorship in Poland?",
+   "order": 0
+  },
+  {
+   "slot_id": "L01-pl-or-pplx-noloc-r0",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "Jak założyć jednoosobową działalność gospodarczą w Polsce?",
+   "order": 1
+  },
+  {
+   "slot_id": "L01-pl-openai-r0",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "Jak założyć jednoosobową działalność gospodarczą w Polsce?",
+   "order": 2
+  },
+  {
+   "slot_id": "L01-en-openai-r0",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "openai",
+   "repeat": 0,
+   "query": "How do I register a sole proprietorship in Poland?",
+   "order": 3
+  },
+  {
+   "slot_id": "L01-en-or-pplx-noloc-r0",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "en",
+   "engine": "or-pplx-noloc",
+   "repeat": 0,
+   "query": "How do I register a sole proprietorship in Poland?",
+   "order": 4
+  },
+  {
+   "slot_id": "L01-pl-openai-noloc-r0",
+   "qid": "L01",
+   "stratum": "LOCAL",
+   "lang": "pl",
+   "engine": "openai-noloc",
+   "repeat": 0,
+   "query": "Jak założyć jednoosobową działalność gospodarczą w Polsce?",
+   "order": 5
+  }
+ ],
+ "plan_sha256": "50d98f8b1f41e4da9dc16844b3370e0f6c1970f106201fc5639b929b65abd2f0"
+}

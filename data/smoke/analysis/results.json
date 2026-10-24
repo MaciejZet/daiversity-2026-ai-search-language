@@ -1,0 +1,784 @@
+{
+ "protocol": "DAIV-LANG v001",
+ "input": "data/smoke/derived",
+ "n_boot": 2000,
+ "engines": {
+  "or-pplx": {
+   "descriptives": {
+    "responses": 12,
+    "citations": 224,
+    "median_citations": 18.5,
+    "share_no_citations": 0.0,
+    "flag_no_citations_over_20pct": false,
+    "src_lang": {
+     "en": 114,
+     "pl": 102,
+     "other": 2,
+     "unknown": 6
+    },
+    "src_lang_method": {
+     "title": 30,
+     "text": 188,
+     "none": 6
+    },
+    "unknown_share": 0.026785714285714284,
+    "answer_in_query_language": 1.0
+   },
+   "rq1": {
+    "LOCAL": {
+     "n": 1,
+     "median": 1.0,
+     "mean": 1.0,
+     "ci95": [
+      1.0,
+      1.0
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    },
+    "GLOBAL": {
+     "n": 1,
+     "median": 0.9444444444444444,
+     "mean": 0.9444444444444444,
+     "ci95": [
+      0.9444444444444444,
+      0.9444444444444444
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    },
+    "CONSUMER": {
+     "n": 1,
+     "median": 0.625,
+     "mean": 0.625,
+     "ci95": [
+      0.625,
+      0.625
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    },
+    "ALL": {
+     "n": 3,
+     "median": 0.9444444444444444,
+     "mean": 0.8564814814814815,
+     "ci95": [
+      0.9444444444444444,
+      0.9444444444444444
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    }
+   },
+   "rq2": {
+    "LOCAL": {
+     "n": 1,
+     "median": 0.9615384615384616,
+     "mean": 0.9615384615384616,
+     "ci95": [
+      0.9615384615384616,
+      0.9615384615384616
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    },
+    "GLOBAL": {
+     "n": 1,
+     "median": 1.0,
+     "mean": 1.0,
+     "ci95": [
+      1.0,
+      1.0
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    },
+    "CONSUMER": {
+     "n": 1,
+     "median": 0.7194505494505495,
+     "mean": 0.7194505494505495,
+     "ci95": [
+      0.7194505494505495,
+      0.7194505494505495
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    },
+    "ALL": {
+     "n": 3,
+     "median": 0.9615384615384616,
+     "mean": 0.8936630036630038,
+     "ci95": [
+      0.9615384615384616,
+      0.9615384615384616
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    }
+   },
+   "rq2_rbo": {
+    "LOCAL": {
+     "n": 1,
+     "median": 0.8370733593125497,
+     "mean": 0.8370733593125497,
+     "ci95": [
+      0.8370733593125497,
+      0.8370733593125497
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    },
+    "GLOBAL": {
+     "n": 1,
+     "median": 1.0,
+     "mean": 1.0,
+     "ci95": [
+      1.0,
+      1.0
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    },
+    "CONSUMER": {
+     "n": 1,
+     "median": 0.521245141952449,
+     "mean": 0.521245141952449,
+     "ci95": [
+      0.521245141952449,
+      0.521245141952449
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    },
+    "ALL": {
+     "n": 3,
+     "median": 0.8370733593125497,
+     "mean": 0.7861061670883328,
+     "ci95": [
+      0.8370733593125497,
+      0.8370733593125497
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    }
+   },
+   "rq2_levels": {
+    "j_within": {
+     "n": 3,
+     "median": 1.0,
+     "mean": 0.9523809523809524,
+     "ci95": [
+      1.0,
+      1.0
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    },
+    "j_cross": {
+     "n": 3,
+     "median": 0.038461538461538464,
+     "mean": 0.05871794871794872,
+     "ci95": [
+      0.038461538461538464,
+      0.038461538461538464
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    }
+   },
+   "sensitivity": {
+    "rq1_unknown_in_denominator": {
+     "n": 3,
+     "median": 0.9444444444444444,
+     "mean": 0.8564814814814815,
+     "ci95": [
+      0.9444444444444444,
+      0.9444444444444444
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    },
+    "rq1_only_text_html_methods": {
+     "n": 3,
+     "median": 1.0,
+     "mean": 0.8703703703703703,
+     "ci95": [
+      1.0,
+      1.0
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    },
+    "rq1_without_LOCAL": {
+     "n": 2,
+     "median": 0.7847222222222222,
+     "mean": 0.7847222222222222,
+     "ci95": [
+      0.7847222222222222,
+      0.7847222222222222
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    },
+    "rq2_url_level": {
+     "n": 3,
+     "median": 1.0,
+     "mean": 0.91,
+     "ci95": [
+      1.0,
+      1.0
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    },
+    "rq2_without_LOCAL": {
+     "n": 2,
+     "median": 0.8597252747252748,
+     "mean": 0.8597252747252748,
+     "ci95": [
+      0.8597252747252748,
+      0.8597252747252748
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    }
+   },
+   "rq3_concentration": {
+    "pl/LOCAL": {
+     "cells": 1,
+     "median_unique_domains": 14.0,
+     "median_hhi": 0.11357340720221605,
+     "median_top10k_share": 0.21052631578947367,
+     "mean_bins": {
+      "top10k": 0.21052631578947367,
+      "10k-100k": 0.7368421052631579,
+      "100k-1M": 0.05263157894736842,
+      "unlisted": 0.0
+     }
+    },
+    "pl/GLOBAL": {
+     "cells": 1,
+     "median_unique_domains": 13.0,
+     "median_hhi": 0.10493827160493827,
+     "median_top10k_share": 0.3888888888888889,
+     "mean_bins": {
+      "top10k": 0.3888888888888889,
+      "10k-100k": 0.5,
+      "100k-1M": 0.1111111111111111,
+      "unlisted": 0.0
+     }
+    },
+    "pl/CONSUMER": {
+     "cells": 1,
+     "median_unique_domains": 17.0,
+     "median_hhi": 0.06944444444444445,
+     "median_top10k_share": 0.4166666666666667,
+     "mean_bins": {
+      "top10k": 0.4166666666666667,
+      "10k-100k": 0.5,
+      "100k-1M": 0.0,
+      "unlisted": 0.08333333333333333
+     }
+    },
+    "pl/ALL": {
+     "cells": 3,
+     "median_unique_domains": 14.0,
+     "median_hhi": 0.10493827160493827,
+     "median_top10k_share": 0.3888888888888889,
+     "mean_bins": {
+      "top10k": 0.33869395711500977,
+      "10k-100k": 0.5789473684210527,
+      "100k-1M": 0.05458089668615984,
+      "unlisted": 0.027777777777777776
+     }
+    },
+    "en/LOCAL": {
+     "cells": 1,
+     "median_unique_domains": 13.0,
+     "median_hhi": 0.09375,
+     "median_top10k_share": 0.0,
+     "mean_bins": {
+      "top10k": 0.0,
+      "10k-100k": 0.25,
+      "100k-1M": 0.0,
+      "unlisted": 0.75
+     }
+    },
+    "en/GLOBAL": {
+     "cells": 1,
+     "median_unique_domains": 11.0,
+     "median_hhi": 0.1124260355029586,
+     "median_top10k_share": 0.6153846153846154,
+     "mean_bins": {
+      "top10k": 0.6153846153846154,
+      "10k-100k": 0.3076923076923077,
+      "100k-1M": 0.07692307692307693,
+      "unlisted": 0.0
+     }
+    },
+    "en/CONSUMER": {
+     "cells": 1,
+     "median_unique_domains": 14.0,
+     "median_hhi": 0.10330578512396693,
+     "median_top10k_share": 0.8181818181818182,
+     "mean_bins": {
+      "top10k": 0.8181818181818182,
+      "10k-100k": 0.18181818181818182,
+      "100k-1M": 0.0,
+      "unlisted": 0.0
+     }
+    },
+    "en/ALL": {
+     "cells": 3,
+     "median_unique_domains": 13.0,
+     "median_hhi": 0.10330578512396693,
+     "median_top10k_share": 0.6153846153846154,
+     "mean_bins": {
+      "top10k": 0.47785547785547794,
+      "10k-100k": 0.24650349650349654,
+      "100k-1M": 0.025641025641025644,
+      "unlisted": 0.25
+     }
+    }
+   },
+   "per_question": {
+    "C01": {
+     "stratum": "CONSUMER",
+     "pl_share_pl": 0.625,
+     "pl_share_en": 0.0,
+     "delta_pl": 0.625,
+     "j_within": 0.8571428571428572,
+     "j_cross": 0.1376923076923077,
+     "rbo_within": 0.9595653632787338,
+     "rbo_cross": 0.4383202213262848,
+     "n_repeats": {
+      "pl": 2,
+      "en": 2
+     },
+     "delta_overlap": 0.7194505494505495,
+     "delta_rbo": 0.521245141952449
+    },
+    "G01": {
+     "stratum": "GLOBAL",
+     "pl_share_pl": 0.9444444444444444,
+     "pl_share_en": 0.0,
+     "delta_pl": 0.9444444444444444,
+     "j_within": 1.0,
+     "j_cross": 0.0,
+     "rbo_within": 1.0,
+     "rbo_cross": 0.0,
+     "n_repeats": {
+      "pl": 2,
+      "en": 2
+     },
+     "delta_overlap": 1.0,
+     "delta_rbo": 1.0
+    },
+    "L01": {
+     "stratum": "LOCAL",
+     "pl_share_pl": 1.0,
+     "pl_share_en": 0.0,
+     "delta_pl": 1.0,
+     "j_within": 1.0,
+     "j_cross": 0.038461538461538464,
+     "rbo_within": 1.0,
+     "rbo_cross": 0.16292664068745027,
+     "n_repeats": {
+      "pl": 2,
+      "en": 2
+     },
+     "delta_overlap": 0.9615384615384616,
+     "delta_rbo": 0.8370733593125497
+    }
+   }
+  },
+  "or-openai": {
+   "descriptives": {
+    "responses": 12,
+    "citations": 34,
+    "median_citations": 1.5,
+    "share_no_citations": 0.08333333333333333,
+    "flag_no_citations_over_20pct": false,
+    "src_lang": {
+     "en": 11,
+     "unknown": 1,
+     "pl": 22
+    },
+    "src_lang_method": {
+     "text": 32,
+     "none": 1,
+     "title": 1
+    },
+    "unknown_share": 0.029411764705882353,
+    "answer_in_query_language": 1.0
+   },
+   "rq1": {
+    "LOCAL": {
+     "n": 1,
+     "median": 0.32499999999999996,
+     "mean": 0.32499999999999996,
+     "ci95": [
+      0.32499999999999996,
+      0.32499999999999996
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    },
+    "GLOBAL": {
+     "n": 1,
+     "median": 0.0,
+     "mean": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "wilcoxon_p": null,
+     "verdict": "no difference beyond noise shown"
+    },
+    "CONSUMER": {
+     "n": 1,
+     "median": 0.5,
+     "mean": 0.5,
+     "ci95": [
+      0.5,
+      0.5
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    },
+    "ALL": {
+     "n": 3,
+     "median": 0.32499999999999996,
+     "mean": 0.27499999999999997,
+     "ci95": [
+      0.32499999999999996,
+      0.32499999999999996
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    }
+   },
+   "rq2": {
+    "LOCAL": {
+     "n": 1,
+     "median": 0.0,
+     "mean": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "wilcoxon_p": null,
+     "verdict": "no difference beyond noise shown"
+    },
+    "GLOBAL": {
+     "n": 1,
+     "median": 0.0,
+     "mean": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "wilcoxon_p": null,
+     "verdict": "no difference beyond noise shown"
+    },
+    "CONSUMER": {
+     "n": 1,
+     "median": 0.25,
+     "mean": 0.25,
+     "ci95": [
+      0.25,
+      0.25
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    },
+    "ALL": {
+     "n": 3,
+     "median": 0.0,
+     "mean": 0.08333333333333333,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "wilcoxon_p": null,
+     "verdict": "no difference beyond noise shown"
+    }
+   },
+   "rq2_rbo": {
+    "LOCAL": {
+     "n": 1,
+     "median": -0.0675,
+     "mean": -0.0675,
+     "ci95": [
+      -0.0675,
+      -0.0675
+     ],
+     "wilcoxon_p": null,
+     "verdict": "below zero"
+    },
+    "GLOBAL": {
+     "n": 1,
+     "median": 0.0,
+     "mean": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "wilcoxon_p": null,
+     "verdict": "no difference beyond noise shown"
+    },
+    "CONSUMER": {
+     "n": 1,
+     "median": 0.5,
+     "mean": 0.5,
+     "ci95": [
+      0.5,
+      0.5
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    },
+    "ALL": {
+     "n": 3,
+     "median": 0.0,
+     "mean": 0.14416666666666667,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "wilcoxon_p": null,
+     "verdict": "no difference beyond noise shown"
+    }
+   },
+   "rq2_levels": {
+    "j_within": {
+     "n": 3,
+     "median": 0.75,
+     "mean": 0.611111111111111,
+     "ci95": [
+      0.75,
+      0.75
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    },
+    "j_cross": {
+     "n": 3,
+     "median": 0.75,
+     "mean": 0.5277777777777778,
+     "ci95": [
+      0.75,
+      0.75
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    }
+   },
+   "sensitivity": {
+    "rq1_unknown_in_denominator": {
+     "n": 3,
+     "median": 0.25,
+     "mean": 0.19166666666666665,
+     "ci95": [
+      0.25,
+      0.25
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    },
+    "rq1_only_text_html_methods": {
+     "n": 3,
+     "median": 0.32499999999999996,
+     "mean": 0.27499999999999997,
+     "ci95": [
+      0.32499999999999996,
+      0.32499999999999996
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    },
+    "rq1_without_LOCAL": {
+     "n": 2,
+     "median": 0.25,
+     "mean": 0.25,
+     "ci95": [
+      0.25,
+      0.25
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    },
+    "rq2_url_level": {
+     "n": 3,
+     "median": 0.33333333333333337,
+     "mean": 0.24734848484848485,
+     "ci95": [
+      0.33333333333333337,
+      0.33333333333333337
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    },
+    "rq2_without_LOCAL": {
+     "n": 2,
+     "median": 0.125,
+     "mean": 0.125,
+     "ci95": [
+      0.125,
+      0.125
+     ],
+     "wilcoxon_p": null,
+     "verdict": "above zero"
+    }
+   },
+   "rq3_concentration": {
+    "pl/LOCAL": {
+     "cells": 1,
+     "median_unique_domains": 3.0,
+     "median_hhi": 0.4488888888888889,
+     "median_top10k_share": 0.13333333333333333,
+     "mean_bins": {
+      "top10k": 0.13333333333333333,
+      "10k-100k": 0.8666666666666667,
+      "100k-1M": 0.0,
+      "unlisted": 0.0
+     }
+    },
+    "pl/GLOBAL": {
+     "cells": 1,
+     "median_unique_domains": 2.0,
+     "median_hhi": 0.625,
+     "median_top10k_share": 1.0,
+     "mean_bins": {
+      "top10k": 1.0,
+      "10k-100k": 0.0,
+      "100k-1M": 0.0,
+      "unlisted": 0.0
+     }
+    },
+    "pl/CONSUMER": {
+     "cells": 1,
+     "median_unique_domains": 2.0,
+     "median_hhi": 0.5555555555555556,
+     "median_top10k_share": 1.0,
+     "mean_bins": {
+      "top10k": 1.0,
+      "10k-100k": 0.0,
+      "100k-1M": 0.0,
+      "unlisted": 0.0
+     }
+    },
+    "pl/ALL": {
+     "cells": 3,
+     "median_unique_domains": 2.0,
+     "median_hhi": 0.5555555555555556,
+     "median_top10k_share": 1.0,
+     "mean_bins": {
+      "top10k": 0.7111111111111111,
+      "10k-100k": 0.2888888888888889,
+      "100k-1M": 0.0,
+      "unlisted": 0.0
+     }
+    },
+    "en/LOCAL": {
+     "cells": 1,
+     "median_unique_domains": 3.0,
+     "median_hhi": 0.5061728395061729,
+     "median_top10k_share": 0.1111111111111111,
+     "mean_bins": {
+      "top10k": 0.1111111111111111,
+      "10k-100k": 0.8888888888888888,
+      "100k-1M": 0.0,
+      "unlisted": 0.0
+     }
+    },
+    "en/GLOBAL": {
+     "cells": 1,
+     "median_unique_domains": 1.0,
+     "median_hhi": 1.0,
+     "median_top10k_share": 1.0,
+     "mean_bins": {
+      "top10k": 1.0,
+      "10k-100k": 0.0,
+      "100k-1M": 0.0,
+      "unlisted": 0.0
+     }
+    },
+    "en/CONSUMER": {
+     "cells": 1,
+     "median_unique_domains": 1.0,
+     "median_hhi": 1.0,
+     "median_top10k_share": 0.0,
+     "mean_bins": {
+      "top10k": 0.0,
+      "10k-100k": 1.0,
+      "100k-1M": 0.0,
+      "unlisted": 0.0
+     }
+    },
+    "en/ALL": {
+     "cells": 3,
+     "median_unique_domains": 1.0,
+     "median_hhi": 1.0,
+     "median_top10k_share": 0.1111111111111111,
+     "mean_bins": {
+      "top10k": 0.3703703703703704,
+      "10k-100k": 0.6296296296296297,
+      "100k-1M": 0.0,
+      "unlisted": 0.0
+     }
+    }
+   },
+   "per_question": {
+    "C01": {
+     "stratum": "CONSUMER",
+     "pl_share_pl": 0.5,
+     "pl_share_en": 0.0,
+     "delta_pl": 0.5,
+     "j_within": 0.25,
+     "j_cross": 0.0,
+     "rbo_within": 0.5,
+     "rbo_cross": 0.0,
+     "n_repeats": {
+      "pl": 2,
+      "en": 2
+     },
+     "delta_overlap": 0.25,
+     "delta_rbo": 0.5
+    },
+    "G01": {
+     "stratum": "GLOBAL",
+     "pl_share_pl": 0.0,
+     "pl_share_en": 0.0,
+     "delta_pl": 0.0,
+     "j_within": 0.75,
+     "j_cross": 0.75,
+     "rbo_within": 1.0,
+     "rbo_cross": 1.0,
+     "n_repeats": {
+      "pl": 2,
+      "en": 2
+     },
+     "delta_overlap": 0.0,
+     "delta_rbo": 0.0
+    },
+    "L01": {
+     "stratum": "LOCAL",
+     "pl_share_pl": 1.0,
+     "pl_share_en": 0.675,
+     "delta_pl": 0.32499999999999996,
+     "j_within": 0.8333333333333333,
+     "j_cross": 0.8333333333333333,
+     "rbo_within": 0.91,
+     "rbo_cross": 0.9775,
+     "n_repeats": {
+      "pl": 2,
+      "en": 2
+     },
+     "delta_overlap": 0.0,
+     "delta_rbo": -0.0675
+    }
+   }
+  }
+ }
+}
