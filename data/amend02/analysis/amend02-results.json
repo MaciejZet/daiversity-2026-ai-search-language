@@ -1,0 +1,4290 @@
+{
+ "amendment": "02",
+ "n_boot": 10000,
+ "contrasts": {
+  "C1_location_chatgpt": {
+   "a": "amend:openai",
+   "b": "amend:openai-noloc",
+   "pl": {
+    "delta_share": {
+     "LOCAL": {
+      "n": 10,
+      "median": 0.0,
+      "mean": -0.025,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "GLOBAL": {
+      "n": 2,
+      "median": 0.0,
+      "mean": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "CONSUMER": {
+      "n": 10,
+      "median": 0.25,
+      "mean": 0.3375,
+      "ci95": [
+       0.08333333333333333,
+       0.5416666666666666
+      ],
+      "wilcoxon_p": 0.0078125,
+      "verdict": "above zero"
+     },
+     "ALL": {
+      "n": 22,
+      "median": 0.0,
+      "mean": 0.14204545454545456,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": 0.02734375,
+      "verdict": "no difference beyond noise shown"
+     }
+    },
+    "j_within": {
+     "n": 24,
+     "median": 0.39166666666666666,
+     "mean": 0.4583333333333333,
+     "ci95": [
+      0.2708333333333333,
+      0.6333333333333333
+     ],
+     "wilcoxon_p": 0.0001293677724676072,
+     "verdict": "above zero"
+    },
+    "j_between": {
+     "n": 24,
+     "median": 0.3333333333333333,
+     "mean": 0.4003472222222222,
+     "ci95": [
+      0.10416666666666666,
+      0.6333333333333334
+     ],
+     "wilcoxon_p": 0.00028678077102259157,
+     "verdict": "above zero"
+    },
+    "delta_overlap": {
+     "LOCAL": {
+      "n": 10,
+      "median": 0.0,
+      "mean": -0.04499999999999997,
+      "ci95": [
+       -0.14791666666666664,
+       5.551115123125783e-17
+      ],
+      "wilcoxon_p": 0.4375,
+      "verdict": "no difference beyond noise shown"
+     },
+     "GLOBAL": {
+      "n": 4,
+      "median": 0.0,
+      "mean": 0.125,
+      "ci95": [
+       0.0,
+       0.5
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "CONSUMER": {
+      "n": 10,
+      "median": 0.0625,
+      "mean": 0.13416666666666666,
+      "ci95": [
+       -0.03333333333333344,
+       0.23958333333333331
+      ],
+      "wilcoxon_p": 0.109375,
+      "verdict": "no difference beyond noise shown"
+     },
+     "ALL": {
+      "n": 24,
+      "median": 0.0,
+      "mean": 0.05798611111111112,
+      "ci95": [
+       0.0,
+       1.1102230246251565e-16
+      ],
+      "wilcoxon_p": 0.32015779990933857,
+      "verdict": "no difference beyond noise shown"
+     }
+    },
+    "per_question": {
+     "C01": {
+      "stratum": "CONSUMER",
+      "share_a": 0.5,
+      "share_b": 0.5,
+      "j_within": 0.16666666666666666,
+      "j_between": 0.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.16666666666666666
+     },
+     "C02": {
+      "stratum": "CONSUMER",
+      "share_a": 0.16666666666666666,
+      "share_b": 0.0,
+      "j_within": 0.41666666666666663,
+      "j_between": 0.41666666666666663,
+      "delta_share": 0.16666666666666666,
+      "delta_overlap": 0.0
+     },
+     "C03": {
+      "stratum": "CONSUMER",
+      "share_a": 1.0,
+      "share_b": 0.0,
+      "j_within": 0.75,
+      "j_between": 0.0,
+      "delta_share": 1.0,
+      "delta_overlap": 0.75
+     },
+     "C04": {
+      "stratum": "CONSUMER",
+      "share_a": 0.3333333333333333,
+      "share_b": 0.0,
+      "j_within": 0.3333333333333333,
+      "j_between": 0.0,
+      "delta_share": 0.3333333333333333,
+      "delta_overlap": 0.3333333333333333
+     },
+     "C05": {
+      "stratum": "CONSUMER",
+      "share_a": 0.25,
+      "share_b": 0.0,
+      "j_within": 0.0,
+      "j_between": 0.0625,
+      "delta_share": 0.25,
+      "delta_overlap": -0.0625
+     },
+     "C06": {
+      "stratum": "CONSUMER",
+      "share_a": 1.0,
+      "share_b": 0.25,
+      "j_within": 0.125,
+      "j_between": 0.0,
+      "delta_share": 0.75,
+      "delta_overlap": 0.125
+     },
+     "C07": {
+      "stratum": "CONSUMER",
+      "share_a": 0.25,
+      "share_b": 0.0,
+      "j_within": 0.29166666666666663,
+      "j_between": 0.14583333333333331,
+      "delta_share": 0.25,
+      "delta_overlap": 0.14583333333333331
+     },
+     "C08": {
+      "stratum": "CONSUMER",
+      "share_a": 0.75,
+      "share_b": 0.25,
+      "j_within": 0.0,
+      "j_between": 0.0,
+      "delta_share": 0.5,
+      "delta_overlap": 0.0
+     },
+     "C09": {
+      "stratum": "CONSUMER",
+      "share_a": 0.5,
+      "share_b": 0.5,
+      "j_within": 0.0,
+      "j_between": 0.08333333333333333,
+      "delta_share": 0.0,
+      "delta_overlap": -0.08333333333333333
+     },
+     "C10": {
+      "stratum": "CONSUMER",
+      "share_a": 0.125,
+      "share_b": 0.0,
+      "j_within": 0.6,
+      "j_between": 0.6333333333333334,
+      "delta_share": 0.125,
+      "delta_overlap": -0.03333333333333344
+     },
+     "G01": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.75,
+      "j_between": 0.25,
+      "delta_share": 0.0,
+      "delta_overlap": 0.5
+     },
+     "G02": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G03": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G04": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G05": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G06": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": NaN,
+      "j_within": 0.0,
+      "j_between": 0.0,
+      "delta_share": NaN,
+      "delta_overlap": 0.0
+     },
+     "G07": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G08": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.6666666666666666,
+      "j_between": 0.6666666666666666,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "G09": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G10": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": NaN,
+      "j_within": 0.0,
+      "j_between": 0.0,
+      "delta_share": NaN,
+      "delta_overlap": 0.0
+     },
+     "L01": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.9,
+      "j_between": 0.8999999999999999,
+      "delta_share": 0.0,
+      "delta_overlap": 1.1102230246251565e-16
+     },
+     "L02": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L03": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L04": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.5,
+      "j_between": 0.20833333333333331,
+      "delta_share": 0.0,
+      "delta_overlap": 0.2916666666666667
+     },
+     "L05": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L06": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.3666666666666667,
+      "j_between": 0.475,
+      "delta_share": 0.0,
+      "delta_overlap": -0.10833333333333328
+     },
+     "L07": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L08": {
+      "stratum": "LOCAL",
+      "share_a": 0.75,
+      "share_b": 1.0,
+      "j_within": 0.25,
+      "j_between": 0.4375,
+      "delta_share": -0.25,
+      "delta_overlap": -0.1875
+     },
+     "L09": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.3333333333333333,
+      "j_between": 0.6666666666666666,
+      "delta_share": 0.0,
+      "delta_overlap": -0.3333333333333333
+     },
+     "L10": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.55,
+      "j_between": 0.6625,
+      "delta_share": 0.0,
+      "delta_overlap": -0.11249999999999993
+     }
+    }
+   },
+   "en": {
+    "delta_share": {
+     "LOCAL": {
+      "n": 10,
+      "median": 0.0,
+      "mean": 0.03261904761904762,
+      "ci95": [
+       -0.037500000000000006,
+       0.1380952380952381
+      ],
+      "wilcoxon_p": 0.46875,
+      "verdict": "no difference beyond noise shown"
+     },
+     "GLOBAL": {
+      "n": 2,
+      "median": 0.0,
+      "mean": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "CONSUMER": {
+      "n": 9,
+      "median": 0.0,
+      "mean": 0.19444444444444445,
+      "ci95": [
+       0.0,
+       0.5
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "ALL": {
+      "n": 21,
+      "median": 0.0,
+      "mean": 0.09886621315192742,
+      "ci95": [
+       0.0,
+       0.125
+      ],
+      "wilcoxon_p": 0.060546875,
+      "verdict": "no difference beyond noise shown"
+     }
+    },
+    "j_within": {
+     "n": 23,
+     "median": 0.41666666666666663,
+     "mean": 0.4956521739130434,
+     "ci95": [
+      0.3333333333333333,
+      0.5
+     ],
+     "wilcoxon_p": 5.8505479729828056e-05,
+     "verdict": "above zero"
+    },
+    "j_between": {
+     "n": 23,
+     "median": 0.45833333333333326,
+     "mean": 0.4086956521739131,
+     "ci95": [
+      0.16666666666666666,
+      0.5
+     ],
+     "wilcoxon_p": 0.00028961940975555253,
+     "verdict": "above zero"
+    },
+    "delta_overlap": {
+     "LOCAL": {
+      "n": 10,
+      "median": 0.0,
+      "mean": 0.039166666666666676,
+      "ci95": [
+       -0.02083333333333337,
+       0.125
+      ],
+      "wilcoxon_p": 0.8125,
+      "verdict": "no difference beyond noise shown"
+     },
+     "GLOBAL": {
+      "n": 3,
+      "median": 0.0,
+      "mean": -0.013888888888888895,
+      "ci95": [
+       -0.041666666666666685,
+       0.0
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "CONSUMER": {
+      "n": 10,
+      "median": 0.125,
+      "mean": 0.16499999999999998,
+      "ci95": [
+       0.0,
+       0.35416666666666663
+      ],
+      "wilcoxon_p": 0.0390625,
+      "verdict": "no difference beyond noise shown"
+     },
+     "ALL": {
+      "n": 23,
+      "median": 0.0,
+      "mean": 0.08695652173913043,
+      "ci95": [
+       0.0,
+       0.08333333333333333
+      ],
+      "wilcoxon_p": 0.038205314290376186,
+      "verdict": "no difference beyond noise shown"
+     }
+    },
+    "per_question": {
+     "C01": {
+      "stratum": "CONSUMER",
+      "share_a": NaN,
+      "share_b": 0.0,
+      "j_within": 0.0,
+      "j_between": 0.0,
+      "delta_share": NaN,
+      "delta_overlap": 0.0
+     },
+     "C02": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.41666666666666663,
+      "j_between": 0.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.41666666666666663
+     },
+     "C03": {
+      "stratum": "CONSUMER",
+      "share_a": 0.5,
+      "share_b": 0.0,
+      "j_within": 0.29166666666666663,
+      "j_between": 0.0,
+      "delta_share": 0.5,
+      "delta_overlap": 0.29166666666666663
+     },
+     "C04": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.25,
+      "j_between": 0.08333333333333333,
+      "delta_share": 0.0,
+      "delta_overlap": 0.16666666666666669
+     },
+     "C05": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.25,
+      "j_between": 0.20833333333333331,
+      "delta_share": 0.0,
+      "delta_overlap": 0.041666666666666685
+     },
+     "C06": {
+      "stratum": "CONSUMER",
+      "share_a": 1.0,
+      "share_b": 0.25,
+      "j_within": 0.3333333333333333,
+      "j_between": 0.0,
+      "delta_share": 0.75,
+      "delta_overlap": 0.3333333333333333
+     },
+     "C07": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.16666666666666666,
+      "j_between": 0.16666666666666666,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "C08": {
+      "stratum": "CONSUMER",
+      "share_a": 0.25,
+      "share_b": 0.0,
+      "j_within": 0.16666666666666666,
+      "j_between": 0.08333333333333333,
+      "delta_share": 0.25,
+      "delta_overlap": 0.08333333333333333
+     },
+     "C09": {
+      "stratum": "CONSUMER",
+      "share_a": 0.25,
+      "share_b": 0.0,
+      "j_within": 0.41666666666666663,
+      "j_between": 0.0,
+      "delta_share": 0.25,
+      "delta_overlap": 0.41666666666666663
+     },
+     "C10": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.325,
+      "j_between": 0.425,
+      "delta_share": 0.0,
+      "delta_overlap": -0.09999999999999998
+     },
+     "G01": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.5,
+      "j_between": 0.5,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "G02": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G03": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G04": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G05": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G06": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": 0.0,
+      "j_within": 0.0,
+      "j_between": 0.0,
+      "delta_share": NaN,
+      "delta_overlap": 0.0
+     },
+     "G07": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G08": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.41666666666666663,
+      "j_between": 0.4583333333333333,
+      "delta_share": 0.0,
+      "delta_overlap": -0.041666666666666685
+     },
+     "G09": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G10": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "L01": {
+      "stratum": "LOCAL",
+      "share_a": 0.8,
+      "share_b": 0.6904761904761905,
+      "j_within": 0.625,
+      "j_between": 0.6625,
+      "delta_share": 0.10952380952380958,
+      "delta_overlap": -0.03749999999999998
+     },
+     "L02": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.75,
+      "j_between": 0.75,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L03": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L04": {
+      "stratum": "LOCAL",
+      "share_a": 0.0,
+      "share_b": 0.5,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": -0.5,
+      "delta_overlap": 0.0
+     },
+     "L05": {
+      "stratum": "LOCAL",
+      "share_a": 0.8333333333333333,
+      "share_b": 0.6666666666666666,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.16666666666666663,
+      "delta_overlap": 0.0
+     },
+     "L06": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.45,
+      "j_between": 0.5416666666666666,
+      "delta_share": 0.0,
+      "delta_overlap": -0.09166666666666662
+     },
+     "L07": {
+      "stratum": "LOCAL",
+      "share_a": 0.5,
+      "share_b": 0.0,
+      "j_within": 0.75,
+      "j_between": 0.75,
+      "delta_share": 0.5,
+      "delta_overlap": 0.0
+     },
+     "L08": {
+      "stratum": "LOCAL",
+      "share_a": 0.125,
+      "share_b": 0.2,
+      "j_within": 0.8333333333333333,
+      "j_between": 0.5833333333333333,
+      "delta_share": -0.07500000000000001,
+      "delta_overlap": 0.25
+     },
+     "L09": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 0.875,
+      "j_within": 0.7083333333333333,
+      "j_between": 0.7291666666666666,
+      "delta_share": 0.125,
+      "delta_overlap": -0.02083333333333337
+     },
+     "L10": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.75,
+      "j_between": 0.45833333333333326,
+      "delta_share": 0.0,
+      "delta_overlap": 0.29166666666666674
+     }
+    }
+   }
+  },
+  "C2_path_chatgpt": {
+   "a": "amend:openai-noloc",
+   "b": "amend:or-openai",
+   "pl": {
+    "delta_share": {
+     "LOCAL": {
+      "n": 10,
+      "median": 0.0,
+      "mean": 0.016666666666666673,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "GLOBAL": {
+      "n": 2,
+      "median": 0.0,
+      "mean": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "CONSUMER": {
+      "n": 10,
+      "median": 0.0,
+      "mean": -0.075,
+      "ci95": [
+       -0.25,
+       0.125
+      ],
+      "wilcoxon_p": 0.75,
+      "verdict": "no difference beyond noise shown"
+     },
+     "ALL": {
+      "n": 22,
+      "median": 0.0,
+      "mean": -0.026515151515151512,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": 0.75,
+      "verdict": "no difference beyond noise shown"
+     }
+    },
+    "j_within": {
+     "n": 23,
+     "median": 0.4583333333333333,
+     "mean": 0.511231884057971,
+     "ci95": [
+      0.41666666666666663,
+      0.75
+     ],
+     "wilcoxon_p": 0.00012794526507976144,
+     "verdict": "above zero"
+    },
+    "j_between": {
+     "n": 23,
+     "median": 0.5,
+     "mean": 0.4985507246376812,
+     "ci95": [
+      0.375,
+      0.6625
+     ],
+     "wilcoxon_p": 5.880805693529146e-05,
+     "verdict": "above zero"
+    },
+    "delta_overlap": {
+     "LOCAL": {
+      "n": 10,
+      "median": 0.0,
+      "mean": -0.05833333333333333,
+      "ci95": [
+       -0.13958333333333328,
+       0.0
+      ],
+      "wilcoxon_p": 0.125,
+      "verdict": "no difference beyond noise shown"
+     },
+     "GLOBAL": {
+      "n": 3,
+      "median": 0.0,
+      "mean": 0.2638888888888889,
+      "ci95": [
+       -0.20833333333333334,
+       1.0
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "CONSUMER": {
+      "n": 10,
+      "median": -0.0625,
+      "mean": 0.008333333333333335,
+      "ci95": [
+       -0.16666666666666666,
+       0.16666666666666663
+      ],
+      "wilcoxon_p": 0.890625,
+      "verdict": "no difference beyond noise shown"
+     },
+     "ALL": {
+      "n": 23,
+      "median": 0.0,
+      "mean": 0.012681159420289858,
+      "ci95": [
+       -0.125,
+       0.0
+      ],
+      "wilcoxon_p": 0.43239912200253783,
+      "verdict": "no difference beyond noise shown"
+     }
+    },
+    "per_question": {
+     "C01": {
+      "stratum": "CONSUMER",
+      "share_a": 0.5,
+      "share_b": 0.25,
+      "j_within": 0.0,
+      "j_between": 0.16666666666666666,
+      "delta_share": 0.25,
+      "delta_overlap": -0.16666666666666666
+     },
+     "C02": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.41666666666666663,
+      "j_between": 0.41666666666666663,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "C03": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.75,
+      "j_within": 0.75,
+      "j_between": 0.16666666666666666,
+      "delta_share": -0.75,
+      "delta_overlap": 0.5833333333333334
+     },
+     "C04": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.8333333333333333,
+      "j_between": 0.5,
+      "delta_share": 0.0,
+      "delta_overlap": 0.33333333333333326
+     },
+     "C05": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.125,
+      "j_between": 0.25,
+      "delta_share": 0.0,
+      "delta_overlap": -0.125
+     },
+     "C06": {
+      "stratum": "CONSUMER",
+      "share_a": 0.25,
+      "share_b": 0.5,
+      "j_within": 0.0,
+      "j_between": 0.0,
+      "delta_share": -0.25,
+      "delta_overlap": 0.0
+     },
+     "C07": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.125,
+      "j_between": 0.375,
+      "delta_share": 0.0,
+      "delta_overlap": -0.25
+     },
+     "C08": {
+      "stratum": "CONSUMER",
+      "share_a": 0.25,
+      "share_b": 0.5,
+      "j_within": 0.0,
+      "j_between": 0.125,
+      "delta_share": -0.25,
+      "delta_overlap": -0.125
+     },
+     "C09": {
+      "stratum": "CONSUMER",
+      "share_a": 0.5,
+      "share_b": 0.25,
+      "j_within": 0.0,
+      "j_between": 0.16666666666666666,
+      "delta_share": 0.25,
+      "delta_overlap": -0.16666666666666666
+     },
+     "C10": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.675,
+      "j_between": 0.675,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "G01": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.75,
+      "j_between": 0.75,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "G02": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G03": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G04": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G05": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G06": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 0.0,
+      "delta_share": NaN,
+      "delta_overlap": 1.0
+     },
+     "G07": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G08": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.16666666666666666,
+      "j_between": 0.375,
+      "delta_share": 0.0,
+      "delta_overlap": -0.20833333333333334
+     },
+     "G09": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G10": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "L01": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.875,
+      "j_between": 0.875,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L02": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.75,
+      "j_between": 0.75,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L03": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L04": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.41666666666666663,
+      "j_between": 0.5833333333333333,
+      "delta_share": 0.0,
+      "delta_overlap": -0.16666666666666663
+     },
+     "L05": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L06": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.45,
+      "j_between": 0.5666666666666667,
+      "delta_share": 0.0,
+      "delta_overlap": -0.11666666666666664
+     },
+     "L07": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L08": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 0.8333333333333333,
+      "j_within": 0.4583333333333333,
+      "j_between": 0.4375,
+      "delta_share": 0.16666666666666674,
+      "delta_overlap": 0.020833333333333315
+     },
+     "L09": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.41666666666666663,
+      "j_between": 0.625,
+      "delta_share": 0.0,
+      "delta_overlap": -0.20833333333333337
+     },
+     "L10": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.55,
+      "j_between": 0.6625,
+      "delta_share": 0.0,
+      "delta_overlap": -0.11249999999999993
+     }
+    }
+   },
+   "en": {
+    "delta_share": {
+     "LOCAL": {
+      "n": 10,
+      "median": 0.0,
+      "mean": 0.0682142857142857,
+      "ci95": [
+       -0.05059523809523814,
+       0.2
+      ],
+      "wilcoxon_p": 0.46875,
+      "verdict": "no difference beyond noise shown"
+     },
+     "GLOBAL": {
+      "n": 3,
+      "median": 0.0,
+      "mean": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "CONSUMER": {
+      "n": 10,
+      "median": 0.0,
+      "mean": 0.025,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "ALL": {
+      "n": 23,
+      "median": 0.0,
+      "mean": 0.040527950310558995,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": 0.265625,
+      "verdict": "no difference beyond noise shown"
+     }
+    },
+    "j_within": {
+     "n": 23,
+     "median": 0.5333333333333333,
+     "mean": 0.5246376811594201,
+     "ci95": [
+      0.41666666666666663,
+      0.6666666666666666
+     ],
+     "wilcoxon_p": 8.633748926134027e-05,
+     "verdict": "above zero"
+    },
+    "j_between": {
+     "n": 23,
+     "median": 0.5833333333333333,
+     "mean": 0.5480072463768115,
+     "ci95": [
+      0.3708333333333333,
+      0.6625
+     ],
+     "wilcoxon_p": 2.6641811803710322e-05,
+     "verdict": "above zero"
+    },
+    "delta_overlap": {
+     "LOCAL": {
+      "n": 10,
+      "median": 0.0,
+      "mean": 0.07041666666666668,
+      "ci95": [
+       0.0,
+       0.17083333333333334
+      ],
+      "wilcoxon_p": 0.1875,
+      "verdict": "no difference beyond noise shown"
+     },
+     "GLOBAL": {
+      "n": 3,
+      "median": -0.16666666666666674,
+      "mean": -0.16666666666666666,
+      "ci95": [
+       -0.3333333333333333,
+       0.0
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "CONSUMER": {
+      "n": 10,
+      "median": -0.07916666666666668,
+      "mean": -0.07416666666666666,
+      "ci95": [
+       -0.16666666666666666,
+       0.020833333333333343
+      ],
+      "wilcoxon_p": 0.0859375,
+      "verdict": "no difference beyond noise shown"
+     },
+     "ALL": {
+      "n": 23,
+      "median": 0.0,
+      "mean": -0.023369565217391298,
+      "ci95": [
+       -0.025000000000000022,
+       0.0
+      ],
+      "wilcoxon_p": 0.47755610290481443,
+      "verdict": "no difference beyond noise shown"
+     }
+    },
+    "per_question": {
+     "C01": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.0,
+      "j_between": 0.16666666666666666,
+      "delta_share": 0.0,
+      "delta_overlap": -0.16666666666666666
+     },
+     "C02": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.41666666666666663,
+      "j_between": 0.25,
+      "delta_share": 0.0,
+      "delta_overlap": 0.16666666666666663
+     },
+     "C03": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.6666666666666666,
+      "j_between": 0.6666666666666666,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "C04": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.0,
+      "j_between": 0.29166666666666663,
+      "delta_share": 0.0,
+      "delta_overlap": -0.29166666666666663
+     },
+     "C05": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.41666666666666663,
+      "j_between": 0.5833333333333333,
+      "delta_share": 0.0,
+      "delta_overlap": -0.16666666666666663
+     },
+     "C06": {
+      "stratum": "CONSUMER",
+      "share_a": 0.25,
+      "share_b": 0.0,
+      "j_within": 0.125,
+      "j_between": 0.19583333333333333,
+      "delta_share": 0.25,
+      "delta_overlap": -0.07083333333333333
+     },
+     "C07": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.3333333333333333,
+      "j_between": 0.3333333333333333,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "C08": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.16666666666666666,
+      "j_between": 0.3333333333333333,
+      "delta_share": 0.0,
+      "delta_overlap": -0.16666666666666666
+     },
+     "C09": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.41666666666666663,
+      "j_between": 0.37499999999999994,
+      "delta_share": 0.0,
+      "delta_overlap": 0.041666666666666685
+     },
+     "C10": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.575,
+      "j_between": 0.6625,
+      "delta_share": 0.0,
+      "delta_overlap": -0.08750000000000002
+     },
+     "G01": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.5,
+      "j_between": 0.5,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "G02": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G03": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G04": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G05": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G06": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.0,
+      "j_between": 0.3333333333333333,
+      "delta_share": 0.0,
+      "delta_overlap": -0.3333333333333333
+     },
+     "G07": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G08": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.41666666666666663,
+      "j_between": 0.5833333333333334,
+      "delta_share": 0.0,
+      "delta_overlap": -0.16666666666666674
+     },
+     "G09": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G10": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "L01": {
+      "stratum": "LOCAL",
+      "share_a": 0.6904761904761905,
+      "share_b": 0.7916666666666667,
+      "j_within": 0.75,
+      "j_between": 0.775,
+      "delta_share": -0.10119047619047628,
+      "delta_overlap": -0.025000000000000022
+     },
+     "L02": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.75,
+      "j_between": 0.75,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L03": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L04": {
+      "stratum": "LOCAL",
+      "share_a": 0.5,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.5,
+      "delta_overlap": 0.0
+     },
+     "L05": {
+      "stratum": "LOCAL",
+      "share_a": 0.6666666666666666,
+      "share_b": 0.43333333333333335,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.23333333333333328,
+      "delta_overlap": 0.0
+     },
+     "L06": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 0.875,
+      "j_within": 0.5333333333333333,
+      "j_between": 0.5166666666666666,
+      "delta_share": 0.125,
+      "delta_overlap": 0.01666666666666672
+     },
+     "L07": {
+      "stratum": "LOCAL",
+      "share_a": 0.0,
+      "share_b": 0.25,
+      "j_within": 0.75,
+      "j_between": 0.75,
+      "delta_share": -0.25,
+      "delta_overlap": 0.0
+     },
+     "L08": {
+      "stratum": "LOCAL",
+      "share_a": 0.2,
+      "share_b": 0.0,
+      "j_within": 0.8333333333333333,
+      "j_between": 0.5833333333333333,
+      "delta_share": 0.2,
+      "delta_overlap": 0.25
+     },
+     "L09": {
+      "stratum": "LOCAL",
+      "share_a": 0.875,
+      "share_b": 0.9,
+      "j_within": 0.5416666666666666,
+      "j_between": 0.3708333333333333,
+      "delta_share": -0.025000000000000022,
+      "delta_overlap": 0.17083333333333334
+     },
+     "L10": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.875,
+      "j_between": 0.5833333333333333,
+      "delta_share": 0.0,
+      "delta_overlap": 0.29166666666666674
+     }
+    }
+   }
+  },
+  "C3_location_perplexity": {
+   "a": "amend:or-pplx",
+   "b": "amend:or-pplx-noloc",
+   "pl": {
+    "delta_share": {
+     "LOCAL": {
+      "n": 10,
+      "median": 0.0,
+      "mean": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "GLOBAL": {
+      "n": 10,
+      "median": 0.0,
+      "mean": 0.0068433199683199716,
+      "ci95": [
+       -0.00015840015840018484,
+       0.012500000000000011
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "CONSUMER": {
+      "n": 10,
+      "median": 0.0,
+      "mean": -0.0035378557492811826,
+      "ci95": [
+       -0.007246376811594235,
+       0.0
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "ALL": {
+      "n": 30,
+      "median": 0.0,
+      "mean": 0.001101821406346263,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": 0.9375,
+      "verdict": "no difference beyond noise shown"
+     }
+    },
+    "j_within": {
+     "n": 30,
+     "median": 0.9409722222222222,
+     "mean": 0.9032563208455685,
+     "ci95": [
+      0.8976190476190476,
+      1.0
+     ],
+     "wilcoxon_p": 1.373306375104111e-06,
+     "verdict": "above zero"
+    },
+    "j_between": {
+     "n": 30,
+     "median": 0.9677083333333334,
+     "mean": 0.9352865669360485,
+     "ci95": [
+      0.9372549019607843,
+      1.0
+     ],
+     "wilcoxon_p": 1.373306375104111e-06,
+     "verdict": "above zero"
+    },
+    "delta_overlap": {
+     "LOCAL": {
+      "n": 10,
+      "median": 0.0,
+      "mean": -0.007878787878787884,
+      "ci95": [
+       -0.016666666666666663,
+       0.0
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "GLOBAL": {
+      "n": 10,
+      "median": -0.013888888888888895,
+      "mean": -0.025864473246052178,
+      "ci95": [
+       -0.05397727272727271,
+       0.0
+      ],
+      "wilcoxon_p": 0.0625,
+      "verdict": "no difference beyond noise shown"
+     },
+     "CONSUMER": {
+      "n": 10,
+      "median": -0.044564852150537626,
+      "mean": -0.06234747714660037,
+      "ci95": [
+       -0.07986542443064182,
+       -0.02941176470588236
+      ],
+      "wilcoxon_p": 0.00390625,
+      "verdict": "below zero"
+     },
+     "ALL": {
+      "n": 30,
+      "median": -0.02777777777777779,
+      "mean": -0.03203024609048014,
+      "ci95": [
+       -0.03939393939393937,
+       0.0
+      ],
+      "wilcoxon_p": 0.0004358423668112834,
+      "verdict": "no difference beyond noise shown"
+     }
+    },
+    "per_question": {
+     "C01": {
+      "stratum": "CONSUMER",
+      "share_a": 0.6428571428571428,
+      "share_b": 0.6573498964803313,
+      "j_within": 0.7260869565217392,
+      "j_between": 0.805952380952381,
+      "delta_share": -0.01449275362318847,
+      "delta_overlap": -0.07986542443064182
+     },
+     "C02": {
+      "stratum": "CONSUMER",
+      "share_a": 0.8255360623781676,
+      "share_b": 0.8432494279176201,
+      "j_within": 0.5012531328320802,
+      "j_between": 0.70062656641604,
+      "delta_share": -0.017713365539452575,
+      "delta_overlap": -0.19937343358395987
+     },
+     "C03": {
+      "stratum": "CONSUMER",
+      "share_a": 0.857358870967742,
+      "share_b": 0.8605313092979128,
+      "j_within": 0.7078598484848485,
+      "j_between": 0.7636562194525904,
+      "delta_share": -0.0031724383301707793,
+      "delta_overlap": -0.055796370967741926
+     },
+     "C04": {
+      "stratum": "CONSUMER",
+      "share_a": 0.675,
+      "share_b": 0.675,
+      "j_within": 0.9375,
+      "j_between": 0.96875,
+      "delta_share": 0.0,
+      "delta_overlap": -0.03125
+     },
+     "C05": {
+      "stratum": "CONSUMER",
+      "share_a": 0.9473684210526315,
+      "share_b": 0.9473684210526315,
+      "j_within": 0.8666666666666667,
+      "j_between": 0.9333333333333333,
+      "delta_share": 0.0,
+      "delta_overlap": -0.06666666666666665
+     },
+     "C06": {
+      "stratum": "CONSUMER",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "C07": {
+      "stratum": "CONSUMER",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.9444444444444444,
+      "j_between": 0.9722222222222222,
+      "delta_share": 0.0,
+      "delta_overlap": -0.02777777777777779
+     },
+     "C08": {
+      "stratum": "CONSUMER",
+      "share_a": 0.9,
+      "share_b": 0.9,
+      "j_within": 0.9117647058823529,
+      "j_between": 0.9411764705882353,
+      "delta_share": 0.0,
+      "delta_overlap": -0.02941176470588236
+     },
+     "C09": {
+      "stratum": "CONSUMER",
+      "share_a": 0.9473684210526315,
+      "share_b": 0.9473684210526315,
+      "j_within": 0.8,
+      "j_between": 0.9,
+      "delta_share": 0.0,
+      "delta_overlap": -0.09999999999999998
+     },
+     "C10": {
+      "stratum": "CONSUMER",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.9333333333333333,
+      "j_between": 0.9666666666666667,
+      "delta_share": 0.0,
+      "delta_overlap": -0.033333333333333326
+     },
+     "G01": {
+      "stratum": "GLOBAL",
+      "share_a": 0.9444444444444444,
+      "share_b": 0.9444444444444444,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "G02": {
+      "stratum": "GLOBAL",
+      "share_a": 0.9473684210526315,
+      "share_b": 0.9473684210526315,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "G03": {
+      "stratum": "GLOBAL",
+      "share_a": 0.975,
+      "share_b": 0.95,
+      "j_within": 0.9473684210526316,
+      "j_between": 0.9473684210526316,
+      "delta_share": 0.025000000000000022,
+      "delta_overlap": 0.0
+     },
+     "G04": {
+      "stratum": "GLOBAL",
+      "share_a": 0.9150326797385621,
+      "share_b": 0.9150326797385621,
+      "j_within": 0.8614718614718615,
+      "j_between": 0.9069264069264069,
+      "delta_share": 0.0,
+      "delta_overlap": -0.045454545454545414
+     },
+     "G05": {
+      "stratum": "GLOBAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "G06": {
+      "stratum": "GLOBAL",
+      "share_a": 0.7043010752688172,
+      "share_b": 0.7209677419354839,
+      "j_within": 0.7894736842105263,
+      "j_between": 0.8421052631578947,
+      "delta_share": -0.016666666666666607,
+      "delta_overlap": -0.05263157894736836
+     },
+     "G07": {
+      "stratum": "GLOBAL",
+      "share_a": 0.8947368421052632,
+      "share_b": 0.8947368421052632,
+      "j_within": 0.875,
+      "j_between": 0.9375,
+      "delta_share": 0.0,
+      "delta_overlap": -0.0625
+     },
+     "G08": {
+      "stratum": "GLOBAL",
+      "share_a": 0.9333333333333333,
+      "share_b": 0.8729166666666667,
+      "j_within": 0.7063492063492063,
+      "j_between": 0.7341269841269841,
+      "delta_share": 0.060416666666666674,
+      "delta_overlap": -0.02777777777777779
+     },
+     "G09": {
+      "stratum": "GLOBAL",
+      "share_a": 0.8915750915750915,
+      "share_b": 0.8918918918918919,
+      "j_within": 0.7824074074074074,
+      "j_between": 0.8526882376882376,
+      "delta_share": -0.0003168003168003697,
+      "delta_overlap": -0.07028083028083021
+     },
+     "G10": {
+      "stratum": "GLOBAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L01": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L02": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L03": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.9090909090909091,
+      "j_between": 0.9545454545454546,
+      "delta_share": 0.0,
+      "delta_overlap": -0.045454545454545525
+     },
+     "L04": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L05": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.8976190476190476,
+      "j_between": 0.930952380952381,
+      "delta_share": 0.0,
+      "delta_overlap": -0.033333333333333326
+     },
+     "L06": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L07": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L08": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L09": {
+      "stratum": "LOCAL",
+      "share_a": 0.9473684210526315,
+      "share_b": 0.9473684210526315,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L10": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     }
+    }
+   },
+   "en": {
+    "delta_share": {
+     "LOCAL": {
+      "n": 10,
+      "median": 0.0,
+      "mean": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "GLOBAL": {
+      "n": 10,
+      "median": 0.0,
+      "mean": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "CONSUMER": {
+      "n": 10,
+      "median": 0.0,
+      "mean": -0.000529100529100529,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "ALL": {
+      "n": 30,
+      "median": 0.0,
+      "mean": -0.00017636684303350968,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     }
+    },
+    "j_within": {
+     "n": 30,
+     "median": 1.0,
+     "mean": 0.9356688348836518,
+     "ci95": [
+      0.9583333333333334,
+      1.0
+     ],
+     "wilcoxon_p": 8.08568558861949e-07,
+     "verdict": "above zero"
+    },
+    "j_between": {
+     "n": 30,
+     "median": 1.0,
+     "mean": 0.9457185577580314,
+     "ci95": [
+      0.9791666666666667,
+      1.0
+     ],
+     "wilcoxon_p": 8.08568558861949e-07,
+     "verdict": "above zero"
+    },
+    "delta_overlap": {
+     "LOCAL": {
+      "n": 10,
+      "median": 0.0,
+      "mean": -0.002083333333333326,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "GLOBAL": {
+      "n": 10,
+      "median": 0.0,
+      "mean": -0.003571428571428581,
+      "ci95": [
+       -5.551115123125783e-17,
+       0.0
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "CONSUMER": {
+      "n": 10,
+      "median": -0.011458333333333348,
+      "mean": -0.024494406718376972,
+      "ci95": [
+       -0.05555555555555558,
+       0.0
+      ],
+      "wilcoxon_p": 0.0625,
+      "verdict": "no difference beyond noise shown"
+     },
+     "ALL": {
+      "n": 30,
+      "median": 0.0,
+      "mean": -0.010049722874379627,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": 0.01171875,
+      "verdict": "no difference beyond noise shown"
+     }
+    },
+    "per_question": {
+     "C01": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.7118055555555556,
+      "j_between": 0.7347222222222223,
+      "delta_share": 0.0,
+      "delta_overlap": -0.022916666666666696
+     },
+     "C02": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "C03": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "C04": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.8888888888888888,
+      "j_between": 0.9444444444444444,
+      "delta_share": 0.0,
+      "delta_overlap": -0.05555555555555558
+     },
+     "C05": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.9545454545454546,
+      "j_between": 0.9545454545454546,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "C06": {
+      "stratum": "CONSUMER",
+      "share_a": 0.039351851851851846,
+      "share_b": 0.04464285714285714,
+      "j_within": 0.6877470355731226,
+      "j_between": 0.7529761904761905,
+      "delta_share": -0.005291005291005291,
+      "delta_overlap": -0.06522915490306791
+     },
+     "C07": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "C08": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.7280701754385965,
+      "j_between": 0.7737573099415205,
+      "delta_share": 0.0,
+      "delta_overlap": -0.04568713450292394
+     },
+     "C09": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "C10": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.8888888888888888,
+      "j_between": 0.9444444444444444,
+      "delta_share": 0.0,
+      "delta_overlap": -0.05555555555555558
+     },
+     "G01": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "G02": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.6,
+      "j_between": 0.6000000000000001,
+      "delta_share": 0.0,
+      "delta_overlap": -1.1102230246251565e-16
+     },
+     "G03": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "G04": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.9285714285714286,
+      "j_between": 0.9642857142857143,
+      "delta_share": 0.0,
+      "delta_overlap": -0.0357142857142857
+     },
+     "G05": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "G06": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "G07": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "G08": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "G09": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "G10": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.9375,
+      "j_between": 0.9375,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L01": {
+      "stratum": "LOCAL",
+      "share_a": 0.0625,
+      "share_b": 0.0625,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L02": {
+      "stratum": "LOCAL",
+      "share_a": 0.0625,
+      "share_b": 0.0625,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L03": {
+      "stratum": "LOCAL",
+      "share_a": 0.125,
+      "share_b": 0.125,
+      "j_within": 0.7857142857142857,
+      "j_between": 0.7857142857142856,
+      "delta_share": 0.0,
+      "delta_overlap": 1.1102230246251565e-16
+     },
+     "L04": {
+      "stratum": "LOCAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L05": {
+      "stratum": "LOCAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L06": {
+      "stratum": "LOCAL",
+      "share_a": 0.13333333333333333,
+      "share_b": 0.13333333333333333,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L07": {
+      "stratum": "LOCAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L08": {
+      "stratum": "LOCAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L09": {
+      "stratum": "LOCAL",
+      "share_a": 0.38461538461538464,
+      "share_b": 0.38461538461538464,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L10": {
+      "stratum": "LOCAL",
+      "share_a": 0.0722689075630252,
+      "share_b": 0.0722689075630252,
+      "j_within": 0.9583333333333334,
+      "j_between": 0.9791666666666667,
+      "delta_share": 0.0,
+      "delta_overlap": -0.02083333333333337
+     }
+    }
+   }
+  },
+  "T1_day_perplexity": {
+   "a": "main:or-pplx",
+   "b": "amend:or-pplx",
+   "pl": {
+    "delta_share": {
+     "LOCAL": {
+      "n": 10,
+      "median": 0.0,
+      "mean": -0.00029239766081871064,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "GLOBAL": {
+      "n": 10,
+      "median": 0.0,
+      "mean": -0.015351295156674027,
+      "ci95": [
+       -0.012500000000000011,
+       0.025466837572100776
+      ],
+      "wilcoxon_p": 0.6875,
+      "verdict": "no difference beyond noise shown"
+     },
+     "CONSUMER": {
+      "n": 10,
+      "median": 0.0,
+      "mean": -0.022912497063986216,
+      "ci95": [
+       -0.0610429842419109,
+       0.003101449275362378
+      ],
+      "wilcoxon_p": 0.21875,
+      "verdict": "no difference beyond noise shown"
+     },
+     "ALL": {
+      "n": 30,
+      "median": 0.0,
+      "mean": -0.012852063293826318,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": 0.414306640625,
+      "verdict": "no difference beyond noise shown"
+     }
+    },
+    "j_within": {
+     "n": 30,
+     "median": 0.9336564171122994,
+     "mean": 0.9100348837899904,
+     "ci95": [
+      0.9188417791358967,
+      0.9515151515151515
+     ],
+     "wilcoxon_p": 1.6741785256701667e-06,
+     "verdict": "above zero"
+    },
+    "j_between": {
+     "n": 30,
+     "median": 0.8219413919413919,
+     "mean": 0.7834110209629256,
+     "ci95": [
+      0.756065730330703,
+      0.8871428571428572
+     ],
+     "wilcoxon_p": 1.7300371292901247e-06,
+     "verdict": "above zero"
+    },
+    "delta_overlap": {
+     "LOCAL": {
+      "n": 10,
+      "median": 0.1574242424242424,
+      "mean": 0.12094464151416022,
+      "ci95": [
+       0.005785123966942085,
+       0.2142857142857143
+      ],
+      "wilcoxon_p": 0.01171875,
+      "verdict": "above zero"
+     },
+     "GLOBAL": {
+      "n": 10,
+      "median": 0.04710644739768932,
+      "mean": 0.12879052398404633,
+      "ci95": [
+       0.005681818181818232,
+       0.19465450308087284
+      ],
+      "wilcoxon_p": 0.01171875,
+      "verdict": "above zero"
+     },
+     "CONSUMER": {
+      "n": 10,
+      "median": 0.0671027033087569,
+      "mean": 0.1301364229829875,
+      "ci95": [
+       0.020288777266805558,
+       0.1494097710854677
+      ],
+      "wilcoxon_p": 0.0078125,
+      "verdict": "above zero"
+     },
+     "ALL": {
+      "n": 30,
+      "median": 0.07748149118754477,
+      "mean": 0.1266238628270647,
+      "ci95": [
+       0.03337662337662345,
+       0.13199953772445178
+      ],
+      "wilcoxon_p": 3.769993782043457e-06,
+      "verdict": "above zero"
+     }
+    },
+    "per_question": {
+     "C01": {
+      "stratum": "CONSUMER",
+      "share_a": 0.6490600414078675,
+      "share_b": 0.6428571428571428,
+      "j_within": 0.7477050063174466,
+      "j_between": 0.7599931647300068,
+      "delta_share": 0.006202898550724756,
+      "delta_overlap": -0.012288158412560146
+     },
+     "C02": {
+      "stratum": "CONSUMER",
+      "share_a": 0.7644930781362567,
+      "share_b": 0.8255360623781676,
+      "j_within": 0.7099887086227472,
+      "j_between": 0.5608381180223285,
+      "delta_share": -0.0610429842419109,
+      "delta_overlap": 0.1491505906004187
+     },
+     "C03": {
+      "stratum": "CONSUMER",
+      "share_a": 0.7668440931049627,
+      "share_b": 0.857358870967742,
+      "j_within": 0.8248371177570781,
+      "j_between": 0.1492334617547323,
+      "delta_share": -0.09051477786277928,
+      "delta_overlap": 0.6756036560023458
+     },
+     "C04": {
+      "stratum": "CONSUMER",
+      "share_a": 0.572,
+      "share_b": 0.675,
+      "j_within": 0.6711470125240179,
+      "j_between": 0.6508582352572123,
+      "delta_share": -0.10300000000000009,
+      "delta_overlap": 0.020288777266805558
+     },
+     "C05": {
+      "stratum": "CONSUMER",
+      "share_a": 0.9473684210526315,
+      "share_b": 0.9473684210526315,
+      "j_within": 0.9393939393939394,
+      "j_between": 0.8800000000000001,
+      "delta_share": 0.0,
+      "delta_overlap": 0.05939393939393933
+     },
+     "C06": {
+      "stratum": "CONSUMER",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "C07": {
+      "stratum": "CONSUMER",
+      "share_a": 0.9718614718614719,
+      "share_b": 1.0,
+      "j_within": 0.8166102989537564,
+      "j_between": 0.7417988317301819,
+      "delta_share": -0.02813852813852813,
+      "delta_overlap": 0.07481146722357446
+     },
+     "C08": {
+      "stratum": "CONSUMER",
+      "share_a": 0.9473684210526315,
+      "share_b": 0.9,
+      "j_within": 0.9354946524064172,
+      "j_between": 0.7168266253869968,
+      "delta_share": 0.047368421052631504,
+      "delta_overlap": 0.21866802701942034
+     },
+     "C09": {
+      "stratum": "CONSUMER",
+      "share_a": 0.9473684210526315,
+      "share_b": 0.9473684210526315,
+      "j_within": 0.92987012987013,
+      "j_between": 0.8942857142857144,
+      "delta_share": 0.0,
+      "delta_overlap": 0.03558441558441561
+     },
+     "C10": {
+      "stratum": "CONSUMER",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.9484848484848485,
+      "j_between": 0.8683333333333334,
+      "delta_share": 0.0,
+      "delta_overlap": 0.08015151515151508
+     },
+     "G01": {
+      "stratum": "GLOBAL",
+      "share_a": 0.9444444444444444,
+      "share_b": 0.9444444444444444,
+      "j_within": 0.9740259740259741,
+      "j_between": 0.9428571428571428,
+      "delta_share": 0.0,
+      "delta_overlap": 0.03116883116883129
+     },
+     "G02": {
+      "stratum": "GLOBAL",
+      "share_a": 1.0,
+      "share_b": 0.9473684210526315,
+      "j_within": 0.9318181818181818,
+      "j_between": 0.95,
+      "delta_share": 0.052631578947368474,
+      "delta_overlap": -0.018181818181818188
+     },
+     "G03": {
+      "stratum": "GLOBAL",
+      "share_a": 0.95,
+      "share_b": 0.975,
+      "j_within": 0.9904306220095694,
+      "j_between": 0.9473684210526316,
+      "delta_share": -0.025000000000000022,
+      "delta_overlap": 0.0430622009569378
+     },
+     "G04": {
+      "stratum": "GLOBAL",
+      "share_a": 0.9424836601307189,
+      "share_b": 0.9150326797385621,
+      "j_within": 0.8976780794962614,
+      "j_between": 0.8465273856578206,
+      "delta_share": 0.027450980392156876,
+      "delta_overlap": 0.05115069383844084
+     },
+     "G05": {
+      "stratum": "GLOBAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.922077922077922,
+      "j_between": 0.8076190476190476,
+      "delta_share": 0.0,
+      "delta_overlap": 0.11445887445887448
+     },
+     "G06": {
+      "stratum": "GLOBAL",
+      "share_a": 0.7112643678160919,
+      "share_b": 0.7043010752688172,
+      "j_within": 0.845440046396984,
+      "j_between": 0.5446143832013398,
+      "delta_share": 0.00696329254727468,
+      "delta_overlap": 0.3008256631956442
+     },
+     "G07": {
+      "stratum": "GLOBAL",
+      "share_a": 0.8947368421052632,
+      "share_b": 0.8947368421052632,
+      "j_within": 0.9431818181818182,
+      "j_between": 0.9375,
+      "delta_share": 0.0,
+      "delta_overlap": 0.005681818181818232
+     },
+     "G08": {
+      "stratum": "GLOBAL",
+      "share_a": 0.6923076923076923,
+      "share_b": 0.9333333333333333,
+      "j_within": 0.9217171717171717,
+      "j_between": 0.2504615384615385,
+      "delta_share": -0.24102564102564106,
+      "delta_overlap": 0.6712556332556332
+     },
+     "G09": {
+      "stratum": "GLOBAL",
+      "share_a": 0.9170419291471923,
+      "share_b": 0.8915750915750915,
+      "j_within": 0.8406216388975009,
+      "j_between": 0.7521382959313994,
+      "delta_share": 0.025466837572100776,
+      "delta_overlap": 0.0884833429661015
+     },
+     "G10": {
+      "stratum": "GLOBAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L01": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.9515151515151515,
+      "j_between": 0.8366666666666667,
+      "delta_share": 0.0,
+      "delta_overlap": 0.11484848484848487
+     },
+     "L02": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 0.7777777777777778,
+      "delta_share": 0.0,
+      "delta_overlap": 0.2222222222222222
+     },
+     "L03": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.9269972451790632,
+      "j_between": 0.9212121212121211,
+      "delta_share": 0.0,
+      "delta_overlap": 0.005785123966942085
+     },
+     "L04": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L05": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.9159663865546218,
+      "j_between": 0.7112745098039216,
+      "delta_share": 0.0,
+      "delta_overlap": 0.20469187675070022
+     },
+     "L06": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 0.7857142857142857,
+      "delta_share": 0.0,
+      "delta_overlap": 0.2142857142857143
+     },
+     "L07": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 0.909090909090909,
+      "delta_share": 0.0,
+      "delta_overlap": 0.09090909090909105
+     },
+     "L08": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.9545454545454546,
+      "j_between": 0.7230769230769231,
+      "delta_share": 0.0,
+      "delta_overlap": 0.23146853146853152
+     },
+     "L09": {
+      "stratum": "LOCAL",
+      "share_a": 0.9444444444444444,
+      "share_b": 0.9473684210526315,
+      "j_within": 1.0,
+      "j_between": 0.8,
+      "delta_share": -0.0029239766081871066,
+      "delta_overlap": 0.19999999999999996
+     },
+     "L10": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.7614991069536523,
+      "j_between": 0.8362637362637363,
+      "delta_share": 0.0,
+      "delta_overlap": -0.07476462931008399
+     }
+    }
+   },
+   "en": {
+    "delta_share": {
+     "LOCAL": {
+      "n": 10,
+      "median": 0.0,
+      "mean": 0.017559003457011047,
+      "ci95": [
+       0.0,
+       0.04268710416718008
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "GLOBAL": {
+      "n": 10,
+      "median": 0.0,
+      "mean": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "CONSUMER": {
+      "n": 10,
+      "median": 0.0,
+      "mean": 0.0005049428027688902,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "ALL": {
+      "n": 30,
+      "median": 0.0,
+      "mean": 0.006021315419926646,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     }
+    },
+    "j_within": {
+     "n": 30,
+     "median": 0.9791666666666666,
+     "mean": 0.9379640742262295,
+     "ci95": [
+      0.9504132231404959,
+      1.0
+     ],
+     "wilcoxon_p": 1.3724089251908489e-06,
+     "verdict": "above zero"
+    },
+    "j_between": {
+     "n": 30,
+     "median": 0.8476190476190477,
+     "mean": 0.7980962668460305,
+     "ci95": [
+      0.75,
+      0.9101010101010101
+     ],
+     "wilcoxon_p": 1.7116069924114545e-06,
+     "verdict": "above zero"
+    },
+    "delta_overlap": {
+     "LOCAL": {
+      "n": 10,
+      "median": 0.12464387464387477,
+      "mean": 0.14520486247758976,
+      "ci95": [
+       0.0,
+       0.2666666666666667
+      ],
+      "wilcoxon_p": 0.03125,
+      "verdict": "no difference beyond noise shown"
+     },
+     "GLOBAL": {
+      "n": 10,
+      "median": 0.08391608391608396,
+      "mean": 0.1340301668028941,
+      "ci95": [
+       -0.008181818181818235,
+       0.18598484848484842
+      ],
+      "wilcoxon_p": 0.0390625,
+      "verdict": "no difference beyond noise shown"
+     },
+     "CONSUMER": {
+      "n": 10,
+      "median": 0.09330237358101146,
+      "mean": 0.1403683928601132,
+      "ci95": [
+       0.06621712480845615,
+       0.2341255545280313
+      ],
+      "wilcoxon_p": 0.001953125,
+      "verdict": "above zero"
+     },
+     "ALL": {
+      "n": 30,
+      "median": 0.09330237358101146,
+      "mean": 0.13986780738019902,
+      "ci95": [
+       0.064083139083139,
+       0.16490960020371792
+      ],
+      "wilcoxon_p": 2.8615430925098647e-05,
+      "verdict": "above zero"
+     }
+    },
+    "per_question": {
+     "C01": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.6434906338931107,
+      "j_between": 0.5477949776401788,
+      "delta_share": 0.0,
+      "delta_overlap": 0.09569565625293186
+     },
+     "C02": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.8674242424242425,
+      "j_between": 0.7935758513931888,
+      "delta_share": 0.0,
+      "delta_overlap": 0.07384839103105378
+     },
+     "C03": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.9696969696969696,
+      "j_between": 0.9111111111111111,
+      "delta_share": 0.0,
+      "delta_overlap": 0.05858585858585852
+     },
+     "C04": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.9257278669043374,
+      "j_between": 0.5795238095238096,
+      "delta_share": 0.0,
+      "delta_overlap": 0.34620405738052784
+     },
+     "C05": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 0.909090909090909,
+      "delta_share": 0.0,
+      "delta_overlap": 0.09090909090909105
+     },
+     "C06": {
+      "stratum": "CONSUMER",
+      "share_a": 0.04440127987954075,
+      "share_b": 0.039351851851851846,
+      "j_within": 0.659225286271628,
+      "j_between": 0.6388679703210596,
+      "delta_share": 0.005049428027688901,
+      "delta_overlap": 0.020357315950568444
+     },
+     "C07": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.9060606060606061,
+      "j_between": 0.7411764705882353,
+      "delta_share": 0.0,
+      "delta_overlap": 0.1648841354723708
+     },
+     "C08": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.9291678393845576,
+      "j_between": 0.6258008658008658,
+      "delta_share": 0.0,
+      "delta_overlap": 0.3033669735836918
+     },
+     "C09": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.958041958041958,
+      "j_between": 0.8884615384615385,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0695804195804195
+     },
+     "C10": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.6559170544851605,
+      "j_between": 0.47566502463054183,
+      "delta_share": 0.0,
+      "delta_overlap": 0.18025202985461863
+     },
+     "G01": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "G02": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.9272727272727272,
+      "j_between": 0.25,
+      "delta_share": 0.0,
+      "delta_overlap": 0.6772727272727272
+     },
+     "G03": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 0.9230769230769231,
+      "delta_share": 0.0,
+      "delta_overlap": 0.07692307692307687
+     },
+     "G04": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.9935064935064936,
+      "j_between": 0.8285714285714285,
+      "delta_share": 0.0,
+      "delta_overlap": 0.16493506493506505
+     },
+     "G05": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 0.909090909090909,
+      "delta_share": 0.0,
+      "delta_overlap": 0.09090909090909105
+     },
+     "G06": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "G07": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.9201101928374655,
+      "j_between": 0.9454545454545453,
+      "delta_share": 0.0,
+      "delta_overlap": -0.02534435261707979
+     },
+     "G08": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 0.8666666666666668,
+      "delta_share": 0.0,
+      "delta_overlap": 0.1333333333333332
+     },
+     "G09": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.9636363636363636,
+      "j_between": 0.9800000000000001,
+      "delta_share": 0.0,
+      "delta_overlap": -0.01636363636363647
+     },
+     "G10": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.9886363636363636,
+      "j_between": 0.75,
+      "delta_share": 0.0,
+      "delta_overlap": 0.23863636363636365
+     },
+     "L01": {
+      "stratum": "LOCAL",
+      "share_a": 0.0625,
+      "share_b": 0.0625,
+      "j_within": 1.0,
+      "j_between": 0.7333333333333333,
+      "delta_share": 0.0,
+      "delta_overlap": 0.2666666666666667
+     },
+     "L02": {
+      "stratum": "LOCAL",
+      "share_a": 0.13166666666666665,
+      "share_b": 0.0625,
+      "j_within": 0.9696969696969696,
+      "j_between": 0.6307692307692306,
+      "delta_share": 0.06916666666666665,
+      "delta_overlap": 0.338927738927739
+     },
+     "L03": {
+      "stratum": "LOCAL",
+      "share_a": 0.125,
+      "share_b": 0.125,
+      "j_within": 1.0,
+      "j_between": 0.5714285714285714,
+      "delta_share": 0.0,
+      "delta_overlap": 0.4285714285714286
+     },
+     "L04": {
+      "stratum": "LOCAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 0.8181818181818181,
+      "delta_share": 0.0,
+      "delta_overlap": 0.18181818181818188
+     },
+     "L05": {
+      "stratum": "LOCAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.9504132231404959,
+      "j_between": 0.9636363636363636,
+      "delta_share": 0.0,
+      "delta_overlap": -0.013223140495867702
+     },
+     "L06": {
+      "stratum": "LOCAL",
+      "share_a": 0.13333333333333333,
+      "share_b": 0.13333333333333333,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L07": {
+      "stratum": "LOCAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L08": {
+      "stratum": "LOCAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L09": {
+      "stratum": "LOCAL",
+      "share_a": 0.44835164835164837,
+      "share_b": 0.38461538461538464,
+      "j_within": 1.0,
+      "j_between": 0.875,
+      "delta_share": 0.06373626373626373,
+      "delta_overlap": 0.125
+     },
+     "L10": {
+      "stratum": "LOCAL",
+      "share_a": 0.11495601173020528,
+      "share_b": 0.0722689075630252,
+      "j_within": 0.9108974358974361,
+      "j_between": 0.7866096866096866,
+      "delta_share": 0.04268710416718008,
+      "delta_overlap": 0.12428774928774955
+     }
+    }
+   }
+  },
+  "T2_day_chatgpt": {
+   "a": "main:or-openai",
+   "b": "amend:or-openai",
+   "pl": {
+    "delta_share": {
+     "LOCAL": {
+      "n": 10,
+      "median": 0.0,
+      "mean": 0.016666666666666673,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "GLOBAL": {
+      "n": 3,
+      "median": 0.0,
+      "mean": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "CONSUMER": {
+      "n": 10,
+      "median": -0.04999999999999999,
+      "mean": -0.13166666666666665,
+      "ci95": [
+       -0.19166666666666668,
+       0.0
+      ],
+      "wilcoxon_p": 0.09375,
+      "verdict": "no difference beyond noise shown"
+     },
+     "ALL": {
+      "n": 23,
+      "median": 0.0,
+      "mean": -0.049999999999999996,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": 0.21875,
+      "verdict": "no difference beyond noise shown"
+     }
+    },
+    "j_within": {
+     "n": 23,
+     "median": 0.4090909090909091,
+     "mean": 0.5219085262563524,
+     "ci95": [
+      0.3181818181818182,
+      0.6666666666666666
+     ],
+     "wilcoxon_p": 2.6871562371911443e-05,
+     "verdict": "above zero"
+    },
+    "j_between": {
+     "n": 23,
+     "median": 0.4,
+     "mean": 0.49833333333333346,
+     "ci95": [
+      0.32,
+      0.6
+     ],
+     "wilcoxon_p": 2.6842758358353167e-05,
+     "verdict": "above zero"
+    },
+    "delta_overlap": {
+     "LOCAL": {
+      "n": 10,
+      "median": 0.0,
+      "mean": 0.01741991341991344,
+      "ci95": [
+       -0.016590909090909045,
+       0.03134199134199134
+      ],
+      "wilcoxon_p": 0.6875,
+      "verdict": "no difference beyond noise shown"
+     },
+     "GLOBAL": {
+      "n": 3,
+      "median": -0.18181818181818182,
+      "mean": -0.12424242424242422,
+      "ci95": [
+       -0.19999999999999996,
+       0.009090909090909094
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "CONSUMER": {
+      "n": 10,
+      "median": 0.03749999999999999,
+      "mean": 0.07407575757575754,
+      "ci95": [
+       0.022348484848484867,
+       0.08219696969696962
+      ],
+      "wilcoxon_p": 0.048828125,
+      "verdict": "above zero"
+     },
+     "ALL": {
+      "n": 23,
+      "median": 0.012121212121212088,
+      "mean": 0.023575192923019014,
+      "ci95": [
+       0.0,
+       0.03636363636363635
+      ],
+      "wilcoxon_p": 0.24548721313476562,
+      "verdict": "no difference beyond noise shown"
+     }
+    },
+    "per_question": {
+     "C01": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.25,
+      "j_within": 0.3106060606060606,
+      "j_between": 0.29166666666666663,
+      "delta_share": -0.25,
+      "delta_overlap": 0.018939393939393978
+     },
+     "C02": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.356060606060606,
+      "j_between": 0.33333333333333337,
+      "delta_share": 0.0,
+      "delta_overlap": 0.02272727272727265
+     },
+     "C03": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.75,
+      "j_within": 0.6666666666666666,
+      "j_between": 0.175,
+      "delta_share": -0.75,
+      "delta_overlap": 0.49166666666666664
+     },
+     "C04": {
+      "stratum": "CONSUMER",
+      "share_a": 0.1,
+      "share_b": 0.0,
+      "j_within": 0.25757575757575757,
+      "j_between": 0.36666666666666664,
+      "delta_share": 0.1,
+      "delta_overlap": -0.10909090909090907
+     },
+     "C05": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.06363636363636363,
+      "j_between": 0.025,
+      "delta_share": 0.0,
+      "delta_overlap": 0.03863636363636363
+     },
+     "C06": {
+      "stratum": "CONSUMER",
+      "share_a": 0.4,
+      "share_b": 0.5,
+      "j_within": 0.10909090909090909,
+      "j_between": 0.08333333333333333,
+      "delta_share": -0.09999999999999998,
+      "delta_overlap": 0.025757575757575757
+     },
+     "C07": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.4545454545454545,
+      "j_between": 0.33333333333333337,
+      "delta_share": 0.0,
+      "delta_overlap": 0.1212121212121211
+     },
+     "C08": {
+      "stratum": "CONSUMER",
+      "share_a": 0.36666666666666664,
+      "share_b": 0.5,
+      "j_within": 0.13636363636363635,
+      "j_between": 0.1,
+      "delta_share": -0.13333333333333336,
+      "delta_overlap": 0.03636363636363635
+     },
+     "C09": {
+      "stratum": "CONSUMER",
+      "share_a": 0.06666666666666667,
+      "share_b": 0.25,
+      "j_within": 0.26818181818181813,
+      "j_between": 0.225,
+      "delta_share": -0.18333333333333335,
+      "delta_overlap": 0.04318181818181813
+     },
+     "C10": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.8863636363636364,
+      "j_between": 0.835,
+      "delta_share": 0.0,
+      "delta_overlap": 0.05136363636363639
+     },
+     "G01": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.3181818181818182,
+      "j_between": 0.5,
+      "delta_share": 0.0,
+      "delta_overlap": -0.18181818181818182
+     },
+     "G02": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G03": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G04": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G05": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G06": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.4,
+      "j_between": 0.6,
+      "delta_share": 0.0,
+      "delta_overlap": -0.19999999999999996
+     },
+     "G07": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G08": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.4090909090909091,
+      "j_between": 0.4,
+      "delta_share": 0.0,
+      "delta_overlap": 0.009090909090909094
+     },
+     "G09": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G10": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "L01": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.8863636363636364,
+      "j_between": 0.875,
+      "delta_share": 0.0,
+      "delta_overlap": 0.011363636363636354
+     },
+     "L02": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.9545454545454546,
+      "j_between": 0.75,
+      "delta_share": 0.0,
+      "delta_overlap": 0.20454545454545459
+     },
+     "L03": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L04": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.24242424242424246,
+      "j_between": 0.31666666666666665,
+      "delta_share": 0.0,
+      "delta_overlap": -0.0742424242424242
+     },
+     "L05": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L06": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.5984848484848485,
+      "j_between": 0.6316666666666666,
+      "delta_share": 0.0,
+      "delta_overlap": -0.03318181818181809
+     },
+     "L07": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L08": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 0.8333333333333333,
+      "j_within": 0.3826839826839827,
+      "j_between": 0.32,
+      "delta_share": 0.16666666666666674,
+      "delta_overlap": 0.06268398268398268
+     },
+     "L09": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.712121212121212,
+      "j_between": 0.7,
+      "delta_share": 0.0,
+      "delta_overlap": 0.012121212121212088
+     },
+     "L10": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.5909090909090909,
+      "j_between": 0.6,
+      "delta_share": 0.0,
+      "delta_overlap": -0.009090909090909038
+     }
+    }
+   },
+   "en": {
+    "delta_share": {
+     "LOCAL": {
+      "n": 10,
+      "median": 0.0,
+      "mean": 0.025476190476190458,
+      "ci95": [
+       -0.04583333333333339,
+       0.15000000000000002
+      ],
+      "wilcoxon_p": 0.6875,
+      "verdict": "no difference beyond noise shown"
+     },
+     "GLOBAL": {
+      "n": 3,
+      "median": 0.0,
+      "mean": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "CONSUMER": {
+      "n": 10,
+      "median": 0.0,
+      "mean": 0.01,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "ALL": {
+      "n": 23,
+      "median": 0.0,
+      "mean": 0.01542443064182194,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "wilcoxon_p": 0.46875,
+      "verdict": "no difference beyond noise shown"
+     }
+    },
+    "j_within": {
+     "n": 23,
+     "median": 0.6590909090909091,
+     "mean": 0.6057312252964426,
+     "ci95": [
+      0.3939393939393939,
+      0.7727272727272727
+     ],
+     "wilcoxon_p": 2.6699103545395226e-05,
+     "verdict": "above zero"
+    },
+    "j_between": {
+     "n": 23,
+     "median": 0.5583333333333333,
+     "mean": 0.5779710144927536,
+     "ci95": [
+      0.45,
+      0.75
+     ],
+     "wilcoxon_p": 2.6699103545395226e-05,
+     "verdict": "above zero"
+    },
+    "delta_overlap": {
+     "LOCAL": {
+      "n": 10,
+      "median": 0.0,
+      "mean": 0.002742424242424257,
+      "ci95": [
+       -0.06136363636363634,
+       0.013636363636363669
+      ],
+      "wilcoxon_p": 0.578125,
+      "verdict": "no difference beyond noise shown"
+     },
+     "GLOBAL": {
+      "n": 3,
+      "median": 0.022727272727272707,
+      "mean": 0.05833333333333333,
+      "ci95": [
+       -0.07500000000000001,
+       0.2272727272727273
+      ],
+      "wilcoxon_p": null,
+      "verdict": "no difference beyond noise shown"
+     },
+     "CONSUMER": {
+      "n": 10,
+      "median": 0.07083333333333333,
+      "mean": 0.043606060606060607,
+      "ci95": [
+       -0.018560606060606104,
+       0.10227272727272729
+      ],
+      "wilcoxon_p": 0.12890625,
+      "verdict": "no difference beyond noise shown"
+     },
+     "ALL": {
+      "n": 23,
+      "median": 0.013636363636363669,
+      "mean": 0.027760210803689067,
+      "ci95": [
+       0.0,
+       0.06515151515151514
+      ],
+      "wilcoxon_p": 0.3143403471576459,
+      "verdict": "no difference beyond noise shown"
+     }
+    },
+    "per_question": {
+     "C01": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.16666666666666666,
+      "j_between": 0.041666666666666664,
+      "delta_share": 0.0,
+      "delta_overlap": 0.125
+     },
+     "C02": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.35151515151515156,
+      "j_between": 0.275,
+      "delta_share": 0.0,
+      "delta_overlap": 0.07651515151515154
+     },
+     "C03": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "C04": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.5227272727272727,
+      "j_between": 0.3833333333333333,
+      "delta_share": 0.0,
+      "delta_overlap": 0.1393939393939394
+     },
+     "C05": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.1212121212121212,
+      "j_between": 0.1,
+      "delta_share": 0.0,
+      "delta_overlap": 0.021212121212121196
+     },
+     "C06": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.25757575757575757,
+      "j_between": 0.37,
+      "delta_share": 0.0,
+      "delta_overlap": -0.11242424242424243
+     },
+     "C07": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.49999999999999994,
+      "j_between": 0.5583333333333333,
+      "delta_share": 0.0,
+      "delta_overlap": -0.058333333333333404
+     },
+     "C08": {
+      "stratum": "CONSUMER",
+      "share_a": 0.1,
+      "share_b": 0.0,
+      "j_within": 0.1818181818181818,
+      "j_between": 0.11666666666666665,
+      "delta_share": 0.1,
+      "delta_overlap": 0.06515151515151514
+     },
+     "C09": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.3939393939393939,
+      "j_between": 0.31666666666666665,
+      "delta_share": 0.0,
+      "delta_overlap": 0.07727272727272727
+     },
+     "C10": {
+      "stratum": "CONSUMER",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.9772727272727273,
+      "j_between": 0.875,
+      "delta_share": 0.0,
+      "delta_overlap": 0.10227272727272729
+     },
+     "G01": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.7272727272727273,
+      "j_between": 0.5,
+      "delta_share": 0.0,
+      "delta_overlap": 0.2272727272727273
+     },
+     "G02": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G03": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G04": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G05": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G06": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.3,
+      "j_between": 0.375,
+      "delta_share": 0.0,
+      "delta_overlap": -0.07500000000000001
+     },
+     "G07": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G08": {
+      "stratum": "GLOBAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 0.7727272727272727,
+      "j_between": 0.75,
+      "delta_share": 0.0,
+      "delta_overlap": 0.022727272727272707
+     },
+     "G09": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "G10": {
+      "stratum": "GLOBAL",
+      "share_a": NaN,
+      "share_b": NaN,
+      "j_within": NaN,
+      "j_between": NaN,
+      "delta_share": NaN,
+      "delta_overlap": NaN
+     },
+     "L01": {
+      "stratum": "LOCAL",
+      "share_a": 0.7,
+      "share_b": 0.7916666666666667,
+      "j_within": 0.6590909090909091,
+      "j_between": 0.7,
+      "delta_share": -0.09166666666666679,
+      "delta_overlap": -0.040909090909090895
+     },
+     "L02": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.8181818181818182,
+      "j_between": 0.9,
+      "delta_share": 0.0,
+      "delta_overlap": -0.08181818181818179
+     },
+     "L03": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L04": {
+      "stratum": "LOCAL",
+      "share_a": 0.0,
+      "share_b": 0.0,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.0,
+      "delta_overlap": 0.0
+     },
+     "L05": {
+      "stratum": "LOCAL",
+      "share_a": 0.7,
+      "share_b": 0.43333333333333335,
+      "j_within": 1.0,
+      "j_between": 1.0,
+      "delta_share": 0.2666666666666666,
+      "delta_overlap": 0.0
+     },
+     "L06": {
+      "stratum": "LOCAL",
+      "share_a": 0.5,
+      "share_b": 0.875,
+      "j_within": 0.696969696969697,
+      "j_between": 0.6833333333333333,
+      "delta_share": -0.375,
+      "delta_overlap": 0.013636363636363669
+     },
+     "L07": {
+      "stratum": "LOCAL",
+      "share_a": 0.4,
+      "share_b": 0.25,
+      "j_within": 0.7727272727272727,
+      "j_between": 0.75,
+      "delta_share": 0.15000000000000002,
+      "delta_overlap": 0.022727272727272707
+     },
+     "L08": {
+      "stratum": "LOCAL",
+      "share_a": 0.3,
+      "share_b": 0.0,
+      "j_within": 0.8787878787878788,
+      "j_between": 0.5566666666666666,
+      "delta_share": 0.3,
+      "delta_overlap": 0.32212121212121214
+     },
+     "L09": {
+      "stratum": "LOCAL",
+      "share_a": 0.9047619047619048,
+      "share_b": 0.9,
+      "j_within": 0.29545454545454547,
+      "j_between": 0.45,
+      "delta_share": 0.004761904761904745,
+      "delta_overlap": -0.15454545454545454
+     },
+     "L10": {
+      "stratum": "LOCAL",
+      "share_a": 1.0,
+      "share_b": 1.0,
+      "j_within": 0.5378787878787878,
+      "j_between": 0.5916666666666666,
+      "delta_share": 0.0,
+      "delta_overlap": -0.05378787878787872
+     }
+    }
+   }
+  }
+ },
+ "conditions": {
+  "openai": {
+   "rq1": {
+    "LOCAL": {
+     "n": 10,
+     "median": 0.08333333333333337,
+     "mean": 0.24916666666666668,
+     "ci95": [
+      0.0,
+      0.5
+     ],
+     "wilcoxon_p": 0.0625,
+     "verdict": "no difference beyond noise shown"
+    },
+    "GLOBAL": {
+     "n": 2,
+     "median": 0.0,
+     "mean": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "wilcoxon_p": null,
+     "verdict": "no difference beyond noise shown"
+    },
+    "CONSUMER": {
+     "n": 9,
+     "median": 0.25,
+     "mean": 0.2638888888888889,
+     "ci95": [
+      0.125,
+      0.5
+     ],
+     "wilcoxon_p": 0.0078125,
+     "verdict": "above zero"
+    },
+    "ALL": {
+     "n": 21,
+     "median": 0.16666666666666674,
+     "mean": 0.23174603174603173,
+     "ci95": [
+      0.0,
+      0.25
+     ],
+     "wilcoxon_p": 0.000244140625,
+     "verdict": "no difference beyond noise shown"
+    }
+   },
+   "descriptives": {
+    "responses": 120,
+    "citations": 249,
+    "median_citations": 2.0,
+    "share_no_citations": 0.26666666666666666,
+    "flag_no_citations_over_20pct": true,
+    "src_lang": {
+     "en": 93,
+     "unknown": 12,
+     "pl": 144
+    },
+    "src_lang_method": {
+     "text": 204,
+     "none": 12,
+     "title": 28,
+     "html": 5
+    },
+    "unknown_share": 0.04819277108433735,
+    "answer_in_query_language": 1.0
+   },
+   "no_citations": {
+    "pl/LOCAL": 0.0,
+    "pl/GLOBAL": 0.7,
+    "pl/CONSUMER": 0.0,
+    "en/LOCAL": 0.0,
+    "en/GLOBAL": 0.8,
+    "en/CONSUMER": 0.1
+   }
+  },
+  "openai-noloc": {
+   "rq1": {
+    "LOCAL": {
+     "n": 10,
+     "median": 0.21726190476190477,
+     "mean": 0.30678571428571433,
+     "ci95": [
+      0.0,
+      0.5666666666666667
+     ],
+     "wilcoxon_p": 0.03125,
+     "verdict": "no difference beyond noise shown"
+    },
+    "GLOBAL": {
+     "n": 2,
+     "median": 0.0,
+     "mean": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "wilcoxon_p": null,
+     "verdict": "no difference beyond noise shown"
+    },
+    "CONSUMER": {
+     "n": 10,
+     "median": 0.0,
+     "mean": 0.125,
+     "ci95": [
+      0.0,
+      0.25
+     ],
+     "wilcoxon_p": null,
+     "verdict": "no difference beyond noise shown"
+    },
+    "ALL": {
+     "n": 22,
+     "median": 0.0,
+     "mean": 0.19626623376623378,
+     "ci95": [
+      0.0,
+      0.27976190476190477
+     ],
+     "wilcoxon_p": 0.00390625,
+     "verdict": "no difference beyond noise shown"
+    }
+   },
+   "descriptives": {
+    "responses": 120,
+    "citations": 261,
+    "median_citations": 2.0,
+    "share_no_citations": 0.26666666666666666,
+    "flag_no_citations_over_20pct": true,
+    "src_lang": {
+     "en": 127,
+     "pl": 125,
+     "unknown": 9
+    },
+    "src_lang_method": {
+     "text": 206,
+     "title": 42,
+     "html": 4,
+     "none": 9
+    },
+    "unknown_share": 0.034482758620689655,
+    "answer_in_query_language": 1.0
+   },
+   "no_citations": {
+    "pl/LOCAL": 0.0,
+    "pl/GLOBAL": 0.8,
+    "pl/CONSUMER": 0.0,
+    "en/LOCAL": 0.0,
+    "en/GLOBAL": 0.75,
+    "en/CONSUMER": 0.05
+   }
+  },
+  "or-openai": {
+   "rq1": {
+    "LOCAL": {
+     "n": 10,
+     "median": 0.16666666666666663,
+     "mean": 0.35833333333333334,
+     "ci95": [
+      0.0,
+      0.75
+     ],
+     "wilcoxon_p": 0.015625,
+     "verdict": "no difference beyond noise shown"
+    },
+    "GLOBAL": {
+     "n": 3,
+     "median": 0.0,
+     "mean": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "wilcoxon_p": null,
+     "verdict": "no difference beyond noise shown"
+    },
+    "CONSUMER": {
+     "n": 10,
+     "median": 0.125,
+     "mean": 0.225,
+     "ci95": [
+      0.0,
+      0.5
+     ],
+     "wilcoxon_p": 0.0625,
+     "verdict": "no difference beyond noise shown"
+    },
+    "ALL": {
+     "n": 23,
+     "median": 0.09999999999999998,
+     "mean": 0.25362318840579706,
+     "ci95": [
+      0.0,
+      0.25
+     ],
+     "wilcoxon_p": 0.00048828125,
+     "verdict": "no difference beyond noise shown"
+    }
+   },
+   "descriptives": {
+    "responses": 120,
+    "citations": 260,
+    "median_citations": 2.0,
+    "share_no_citations": 0.25,
+    "flag_no_citations_over_20pct": true,
+    "src_lang": {
+     "en": 124,
+     "pl": 130,
+     "unknown": 6
+    },
+    "src_lang_method": {
+     "text": 211,
+     "title": 34,
+     "none": 6,
+     "html": 9
+    },
+    "unknown_share": 0.023076923076923078,
+    "answer_in_query_language": 1.0
+   },
+   "no_citations": {
+    "pl/LOCAL": 0.0,
+    "pl/GLOBAL": 0.7,
+    "pl/CONSUMER": 0.0,
+    "en/LOCAL": 0.0,
+    "en/GLOBAL": 0.75,
+    "en/CONSUMER": 0.05
+   }
+  },
+  "or-pplx": {
+   "rq1": {
+    "LOCAL": {
+     "n": 10,
+     "median": 0.9375,
+     "mean": 0.9107150795540889,
+     "ci95": [
+      0.875,
+      1.0
+     ],
+     "wilcoxon_p": 0.001953125,
+     "verdict": "above zero"
+    },
+    "GLOBAL": {
+     "n": 10,
+     "median": 0.9388888888888889,
+     "mean": 0.9205791887518144,
+     "ci95": [
+      0.8947368421052632,
+      0.975
+     ],
+     "wilcoxon_p": 0.001953125,
+     "verdict": "above zero"
+    },
+    "CONSUMER": {
+     "n": 10,
+     "median": 0.9236842105263158,
+     "mean": 0.8756137066456464,
+     "ci95": [
+      0.766179435483871,
+      0.9736842105263157
+     ],
+     "wilcoxon_p": 0.001953125,
+     "verdict": "above zero"
+    },
+    "ALL": {
+     "n": 30,
+     "median": 0.9375,
+     "mean": 0.902302658317183,
+     "ci95": [
+      0.8973684210526316,
+      0.9540082846003899
+     ],
+     "wilcoxon_p": 1.6395175438838356e-06,
+     "verdict": "above zero"
+    }
+   },
+   "descriptives": {
+    "responses": 120,
+    "citations": 2299,
+    "median_citations": 19.0,
+    "share_no_citations": 0.0,
+    "flag_no_citations_over_20pct": false,
+    "src_lang": {
+     "en": 1015,
+     "pl": 1125,
+     "other": 55,
+     "unknown": 104
+    },
+    "src_lang_method": {
+     "title": 399,
+     "text": 1763,
+     "none": 104,
+     "html": 33
+    },
+    "unknown_share": 0.045237059591126574,
+    "answer_in_query_language": 1.0
+   },
+   "no_citations": {
+    "pl/LOCAL": 0.0,
+    "pl/GLOBAL": 0.0,
+    "pl/CONSUMER": 0.0,
+    "en/LOCAL": 0.0,
+    "en/GLOBAL": 0.0,
+    "en/CONSUMER": 0.0
+   }
+  },
+  "or-pplx-noloc": {
+   "rq1": {
+    "LOCAL": {
+     "n": 10,
+     "median": 0.9375,
+     "mean": 0.9107150795540889,
+     "ci95": [
+      0.875,
+      1.0
+     ],
+     "wilcoxon_p": 0.001953125,
+     "verdict": "above zero"
+    },
+    "GLOBAL": {
+     "n": 10,
+     "median": 0.9297385620915033,
+     "mean": 0.9137358687834943,
+     "ci95": [
+      0.8838267543859649,
+      0.9736842105263157
+     ],
+     "wilcoxon_p": 0.001953125,
+     "verdict": "above zero"
+    },
+    "CONSUMER": {
+     "n": 10,
+     "median": 0.9236842105263158,
+     "mean": 0.878622461865827,
+     "ci95": [
+      0.7677656546489564,
+      0.9736842105263157
+     ],
+     "wilcoxon_p": 0.001953125,
+     "verdict": "above zero"
+    },
+    "ALL": {
+     "n": 30,
+     "median": 0.9375,
+     "mean": 0.9010244700678032,
+     "ci95": [
+      0.8933143669985775,
+      0.9486842105263158
+     ],
+     "wilcoxon_p": 1.6395175438838356e-06,
+     "verdict": "above zero"
+    }
+   },
+   "descriptives": {
+    "responses": 120,
+    "citations": 2298,
+    "median_citations": 19.0,
+    "share_no_citations": 0.0,
+    "flag_no_citations_over_20pct": false,
+    "src_lang": {
+     "en": 1021,
+     "pl": 1126,
+     "other": 47,
+     "unknown": 104
+    },
+    "src_lang_method": {
+     "title": 398,
+     "text": 1761,
+     "none": 104,
+     "html": 35
+    },
+    "unknown_share": 0.04525674499564839,
+    "answer_in_query_language": 1.0
+   },
+   "no_citations": {
+    "pl/LOCAL": 0.0,
+    "pl/GLOBAL": 0.0,
+    "pl/CONSUMER": 0.0,
+    "en/LOCAL": 0.0,
+    "en/GLOBAL": 0.0,
+    "en/CONSUMER": 0.0
+   }
+  }
+ }
+}

@@ -27,3 +27,8 @@
 - `code/amend02.py` SHA-256 after the change:
   `ff1807f133a2a2e7f9dea3e155cb298fb2ffe17d6f6b223e15e71f33d61871d8`
   (frozen in Amendment 02: `faafac89…`).
+
+## Blocks 0 and 1, 2026-10-25 (UTC)
+
+- Block 0 00:00:30–00:05:02 UTC (300/300), block 1 01:10:02–01:13:33 UTC (300/300), 65 min apart,
+  no errors. Models and providers as frozen. 1,554 URLs, 5,367 citations, language unknown 4.3%.

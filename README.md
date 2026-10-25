@@ -87,8 +87,9 @@ Pilot: 30 questions, one language pair, one day, access through APIs rather than
 The location was set to Poland only for Perplexity, so each configuration is compared only with
 itself. The citations of the two systems are different constructs (OpenAI: inline references;
 Perplexity: a list of search results). The study does not assess answer quality and does not
-explain where the differences come from. The location and day-to-day stability check
-(amendment 02) is specified in `FREEZE.md`; its results will be added here.
+explain where the differences come from. Amendment 02 (2026-10-25) found no location effect in either system, consistent sources
+between OpenRouter and the direct OpenAI API, and Perplexity again at +94 pp two days later; see
+`data/amend02/analysis/INTERPRETATION.md`.
 
 ## Language note
 
