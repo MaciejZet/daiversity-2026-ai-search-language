@@ -48,7 +48,7 @@ a{color:#1d5fae}a:hover{color:#14447d}
 <div style="font-size: 42px; color: #3a3f47">wspólnych domen w dwóch odpowiedziach</div>
 </div>
 </div>
-<p style="margin: 0; font-size: 44px; line-height: 1.33; font-weight: 600; text-wrap: pretty">Zmiana języka wymienia prawie cały zestaw cytowanych domen. Po polsku ok. 95% cytowań to strony polskojęzyczne, po angielsku prawie 0% (poza sprawami polskimi).</p>
+<p style="margin: 0; font-size: 42px; line-height: 1.32; font-weight: 600; text-wrap: pretty">Zmiana języka wymienia prawie cały zestaw cytowanych domen. Udział źródeł polskojęzycznych, PL vs EN: +94 p.p. (mediana pytań, 95% CI od +88 do +96); poza sprawami polskimi mediana ok. 95% po polsku i 0% po angielsku.</p>
 </div>
 <div style="display: flex; flex-direction: column; gap: 24px; padding: 40px 46px; background: #f3f5f8">
 <div style="font-size: 34px; font-weight: 800; letter-spacing: 0.05em; color: #4a4f57">INNY WZORZEC W OPENAI (API)</div>
@@ -88,7 +88,7 @@ a{color:#1d5fae}a:hover{color:#14447d}
 <div style="font-size: 32px; font-weight: 800; letter-spacing: 0.05em; color: #4a4f57">METODA I SPRAWDZALNOŚĆ</div>
 <ul style="margin: 0; padding-left: 34px; display: flex; flex-direction: column; gap: 12px; font-size: 36px; line-height: 1.36">
 <li>30 autorskich pytań w 3 grupach, każde 5 razy w blokach co ≥ 1 h (OpenRouter): 600 odpowiedzi, 1584 strony.</li>
-<li>Język źródła z treści strony (fastText), a gdy jej brak, z atrybutu lang lub tytułu (18%); bez tytułów wyniki są takie same.</li>
+<li>Język źródła z treści strony (fastText), a gdy jej brak, z atrybutu lang lub tytułu (18%); bez klasyfikacji z tytułów wnioski się nie zmieniają.</li>
 <li>Kontrola 50 losowych adresów: 48/48 zgodnych (asystent AI, nie człowiek). Wnioskowanie po pytaniach, 95% CI, protokół zapisany przed danymi.</li>
 </ul>
 </div>
@@ -137,17 +137,17 @@ a{color:#1d5fae}a:hover{color:#14447d}
 </div>
 </section>
 
-<footer style="display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 60px; align-items: center; padding-top: 30px; border-top: 1px solid #c9cdd3">
-<ol style="margin: 0; padding-left: 30px; columns: 2; column-gap: 60px; font-size: 27px; line-height: 1.36; color: #3a3f47">
-<li style="margin-bottom: 5px">Kirsten E. i in. Characterizing Web Search in the Age of Generative AI. Findings of ACL 2026.</li>
-<li style="margin-bottom: 5px">Ki D. i in. Linguistic Nepotism: Trading-off Quality for Language Preference in Multilingual RAG. ICML 2026.</li>
-<li style="margin-bottom: 5px">Martinez O. Optimizing Visibility in Generative Engines: A Critical Survey of Generative Engine Optimization (2023–2026). arXiv:2607.14035.</li>
-<li>Joulin A. i in. Bag of Tricks for Efficient Text Classification. EACL 2017.</li>
-</ol>
-<div style="display: flex; gap: 26px; align-items: center">
-<span style="font-size: 32px; line-height: 1.36; color: #3a3f47; text-align: right"><strong style="color: #14171c">Dane, kod i protokół</strong><br>github.com/MaciejZet/<br>daiversity-2026-ai-search-language</span>
-<img src="/_blob/1ae8583aa4aab14c6c3725e1be8d9125" alt="Kod QR do repozytorium z danymi, kodem i protokołem badania" style="width: 300px; height: 300px; flex: 0 0 auto; display: block">
+<footer style="display: grid; grid-template-columns: 900px 900px minmax(0, 1fr) 300px; gap: 56px; align-items: start; padding-top: 30px; border-top: 1px solid #c9cdd3">
+<div style="display: flex; flex-direction: column; gap: 8px; font-size: 27px; line-height: 1.36; color: #3a3f47">
+<div>1. Kirsten E. i in. Characterizing Web Search in the Age of Generative AI. Findings of ACL 2026.</div>
+<div>2. Ki D. i in. Linguistic Nepotism: Trading-off Quality for Language Preference in Multilingual RAG. ICML 2026.</div>
 </div>
+<div style="display: flex; flex-direction: column; gap: 8px; font-size: 27px; line-height: 1.36; color: #3a3f47">
+<div>3. Martinez O. Optimizing Visibility in Generative Engines: A Critical Survey of Generative Engine Optimization (2023–2026). arXiv:2607.14035.</div>
+<div>4. Joulin A. i in. Bag of Tricks for Efficient Text Classification. EACL 2017.</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px; font-size: 30px; line-height: 1.36; color: #3a3f47; text-align: right; overflow-wrap: anywhere"><strong style="color: #14171c">Dane, kod i protokół</strong><span>github.com/MaciejZet/</span><span>daiversity-2026-ai-search-language</span></div>
+<img src="/_blob/1ae8583aa4aab14c6c3725e1be8d9125" alt="Kod QR do repozytorium z danymi, kodem i protokołem badania" style="width: 300px; height: 300px; display: block">
 </footer>
 
 </div>
