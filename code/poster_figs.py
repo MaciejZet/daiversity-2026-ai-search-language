@@ -4,7 +4,8 @@ Run with data/cache/venv/bin/python.
 usage:
   poster_figs.py RESULTS.json OUT_DIR --fonts FONT_DIR [--width-px 1858]
 
-FONT_DIR holds static IBM Plex Sans TTFs (IBMPlexSans-{Regular,Medium,SemiBold,Bold}.ttf,
+FONT_DIR holds static TTFs named <prefix>-{Regular,Medium,SemiBold,Bold}.ttf (default prefix
+IBMPlexSans; the A2 poster uses --font-prefix NunitoSans; both SIL OFL),
 SIL OFL). Text is converted to outlines so the SVGs print with the poster's typeface.
 Sizes are in CSS px at 96 px/in, so an SVG placed at --width-px is shown 1:1.
 """
@@ -47,10 +48,10 @@ BIN_KEYS = ("top10k", "10k-100k", "100k-1M", "unlisted")
 PX = 1 / 96  # inches per CSS px
 
 
-def setup(font_dir: Path) -> None:
-    for f in font_dir.glob("IBMPlexSans-*.ttf"):
+def setup(font_dir: Path, prefix: str = "IBMPlexSans") -> None:
+    for f in font_dir.glob(f"{prefix}-*.ttf"):
         fm.fontManager.addfont(str(f))
-    family = fm.FontProperties(fname=str(font_dir / "IBMPlexSans-Regular.ttf")).get_name()
+    family = fm.FontProperties(fname=str(font_dir / f"{prefix}-Regular.ttf")).get_name()
     plt.rcParams.update({
         "font.family": family, "svg.fonttype": "path", "text.color": INK,
         "axes.labelcolor": INK2, "xtick.color": INK2, "ytick.color": INK,
@@ -185,13 +186,14 @@ def main(argv=None) -> None:
     ap.add_argument("results", type=Path)
     ap.add_argument("out", type=Path)
     ap.add_argument("--fonts", type=Path, required=True)
+    ap.add_argument("--font-prefix", default="IBMPlexSans")
     ap.add_argument("--width-px", type=int, default=1858)
     ap.add_argument("--lang", choices=sorted(T), default="en")
     ap.add_argument("--heights", default="500,500,400", help="px heights of figs 1,2,3")
     a = ap.parse_args(argv)
     global L
     L = T[a.lang]
-    setup(a.fonts)
+    setup(a.fonts, a.font_prefix)
     res = json.loads(a.results.read_text())
     a.out.mkdir(parents=True, exist_ok=True)
     h1, h2, h3 = (int(x) for x in a.heights.split(","))

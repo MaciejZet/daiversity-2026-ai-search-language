@@ -9,7 +9,7 @@ A2 portrait poster (420 × 594 mm) for the 2nd dAIversity Conference, in Polish.
   decoding it from the rendered poster.
 
 Figures come from `../code/poster_figs.py --lang pl` applied to `../data/main/analysis/results.json`,
-with no additional computation. Typeface: IBM Plex Sans (SIL Open Font License), converted to outlines
+with no additional computation. Typeface: Nunito Sans (SIL Open Font License), converted to outlines
 in the SVG figures. Every number on the poster comes from `../data/main/analysis/RESULTS.md` and
 `INTERPRETATION.md`.
 
