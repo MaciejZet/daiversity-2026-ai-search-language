@@ -13,3 +13,5 @@ with no additional computation. Typeface: Nunito Sans (SIL Open Font License), c
 in the SVG figures. Every number on the poster comes from `../data/main/analysis/RESULTS.md` and
 `INTERPRETATION.md`.
 
+- `poster-dAIversity-2026-2xA3.pdf`: the same poster as two A3 landscape pages (stacked they give
+  A2): page 1 main result and conclusions, page 2 evidence, method, references and QR code.
